@@ -1,0 +1,871 @@
+---
+title: "Analyse ggz wachttijden 2016"
+author: "Nederlandse Zorgautoriteit"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+linkcolor: blue
+
+output:
+  pdf_document:
+    toc: yes
+    fig_caption: false
+  html_document: default
+---
+
+# Inlezen data
+
+```{r}
+rm(list = ls())
+require(data.table)
+require(ggplot2)
+require(digest)
+require(knitr)
+require(stringi)
+
+opts_chunk$set(echo = TRUE, warning = FALSE)
+
+# handige lijstjes
+wt_type_voor_scan <- c("BGGZ", "SGGZ", "BGGZ/SGGZ")
+wt_circuit_voor_scan <- c("Ouderen", "Adolescenten", "Volwassenen", "Verslavingszorg")
+
+# maak directory structuur af
+dir.create("work", showWarnings = FALSE)
+dir.create("output", showWarnings = FALSE)
+dir.create("output/verdelingen", showWarnings = FALSE)
+
+# functies om data in te lezen
+source("code/inlezen_mediquest_2016.R")
+
+
+if (!file.exists("work/mq16.rds")) {
+  mq16 <- lees_data()
+
+  saveRDS(mq16, file = "work/mq16.rds")
+} else { mq16 <- readRDS("work/mq16.rds")}
+
+# monitor integriteit databestand tijdens refactoren
+unieke_hash <- "36285ea63df6d0b5b78eceb7514c0a60"
+
+if(!digest(mq16) == unieke_hash) { 
+  print("mq16 niet meer hetzelfde")
+  } else {print("mq16 onveranderd")}
+
+source("code/maak_ggznl_en_nip_datasets.R")
+
+ggznl_2016 <- maak_ggznl_dataset()
+nip_2016 <- maak_nip_2016_dataset()
+
+```
+
+# Tabellen Marktscan ggz
+
+## Gemiddelde wachttijden ggz in september 2016
+
+
+```{r, results = 'asis'}
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T)), 
+          .(AGBCODE_INDIENER, Naam.zorgaanbieder, Vestigingslocatie, 
+            LOCATIE_ID, Circuit, Type.GGZ, INST, pv_naam)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, sep="_")]
+
+# middel over locaties
+res2 <- res[,.(AANT_OBS = .N,
+              MEAN = round(mean(Aanmeldtijd, na.rm=T), 1)),  
+              .(SUBGROEP, Circuit, Type.GGZ, INST)]
+
+plotgroeps <- res2[AANT_OBS > 20]$SUBGROEP
+
+tab <- dcast(res2[INST == 1 & AANT_OBS > 20], 
+                    Circuit ~ Type.GGZ, 
+                    value.var="MEAN")
+
+kable(tab)
+
+write.csv2(tab, "output\\wachttijden_2016_per_circuit_en_type_ggz.csv")
+```
+
+Maak een tabel van het aantal observaties per aanmeldwachtijd (opgenomen in de b & m).
+
+```{r}
+kable(dcast(res2[INST == 1 & AANT_OBS > 20], 
+      Circuit ~ Type.GGZ, 
+      value.var="AANT_OBS"))
+
+```
+
+Bereken de aanmeldwachttijd voor vrijgevestigde praktijken.
+
+```{r}
+# vrijgevestigden
+tab <- dcast(res2[INST == 0 & AANT_OBS > 20], 
+             Circuit ~ Type.GGZ, 
+             value.var = "MEAN")
+
+kable(tab)
+
+write.csv2(tab, 
+           "output\\wachttijden_2016_vrijgevestigden_en_type_ggz.csv")
+```
+
+Maak een tabel van het aantal observaties per aanmeldwachtijd.
+
+```{r}
+kable(dcast(res2[INST == 0 & AANT_OBS > 20], 
+                   Circuit ~ Type.GGZ, 
+                   value.var = "AANT_OBS"))
+```
+
+Bereken het percentage locaties boven de norm voor instellingen.
+
+```{r}
+res2 <- res[SUBGROEP %in% plotgroeps, 
+            .(AANT_LOC_BOVEN_NORM = nrow(.SD[Aanmeldtijd > 4,]),
+              AANT_LOC = .N), 
+            .(Circuit, Type.GGZ, INST)]
+
+res2 <- res2[, PERC_BOVEN_NORM := round(AANT_LOC_BOVEN_NORM * 100 / AANT_LOC, 1)]
+
+tab <- dcast(res2[INST == 1 & AANT_LOC > 20], 
+                                 Circuit ~ Type.GGZ, 
+                                 value.var = "PERC_BOVEN_NORM")
+
+kable(tab)
+
+write.csv2(tab, 
+           "output\\perc_locaties_boven_norm_2016_instellingen_per_circuit_en_type_ggz.csv", na="")
+
+```
+
+Bereken het percentage locaties boven de norm voor vrijgevestigden.
+
+```{r}
+tab <- dcast(res2[INST == 0 & AANT_LOC > 20], 
+                                 Circuit ~ Type.GGZ, 
+                                 value.var="PERC_BOVEN_NORM")
+
+kable(tab)
+
+write.csv2(tab, 
+            "output\\perc_locaties_boven_norm_2016_vrijgevestigden_per_circuit_en_type_ggz.csv",
+           na="")
+```
+
+## Voor welke doelgroepen is de aanmeldtijd voor gespecialiseerde ggz het langst?
+
+We selecteren (enigszins arbitrair) alle records met een aanmeldwachttijd langer dan 10 weken.
+Dit zijn 78 records. Vervolgens is elke wachttijd op basis van de nadere typering geclassificeerd als "Autisme-spectrum / persoonlijkheidsstoornis" , "Angst en/of depressie stoornis" , "Overige stoornissen".
+
+We berekenen de procentuele verdeling over deze drie groepen.
+
+```{r}
+res <- mq16[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen" & Aanmeldtijd > 10, 
+             .(Aanmeldtijd, Nadere.typering)]
+
+setkey(res, Aanmeldtijd)
+
+
+write.csv2(res, "output/langste_aanmeldwachttijden_sggz_18+_bij_instellingslocaties.csv")
+
+res <- read.csv2("input/langste_aanmeldwachttijden_sggz_18+_bij_instellingslocaties_ed.csv")
+
+res[is.na(res)] <- 0
+
+res <- data.table(res)
+
+tab <- res[Onbekend == 0, .(perc_autisme_persoonlijkheid = round(mean(Autisme_persoonlijkheid) * 100, 1),
+               perc_angst_depressie = round(mean(Angst_depressie) * 100, 1),
+               perc_overig = round(mean(Anders) * 100, 1)),]
+
+kable(tab)
+
+```
+
+Het blijkt dat van de langste aanmeldwachttijden 45% betrekking heeft op Autisme-spectrumstoornissen en persoonlijkheidsstoornissen. 15% heeft betrekking op Angst- en depressie stoornissen, en 39% heeft betrekking op overige stoornissen.
+
+
+## Analyse behandelwachttijd basis ggz en sggz
+
+Bereken de locatie-gewogen gemiddelde behandelwachttijd naar type ggz.
+
+Er wordt onderscheid gemaakt naar instellingen en vrijgevestigden.
+```{r}
+# middel per locatie (LOCATIE_ID)
+res <- mq16[HEEFT_BEHANDEL == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan,
+          .(Behandeltijd = mean(Behandeltijd, na.rm=T)), 
+          .(AGBCODE_INDIENER, LOCATIE_ID, Circuit, Type.GGZ, INST)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, sep="_")]
+
+# middel over locaties
+res2 <- res[, .(AANT_OBS = .N,
+                MEAN = round(mean(Behandeltijd, na.rm=T), 1)),  
+            .(SUBGROEP, Circuit, Type.GGZ, INST)]
+
+plotgroeps <- res2[AANT_OBS > 20]$SUBGROEP
+```
+
+Bereken de behandelwachttijd voor instellingslocaties.
+
+```{r}
+tab <- dcast(res2[INST == 1 & AANT_OBS > 20], 
+                          Circuit ~ Type.GGZ, 
+                          value.var = "MEAN")
+
+kable(tab)
+
+write.csv2(tab, 
+          "output\\wachttijden_behandel_instellingen_2016_per_circuit_en_type_ggz.csv")
+```
+
+Maak een tabel van het aantal observaties per behandelwachttijd.
+
+```{r}
+
+tab <- dcast(res2[INST == 1 & AANT_OBS > 20], 
+      Circuit ~ Type.GGZ, 
+      value.var = "AANT_OBS")
+
+kable(tab)
+
+```
+
+Bereken de behandelwachttijd voor vrijgevestigde praktijken.
+
+```{r}
+
+tab <- dcast(res2[INST == 0 & AANT_OBS > 20], 
+                          Circuit ~ Type.GGZ, 
+                          value.var = "MEAN")
+
+kable(tab)
+
+write.csv2(tab, 
+           "output\\wachttijden_behandel_vrij_2016_per_circuit_en_type_ggz.csv")
+```
+
+Maak een tabel van het aantal observaties per behandelwachttijd.
+
+```{r}
+tab <- dcast(res2[INST == 0 & AANT_OBS > 20], 
+      Circuit ~ Type.GGZ, 
+      value.var = "AANT_OBS")
+
+kable(tab)
+
+```
+
+
+## Percentage locaties met behandelwachttijd boven de norm
+
+Bereken het percentage locaties met behandelwachttijd boven de treeknorm (10 weken).
+
+```{r}
+
+res2 <- res[SUBGROEP %in% plotgroeps, 
+          .(AANT_LOC_BOVEN_NORM = nrow(.SD[Behandeltijd > 10,]),
+            AANT_LOC = .N), 
+          .(Circuit, Type.GGZ, INST)]
+
+res2 <- res2[, PERC_BOVEN_NORM := round(AANT_LOC_BOVEN_NORM*100/AANT_LOC, 1)]
+
+tab <- dcast(res2[INST == 1 & AANT_LOC > 20], 
+                                        Circuit ~ Type.GGZ, 
+                                        value.var = "PERC_BOVEN_NORM")
+
+kable(tab)
+
+write.csv2(tab, 
+        "output\\perc_locaties_behandel_boven_norm_2016_instellingen_per_circuit_en_type_ggz.csv", na="")
+
+```
+
+## Percentage vrijgevestigde praktijken met behandelwachttijd boven de norm
+
+Bereken het percentage vrijgevestigde praktijken met behandelwachttijd boven de treeknorm (10 weken).
+
+```{r}
+tab <- dcast(res2[INST == 0 & AANT_LOC > 20],
+                    Circuit ~ Type.GGZ,
+                    value.var = "PERC_BOVEN_NORM")
+
+kable(tab)
+
+write.csv2(tab, 
+  "output\\perc_locaties_behandel_boven_norm_2016_vrijgevestigden_per_circuit_en_type_ggz.csv", na="")
+```
+
+Bijbehorende tekst uit de marktscan:
+
+In tabel 18 is te zien dat in 2016 de wachttijd tot de behandeling in de basis-ggz gemiddeld 1 tot 2 weken is (afhankelijk van type aanbieder, instelling of praktijk). Veel vrijgevestigden in de basis-ggz geven aan dat de behandeling vaak aansluitend aan het intakegesprek plaatsvindt. Bij de gespecialiseerde ggz voor volwassenen is deze wachttijd gemiddeld 5,3 weken. Dit is vergelijkbaar met 2015. Ook voor de behandelwachttijd is het percentage locaties weergegeven dat een wachttijd boven de norm heeft.
+
+# Vergelijk verdeling met enquetes 2016 GGZ Nederland en het NIP
+
+Bijbehorende tekst uit de marktscan:
+
+Brancheorganisaties in de ggz (GGZ-Nederland en de LVVPhet NIP) publiceerden in oktober 2016 een tweetal onderzoeken naar wachttijden bij ggz-instellingen en vrijgevestigden in de ggz [link werken als vrijgevestigde in de ggz + link ggz nederland]. De patronen die zij waarnemen komen globaal overeen met de metingen van de NZa. 
+
+## MediQuest meting versus GGZ Nederland meting
+
+```{r}
+
+hp <- ggplot(subset(ggznl_2016, CIRCUIT == "Volwassenen" & TYPE_WT == "Aanmeld"), 
+           aes(x = reorder(paste(WT_BIN), WEERGAVE_NR), y=WT_N)) + 
+  geom_bar(stat="identity") + 
+  ggtitle("GGZ NL 2016: Aanmeldtijd verdeling Instellingen (N=23)")
+
+hp
+
+ggsave(hp, 
+      file="output/verdelingen\\ggz_nl_2016_verdeling_instelling_aanmeld.png",
+       width=8, height=6)
+
+```
+
+Toevoeging b & m:
+
+om een goede match te krijgen met de GGZ Nederland meting moeten we SGGZ selecteren in de MediQuest meting. Dit is plausibel gegeven dat de populatie van GGZ Nederland voornamelijk grote geintegreerde instellingen betreft (slechts 3 van de 24 instellingen uit de GGZ nederland Quickscan heeft een productiewaarde van minder dan 10 mln in 2015).
+
+```{r}
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T),
+            Raanmeld = round(mean(Aanmeldtijd, na.rm=T), 0)),# gehele weken
+          .(AGBCODE_INDIENER, LOCATIE_ID, Circuit, Type.GGZ, INST)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, sep = "_")]
+
+# bereken dists met binning die matcht met de rapporten
+res <- res[, WT_KLASSE := cut(Raanmeld, breaks = c(-1,2.5,4.5,6.5,8.5,Inf))]
+
+# match doorsnede: instellingen met gespecialiseerde ggz 
+res2 <- res[Circuit == "Volwassenen" & INST == 1 & Type.GGZ == "SGGZ", 
+          .(AANT = .N), 
+          .(WT_KLASSE)]
+
+hp <- ggplot(res2, aes(x=WT_KLASSE, y=AANT)) + 
+  geom_bar(stat = "identity") 
+  
+hp + ggtitle("MQ 2016 (binning GGZ Nederland): instellingen SGGZ")
+
+ggsave(hp, file="output/verdelingen\\mq_2016_verdeling_instelling_aanmeld.png",
+       width=8, height=6)
+```
+
+## MQ Vrijgevestigden vs NIP
+
+Voor vergelijking met het NIP rapport "Werken als vrijgevestigde in de ggz" is een andere binning en doorsnede nodig.
+
+```{r}
+hp <- ggplot(subset(nip_2016, CIRCUIT == "Vrijgevestigd" & TYPE_WT == "Aanmeld"), 
+           aes(x = reorder(paste(WT_BIN), WEERGAVE_NR), y = WT_N)) + 
+  geom_bar(stat = "identity") 
+
+hp + ggtitle("NIP 2016: vrijgevestigden")
+
+ggsave(hp, file = "output/verdelingen/nip_2016_verdeling_aanmeld.png",
+       width=8, height=6)
+
+```
+
+
+
+```{r}
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T),
+            Raanmeld = round(mean(Aanmeldtijd, na.rm=T), 0)), # hele weken
+          .(AGBCODE_INDIENER, LOCATIE_ID, Circuit, Type.GGZ, INST)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, sep="_")]
+
+# neem bins over van NIP rapport
+res <- res[, WT_KLASSE := cut(Raanmeld, breaks = c(-1,2.5,4.5,10.5,20.5,Inf))]
+
+# selecteer vrijgevestigde praktijken
+res2 <- res[Circuit == "Volwassenen" & INST == 0, .(AANT = .N), .(WT_KLASSE)]
+
+# Plot MQ vrijgevestigden GB-GGZ + SGGZ samen
+hp <- ggplot(res2, aes(x = WT_KLASSE, y = AANT)) + 
+  geom_bar(stat="identity") 
+hp + ggtitle("MQ 2016: vrijgevestigden")
+
+ggsave(hp, file="output/verdelingen\\mq_2016_verdeling_vrij_aanmeld.png",
+       width=8, height=6)
+
+```
+
+De NIP enquete heeft relatief meer kortere wachttijden ("geen wachttijd") dan de MediQuest meting.
+
+## Verdelingen MediQuest naar type aanbieder en type ggz
+
+Aanvullend op de marktscan, opgenomen in de b & m.
+
+```{r}
+# verdeling voor b & m  marktscan
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan,
+            .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T),
+              Raanmeld = round(mean(Aanmeldtijd, na.rm=T), 0)), 
+          .(AGBCODE_INDIENER, LOCATIE_ID, Circuit, Type.GGZ, INST)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, sep = "_")]
+
+res <- res[, WT_KLASSE := cut(Raanmeld, 
+                       breaks = c(-1, 2.5, 4.5, 6.5, 8.5, 10.5, 12.5, Inf),
+                       labels = c("0-2", "3-4", "5-6", "7-8", "9-10", "11-12" ,">12"))]
+
+res2 <- res[Circuit == "Volwassenen", .(AANT = .N), .(WT_KLASSE, INST, Type.GGZ)]
+res2 <- res2[, PERC := AANT/sum(AANT), .(INST, Type.GGZ)]
+
+res3 <- subset(res2, INST == 1 & Type.GGZ == "SGGZ")
+
+hp <- ggplot(res3, aes(x = WT_KLASSE, y = PERC * 100)) + 
+  geom_bar(stat="identity") + 
+  xlab("Wachttijd in weken") + ylab("Percentage locaties (%)") +
+  theme_set(theme_grey(base_size = 18)) 
+  
+hp + ggtitle("Wachttijd verdeling instellingen SGGZ")
+
+ggsave(hp, file="output/verdelingen\\mq_verdeling_instelling_sggz_aanmeld.png", 
+       width = 8, height = 6)
+
+```
+
+```{r}
+res3 <- subset(res2, INST == 0 & Type.GGZ == "SGGZ")
+
+hp <- ggplot(res3, aes(x = WT_KLASSE, y = PERC * 100)) + 
+  geom_bar(stat = "identity") + 
+  xlab("Wachttijd in weken") + ylab("Percentage locaties (%)") +
+  theme_set(theme_grey(base_size = 18)) 
+
+hp + ggtitle("wachttijdverdeling Vrijgevestigden SGGZ")
+
+ggsave(hp, file="output/verdelingen\\mq_verdeling_vrijgevestigd_sggz_aanmeld.png", 
+       width = 8, height = 6)
+```
+
+# Analyse patientenstops en differentiatie naar zorgverzekeraar
+
+We maken ondersched naar patientenstops in het algemeen EN aanbieders die bij de toegang onderscheid maken naar specifieke verzekeraars. Dit laatste is afgeleid uit het veld "Toelichting.afwijkende.wachttijdenregeling.zorgverzekeraar".
+
+Elke telling hier is een losse wachttijd. Een locatie kan meerdere wachttijden hebben.
+
+```{r}
+tab <- mq16[, .N, .(PAT_STOP, MAAKT_ONDERSCHEID, ACTUEEL)]
+
+kable(tab)
+```
+
+Hieruit volgt dat vrijwel alle PAT_STOPS en MAAKT_ONDERSCHEID actueel zijn.
+
+```{r}
+tab <- mq16[, .N, .(PAT_STOP, MAAKT_ONDERSCHEID, INST)]
+
+kable(tab)
+```
+
+Hieruit volgt dat vrijwel alle patientenstops bij praktijken plaats vinden (ook rekeninghoudend met steekproef omvang). 
+En dat vrijwel alle patientenstops bij aanbieders zijn die geen onderscheid maken naar zorgverzekeraar. De stop geldt dus voor iedereen.
+
+We concluderen dat deze twee situaties relatief los van elkaar staan.
+We analyseren ze daarom apart.
+
+## Analyse differentiatie toegang aanbieder naar zorgverzekeraar
+
+wat zijn de meest genoemde zorgverzekeraars op websites van praktijken irt gediferentieerde toegang?
+
+```{r}
+tab <- colSums(mq16[ , .(CZ , VGZ, Achmea.ZK,  Menzis , DSW)], na.rm=T)
+
+tab <- data.frame(t(tab))
+
+kable(tab)
+```
+
+Bereken het percentage locaties / praktijken dat onderscheid maakt naar zorgverzekeraar,
+per type ggz.
+
+```{r}
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+       .(MAAKT_ONDERSCHEID = max(MAAKT_ONDERSCHEID)), 
+       .(INST, Type.GGZ, LOCATIE_ID)]
+
+tab <- res[, .(AANT = .N, 
+        AANT_ONDERSCHEID = sum(MAAKT_ONDERSCHEID),
+        PERC = round(mean(MAAKT_ONDERSCHEID),2)), 
+     .(INST, Type.GGZ)]
+
+kable(tab)
+```
+
+Vanwege de lage aantallen laten we het onderscheid naar type.ggz vallen.
+
+Bereken het percentage locaties / praktijken dat onderscheid maakt naar zorgverzekeraar,
+ongeacht type ggz.
+
+```{r}
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+       .(MAAKT_ONDERSCHEID = max(MAAKT_ONDERSCHEID)), 
+       .(INST, LOCATIE_ID)]
+
+# instelling ja / nee
+tab <- res[, .(AANT = .N, 
+        AANT_ONDERSCHEID = sum(MAAKT_ONDERSCHEID),
+        PERC = round(mean(MAAKT_ONDERSCHEID),2)), 
+     .(INST)]
+
+kable(tab)
+```
+
+Conclusie 3% van de instellingslocaties en 8% van de praktijken met een actuele aanmeldwachttijd maakt onderscheid naar zorgverzekeraar bij de toegang.
+
+Tekst uit de marktscan: 
+
+Ook zijn er aanbieders waarbij een langere wachttijd of pati?ntenstop geldt voor pati?nten die verzekerd zijn bij bepaalde verzekeraars. Dit speelt met name bij vrijgevestigde praktijken, 8% maakt onderscheid naar verzekeraar. Deze aanbieders noemen vooral grote verzekeraars waarvoor de toegang beperkter is. 
+
+## Analyse patientenstops
+
+Tel het aantal patientenstops en kijk of de informatie actueel is.
+
+```{r}
+
+tab <- mq16[,.(.N),.(ACTUEEL, PAT_STOP)]
+
+kable(tab)
+
+```
+
+Vrijwel alle patientenstops zijn actueel.
+
+Tel de locaties met actuele informatie die een patientenstop en/of een aanmeldwachttijd hebben.
+ 
+```{r}
+res <- mq16[ACTUEEL == 1 &  Type.GGZ %in% wt_type_voor_scan, 
+       .(PAT_STOP = max(PAT_STOP),
+         HEEFT_AANMELD = max(HEEFT_AANMELD)), 
+       .(INST, LOCATIE_ID)]
+
+tab <- res[PAT_STOP == 1, .N, .(HEEFT_AANMELD, INST)]
+
+kable(tab)
+```
+
+Bij de praktijken heeft vrijwel alle praktijken met een patientenstop geen aanmeldwachttijd.
+
+## Bereken percentage praktijken met patientenstop
+
+Hoeveel unieke AGB codes zijn er in de data? Hoeveel van deze codes betreft vrijgevestigde praktijken?
+
+```{r}
+length(unique(mq16$AGBCODE_INDIENER))
+length(unique(mq16[INST == 0,]$AGBCODE_INDIENER))
+
+```
+
+Er bevinden zich `r length(unique(mq16$AGBCODE_INDIENER))`  unieke AGB codes in het bestand.
+
+Hiervan zijn er `r length(unique(mq16[INST == 0,]$AGBCODE_INDIENER))` als vrijgevestigde praktijk of behandelaar gekenmerkt.
+
+wat is de gewenste noemer bij het percentage praktijken met een pati?ntenstop?
+
+Zowel teller als noemer moeten actieve praktijken zijn die actuele informatie geven.
+De noemer is dus locaties die OF een actuele aanmeldtijd hebben, OF een actuele patientenstop hebben.
+
+```{r}
+res <- mq16[ACTUEEL == 1 & Type.GGZ %in% wt_type_voor_scan, 
+        .(HEEFT_AANMELD = max(HEEFT_AANMELD),
+         HEEFT_PAT_STOP = max(PAT_STOP)), 
+        .(INST, LOCATIE_ID)]
+
+res <- res[, SCOPE :=0]
+res <- res[HEEFT_AANMELD == 0 & HEEFT_PAT_STOP == 1, SCOPE :=1]
+res <- res[HEEFT_AANMELD == 1 & HEEFT_PAT_STOP == 0, SCOPE :=1]
+
+tab <- res[SCOPE == 1, 
+            .(AANT = .N, 
+              AANT_PAT_STOP = sum(HEEFT_PAT_STOP),
+              PERC = round(mean(HEEFT_PAT_STOP), 2)), 
+            .(INST, SCOPE)]
+
+kable(tab)
+```
+
+We concluderen dat bij 13% van de praktijken met actuele informatie een patientenstop was ten tijde van de meting. 
+
+Bij welke instellingen is er een patientenstop?
+
+```{r}
+tab <- mq16[PAT_STOP == 1 & Type.GGZ %in% wt_type_voor_scan & INST == 1,
+             .(AANT = .N),
+             .(Naam.zorgaanbieder)]
+
+kable(tab)
+```
+
+De vier PsyQ locaties met patientenstop zijn als instellingslocaties getypeerd.
+
+Tekst uit de marktscan:
+
+Sommige zorgaanbieders geven op hun website aan dat er een tijdelijke patiëntenstop is. De tijdelijke patiëntenstop zien we vooral bij kleinschalige praktijken, en enkele kleine instellingen. Op het moment van de wachttijdmeting had 13% van alle actieve praktijken een patiëntenstop. 
+
+# Analyse acute / crisis ggz 
+
+Tekst uit de marktscan:
+
+Een aantal aanbieders heeft voor acute ggz de wachttijden apart weergegeven. De cijfers van 2016 (van 6 ggz-instellingen en 4 ziekenhuizen) bevestigen het beeld van eerder onderzoek van de NZa dat in de acute ggz geen of alleen zeer korte wachttijden zijn. 
+
+```{r}
+tab <- mq16[Type.GGZ == "Crisis" & HEEFT_AANMELD == 1 & Circuit == "Volwassenen",
+            .(AANT = .N),
+            .(Naam.zorgaanbieder)]
+
+# # vervang 0xef character encoding van UTF-16 naar UTF-8 (R-Notebook issue)
+tab$Naam.zorgaanbieder <- gsub("\xef", "\xc3\xaf", tab$Naam.zorgaanbieder)  
+
+kable(tab)
+```
+
+
+```{r}
+tab <- mq16[Type.GGZ == "Crisis" & HEEFT_AANMELD == 1, 
+            .(Nadere.typering, 
+              Aanmeldtijd)]
+
+kable(tab)
+```
+
+Dit bevestigt ons beeld dat er geen of een lage wachttijd is voor crisis / acute situaties.
+
+Er zitten een paar wachttijden langer dan een paar dagen bij.
+We gaan op de websites kijken wat dit voor zorg betreft.
+
+Website URLs:
+
+```{r}
+subset(mq16, Type.GGZ == "Crisis" & HEEFT_AANMELD ==1 & Aanmeldtijd > 0.5)$URL.naar.wachttijden
+```
+
+Op basis van informatie op de websites lijkt er een grijs gebied te zijn is mbt acute situaties.
+Bijvoorbeeld de acute deeltijd behandeling door een SPITS team (dit start bij de mensen thuis).
+
+# Regionale analyse: SGGZ wachttijden naar provincie
+
+Voor de marktscan berekenen we de gemiddelde aanmeldwachttijd per provincie.
+We doen dit voor instellingslocaties.
+
+```{r}
+# middel binnen locaties
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T)), 
+          .(AGBCODE_INDIENER, Naam.zorgaanbieder, Vestigingslocatie, GEM_SOORT,
+            LOCATIE_ID, Circuit, Type.GGZ, INST, grote_instelling, pv_naam)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, GEM_SOORT, sep="_")]
+
+res2full <- res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen", 
+              .(mean_WT = mean(Aanmeldtijd),
+                group="alles"), .(pv_naam)]
+
+res2full <- res2full[, MEAN_FOR_SORT := mean(mean_WT), .(pv_naam)]
+
+# sort de provincies op volgorde van wachttijd voor de dotplot
+res2full$pv_naam <-reorder(res2full$pv_naam , -1*res2full$MEAN_FOR_SORT)
+
+res2full <- dcast(res2full, 
+                  pv_naam + MEAN_FOR_SORT ~ group, 
+                  value.var = "mean_WT")
+
+# ga terug naar "res" op locatie niveau, bereken landelijk gemiddelde
+globalmean<-res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen" , .(
+  mean_WT = mean(Aanmeldtijd),
+  group = "alles"), .()]
+
+# maak een dotplot
+hp <- ggplot(res2full, aes(x = pv_naam, y = MEAN_FOR_SORT)) + coord_flip() +
+  geom_point(aes(x = pv_naam, y = alles), size=3, col="black") + 
+  geom_hline(yintercept = 4) + 
+  xlab("Provincie") + ylab("Regionale wachttijd") + ylim(0, 11) + 
+  geom_hline(yintercept = globalmean$mean_WT, col="red") 
+
+hp + ggtitle("gemiddelde wachttijd 2016 SGGZ instellingslocaties") + 
+  theme(plot.title = element_text(size = 16))
+
+ggsave(hp, 
+       file="output\\gemiddelde wachttijd_2016_sggz_instellingslocaties_alles.png",
+       width = 8, height = 6)
+```
+
+We reproduceren met `r round(globalmean$mean_WT, digits=1)` weken de gemiddelde aanmeldwachttijd voor de SGGZ bij instellingslocaties.
+
+## Regionale analyse: alle instellingslocaties vs subset locaties van grotere instellingen
+
+Tekst uit de b & m:
+Het blijkt dat locaties van grote instellingen gemiddeld genomen langere wachttijden hebben dan locaties van kleine instellingen. Voor de provincie Limburg blijkt uit de data dat de relatief lage gemiddelde wachttijd voor de gespecialiseerde ggz wordt veroorzaakt door het in gelijke mate meetellen van grote instellingen, en kleine instellingen die zich op bepaalde doelgroepen binnen de sggz richten, en dus niet voor alle doelgroepen beschikbaar zijn.
+
+Uit de landelijke data blijkt dat de wachttijd 2016 voor volwassenen in de sggz een functie is van de omvang van de ggz-aanbieder. De omvang van de ggz-aanbieder is hierbij  geoperationaliseerd als  het aantal pati?nten (ongeacht leeftijd of type ggz)  met een ggz prestatie geopend in 2014. De gemiddelde wachttijd stijgt van gemiddeld 4 weken naar 7 weken. Het omslagpunt ligt ongeveer rond de 4900 pati?nten.
+
+Deze analyse is uitgevoerd met een veld (PAT2014) dat per instellings AGB-code (INST == 1) het aantal behandelde patienten in 2014 bevat, op basis van vektis-gegevens. Omwille van de bedrijfsvertrouwelijkheid is dit veld niet opgenomen in het openbare gegevensbestand.
+
+Uit PAT2014 is een veld afgeleid ("grote_instelling") dat 1 is wanneer er in 2014 meer dan 4900 unieke pati?nten in de vektis-gegevens aanwezig waren, en 0 wanneer dit niet zo is.
+
+```{r}
+ggplot(res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen" ],
+             aes(x = factor(grote_instelling), y = Aanmeldtijd)) + geom_boxplot()
+
+```
+
+De mediaan van de aanmeldwachttijd ligt hoger voor instellingslocaties van grote instellingen dan de mediaan van instellingslocaties van kleinere instellingen.
+
+## regionale analyse met impact weglaten locaties kleine instellingen
+
+```{r}
+# middel binnen locaties
+res<-mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm = T)), 
+          .(AGBCODE_INDIENER, Naam.zorgaanbieder, Vestigingslocatie, 
+            GEM_SOORT, LOCATIE_ID, Circuit, Type.GGZ, 
+            INST, grote_instelling, pv_naam)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, GEM_SOORT, sep = "_")]
+
+# bereken provincie gemiddelde met en zonder filter
+
+# zonder filter grote_instelling = 1
+res2 <- res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen", .(
+  mean_WT = mean(Aanmeldtijd),
+  group = "alles"), .(pv_naam)]
+
+# met filter grote_instelling = 1
+res2b <- res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen" & grote_instelling == 1, .(
+    mean_WT = mean(Aanmeldtijd),
+    group = "groot"), 
+    .(pv_naam)]
+
+# maak een dotplot
+res2full <- rbind(res2, res2b)
+res2full <- res2full[, MEAN_FOR_SORT := mean(mean_WT), .(pv_naam)]
+res2full$pv_naam <- reorder(res2full$pv_naam , -1*res2full$MEAN_FOR_SORT)
+res2full <- dcast(res2full, pv_naam + MEAN_FOR_SORT ~ group, value.var = "mean_WT")
+
+globalmean <- res[Type.GGZ == "SGGZ" & INST == 1 & Circuit == "Volwassenen" , 
+                  .(mean_WT = mean(Aanmeldtijd),
+                    group = "groot"), 
+                  .()]
+
+hp<-ggplot(res2full, aes(x = pv_naam, y = MEAN_FOR_SORT, ymin = alles, ymax = groot)) +
+  coord_flip() +  geom_linerange(col = "darkgrey", size = 1) + 
+  geom_point(aes(x = pv_naam, y = alles), size = 2, col = "darkgrey") + 
+  geom_point(aes(x = pv_naam, y = groot), size = 3, col = "black") + 
+  geom_hline(yintercept = 4) +   
+  xlab("Provincie") + ylab("Regionale wachttijd") + ylim(0, 11) + 
+  geom_hline(yintercept = globalmean$mean_WT, col="red") 
+
+hp + ggtitle("regionale wachttijden 2016 sggz instellingen") +
+    theme(plot.title = element_text(size = 14))
+
+ggsave(hp, 
+       file = "output\\gemiddelde_wachttijd_2016_sggz_instellingslocaties_subset_janee.png", 
+       width = 8, height = 6)
+```
+De kleine stip geeft de gemiddelde aanmeldwachttijd voor sggz aan wanneer alle instellingslocaties worden meegenomen. De grote stip geeft de gemiddelde wachttijd aan wanneer alleen locaties van grotere instellingen worden meegenomen.
+
+# Analyse langste instellingswachttijden per regio
+
+```{r}
+# middel binnen locaties
+res <- mq16[HEEFT_AANMELD == 1 & ACTUEEL == 1, 
+          .(Aanmeldtijd = mean(Aanmeldtijd, na.rm=T)), 
+          .(AGBCODE_INDIENER, Naam.zorgaanbieder, Vestigingslocatie, GEM_SOORT,
+            LOCATIE_ID, Circuit, Type.GGZ, INST, grote_instelling, pv_naam)]
+
+res <- res[, SUBGROEP := paste(Circuit, Type.GGZ, INST, GEM_SOORT, sep="_")]
+
+out <- res[Type.GGZ == "SGGZ" & INST == 1 & 
+                  Circuit == "Volwassenen" & grote_instelling == 1, 
+              .(regionale_wachttijd = round(mean(Aanmeldtijd), 1),
+                aantal_locaties = .N,
+                group = "grote instellingen, sggz, volwassenen"), 
+           .(pv_naam, Naam.zorgaanbieder)]
+
+write.csv2(out, "output/grote_instellingen_wachttijd_regio_sggz_volwassenen.csv" )
+```
+
+
+
+# Analyse klinische ggz
+
+De MediQuest gegevens bevatten ook wachttijden die aangemerkt zijn als "klinisch".
+
+Bereken het aantal klinische aanmeldwachttijden per circuit.
+
+```{r}
+tab <- mq16[Type.GGZ == "Klinisch" & HEEFT_AANMELD == 1 , 
+             .N, .(Circuit)]
+
+kable(tab)
+```
+
+Per zorgaanbieder met klinsische wachttijden wordt de laagste en hoogste aanmeldwachttijd berekend.
+
+```{r}
+tab <- mq16[Type.GGZ == "Klinisch" & HEEFT_AANMELD ==1 & Circuit == "Volwassenen",
+             .(AANT = .N,
+               LAAG = min(Aanmeldtijd),
+               HOOG = max(Aanmeldtijd)), 
+      .(Naam.zorgaanbieder)]
+
+# vervang 0xef character encoding van UTF-16 naar UTF-8 (R-Notebook issue)
+tab$Naam.zorgaanbieder <- gsub("\xef", "\xc3\xaf", tab$Naam.zorgaanbieder)  
+
+kable(tab)
+```
+
+We zien bij 10 ggz aanbieders niet-acute klinische aanmeldwachttijden.
+Vijf hiervan betreffen ziekenhuizen (waaronder twee universitaire centra).
+De overige vijf zijn ggz instellingen. 
+
+Vanwege het lage aantal klinische wachttijden is er voor gekozen om geen landelijk gemiddelde wachttijd te berekenen.
+
+Om wat voor doelgroepen / type zorg gaat het?
+
+
+```{r}
+tab <- mq16[ Type.GGZ == "Klinisch" & HEEFT_AANMELD ==1 & Circuit == "Volwassenen",
+      .(Aanmeldtijd, Nadere.typering, Naam.zorgaanbieder)]
+
+# vervang 0xef character encoding van UTF-16 naar UTF-8 (R-Notebook issue)
+tab$Naam.zorgaanbieder <- gsub("\xef", "\xc3\xaf", tab$Naam.zorgaanbieder)  
+
+kable(tab)
+```
+
+
+
+# Disclaimer en Licenties
+
+![](input/cc_img/cc_zero_88x31.png)
+
+Op de ruwe en verrijkte brondata is de licentie [Creative Commons Zero (CC0 1.0 Universal)](https://creativecommons.org/publicdomain/zero/1.0/) van toepassing. 
+
+Dit betreft de bestanden:
+
+* brondata_wachttijden_ggz_2016_ruw.csv
+* brondata_wachttijden_ggz_2016_ruw.rds
+* verrijkt_wachttijden_bestand_mediquest_2016_compleet.csv
+
+Dit betekent onder meer dat bij hergebruik van enkel de data naamsvermelding van de Nederlandse Zorgautoriteit (hierna NZa) niet verplicht is. 
+
+![](input/cc_img/cc_by_88x31.png)
+
+Op dit analysescript en bijbehorende broncode is de licentie [Creative Commons Naamsvermelding (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/) van toepassing.
+
+Als onderdeel van Creative Commons Naamsvermelding is het bij hergebruik verplicht te vermelden dat de broncode afkomstig is van de NZa (maar niet zodanig dat de indruk gewekt wordt dat de NZa instemt met uw werk of de inhoud van uw werk).
+
+De NZa geeft geen garanties op beschikbaarheid, actualiteit en continuïteit van zowel de data als de broncode. 
+De NZa is niet verantwoordelijk voor eventuele (financiële) gevolgen voor het indirecte en directe gebruik van de data of broncode. De NZa aanvaardt geen aansprakelijkheid voor gevolgen door onjuistheden in de data of broncode. Bij twijfel over de juistheid van de data of broncode adviseert de NZa u daarover met haar contact op te nemen.  Het realiseren van dienstverlening op basis van de aangeboden functionaliteit en het risico op bedrijfsschade als gevolg van calamiteiten of het stopzetten hiervan zijn voor rekening en risico van de gebruiker.
+
+# Sessieinfo
+
+```{r}
+sessionInfo()
+```
+

@@ -1,0 +1,2545 @@
+;ROW_ID;Plaats.zorgaanbieder;Vestigingslocatie;HEEFT_AANMELD;PLAATS_LOCATIE;AANTAL_CHARS_NAAM;WOON_INDEX;WOONPLAATS;CORRECTIE
+1;1;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+2;2;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+3;3;'s-gravenhage;loc. den haag;1;0;0;-1;'s-gravenhage;0
+4;4;'s-gravenhage;loc. rijswijk;1;1;8;1580;rijswijk;0
+5;5;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+6;6;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+7;7;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+8;8;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+9;9;'s-gravenhage;parnassia;1;0;0;-1;'s-gravenhage;0
+10;10;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+11;11;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+12;12;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+13;13;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+14;14;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+15;15;'s-gravenhage;geen_locatie_onderscheid;1;0;0;-1;'s-gravenhage;0
+16;27;amsterdam;victas;1;0;0;-1;amsterdam;0
+17;214;den dolder;altrecht, acute psychiatrie;1;0;0;-1;den dolder;0
+18;225;den dolder;altrecht, aventurijn wier (sglvg);1;0;0;-1;den dolder;0
+19;226;den dolder;altrecht, aventurijn wier (sglvg);1;0;0;-1;den dolder;0
+20;227;den dolder;altrecht, aventurijn wier (sglvg);1;0;0;-1;den dolder;0
+21;228;den dolder;altrecht, bipolair, polikliniek woerden;1;1;7;2031;woerden;0
+22;229;den dolder;altrecht, bipolair, polikliniek utrecht;1;1;7;664;utrecht;0
+23;230;den dolder;altrecht, eetstoornissen, rintveld;1;1;5;1286;den dolder;1
+24;231;den dolder;altrecht, eetstoornissen, rintveld;1;1;5;1286;den dolder;1
+25;232;den dolder;altrecht, eetstoornissen, rintveld;0;1;5;1286;den dolder;1
+26;233;den dolder;altrecht, eetstoornissen, rintveld;1;1;5;1286;den dolder;1
+27;260;den dolder;altrecht, trauma trtc;1;0;0;-1;den dolder;0
+28;307;amersfoort;symfora meander;1;0;0;-1;amersfoort;0
+29;308;utrecht;loc. gezondheidscentrum west;1;0;0;-1;utrecht;0
+30;309;utrecht;loc. huisartsenpraktijk haven;1;0;0;-1;utrecht;0
+31;310;utrecht;loc. indigo midden _NL - gebouw amstelstaete;1;2;4;492;utrecht;1
+32;311;utrecht;loc. ggz centraal;1;0;0;-1;utrecht;0
+33;312;utrecht;loc. ggz centraal;1;0;0;-1;utrecht;0
+34;313;utrecht;loc. jan provostlaan;1;0;0;-1;utrecht;0
+35;314;utrecht;loc. medibilt;1;0;0;-1;utrecht;0
+36;315;utrecht;loc. ggz centraal, locatie mauritzhof;1;0;0;-1;utrecht;0
+37;316;utrecht;loc. gezondheidscentrum de bilt;1;0;0;-1;utrecht;0
+38;317;utrecht;loc. vitras gebouw;1;0;0;-1;utrecht;0
+39;318;utrecht;loc. huisartsenpraktijk elburg;1;1;6;481;elburg;0
+40;319;utrecht;loc. dokter j.h. jansenziekenhuis;1;0;0;-1;utrecht;0
+41;320;utrecht;loc. johanniterlaan;1;0;0;-1;utrecht;0
+42;321;utrecht;loc. schapenkamp;1;0;0;-1;utrecht;0
+43;322;utrecht;loc. medisch centrum dorp;1;0;0;-1;utrecht;0
+44;323;utrecht;loc. medisch centrum leebrug;1;0;0;-1;utrecht;0
+45;324;utrecht;loc. huisartsenzorg ijsselstein;1;4;11;2074;ijsselstein;0
+46;325;utrecht;loc. huisartsenzorg ijsselstein nieuwpoort;1;4;11;2074;ijsselstein;0
+47;326;utrecht;loc. huisartsenpraktijk poort van west;1;0;0;-1;utrecht;0
+48;327;utrecht;loc. het ravelijn;1;0;0;-1;utrecht;0
+49;328;utrecht;loc. gezondheidscentrum boomstede;1;1;3;453;utrecht;1
+50;329;utrecht;loc. gezondheidscentrum spechtenkamp;1;1;6;448;utrecht;1
+51;330;utrecht;loc. rembrandtsingel;1;0;0;-1;utrecht;0
+52;331;utrecht;loc. hofland medisch centrum;1;0;0;-1;utrecht;0
+53;332;utrecht;loc. gezondheidscentrum de schans;1;0;0;-1;utrecht;0
+54;333;utrecht;loc. gezondheidscentrum mondriaanlaan;1;0;0;-1;utrecht;0
+55;334;utrecht;loc. woonzorgnet het kodal;1;0;0;-1;utrecht;0
+56;335;utrecht;loc. gezondheidscentrum de brug;1;0;0;-1;utrecht;0
+57;336;utrecht;loc. gezondheidscentrum oog in al;1;0;0;-1;utrecht;0
+58;337;utrecht;loc. gezondheidscentrum julius parkwijk;1;0;0;-1;utrecht;0
+59;338;utrecht;loc. gezondheidscentrum julius vleuterweide;1;0;0;-1;utrecht;0
+60;339;utrecht;loc. gezondheidscentrum leidsche rijn t zand;1;0;0;-1;utrecht;0
+61;340;utrecht;loc. gezondheidscentrum ondiep;1;0;0;-1;utrecht;0
+62;341;utrecht;loc. huisartsenkliniek overvecht;1;0;0;-1;utrecht;0
+63;342;utrecht;loc. huisartsenpraktijk koningslaan;1;0;0;-1;utrecht;0
+64;343;utrecht;loc. kaap hoorndreef;1;2;5;855;utrecht;1
+65;344;utrecht;loc. t goylaan;1;0;0;-1;utrecht;0
+66;345;utrecht;loc. huisartsenpraktijk de brink;1;0;0;-1;utrecht;0
+67;346;utrecht;loc. huisartsenpraktijk het gildenhuis;1;0;0;-1;utrecht;0
+68;347;utrecht;loc. laan van vollenhove;1;1;10;1891;utrecht;1
+69;348;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+70;349;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+71;376;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+72;377;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+73;378;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+74;379;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+75;380;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+76;381;warnsveld;ggnet, gemeente bronckhorst;1;1;5;861;warnsveld;1
+77;382;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+78;383;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+79;384;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+80;385;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+81;386;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+82;387;warnsveld;ggnet, gemeente winterswijk;1;1;11;2023;winterswijk;0
+83;388;warnsveld;ggnet, gemeente winterswijk;1;1;11;2023;winterswijk;0
+84;389;warnsveld;ggnet, gemeente winterswijk;1;1;11;2023;winterswijk;0
+85;390;warnsveld;ggnet, gemeente winterswijk;1;1;11;2023;winterswijk;0
+86;391;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+87;392;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+88;393;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+89;394;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+90;395;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+91;396;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+92;397;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+93;398;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+94;399;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+95;400;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+96;401;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+97;402;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+98;403;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+99;404;warnsveld;ggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+100;405;warnsveld;ggnet, gemeente bronckhorst;1;1;5;861;warnsveld;1
+101;406;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+102;407;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+103;408;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+104;409;warnsveld;ggnet, gemeente doetinchem;1;2;10;404;doetinchem;0
+105;410;warnsveld;ggnet, gemeente oost gelre;1;0;0;-1;warnsveld;0
+106;411;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+107;412;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+108;413;warnsveld;ggnet, gemeente zevenaar;1;1;8;2102;zevenaar;0
+109;414;warnsveld;ggnet, gemeente zutphen;1;1;7;2138;zutphen;0
+110;415;warnsveld;vggnet, gemeente doetinchem/warnsveld;1;3;10;404;doetinchem;0
+111;416;warnsveld;vggnet, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+112;417;warnsveld;amarum, gemeente zutphen;0;3;7;2138;zutphen;0
+113;418;warnsveld;amarum, gemeente nijmegen;1;4;8;658;nijmegen;0
+114;419;warnsveld;scelta, gemeente apeldoorn;1;2;9;69;apeldoorn;0
+115;420;warnsveld;scelta, gemeente nijmegen;1;2;8;658;nijmegen;0
+116;421;warnsveld;scelta, gemeente den haag;1;0;0;-1;'s-gravenhage;1
+117;658;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+118;659;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+119;660;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+120;661;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+121;662;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+122;663;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+123;664;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+124;665;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+125;666;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+126;667;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+127;668;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+128;669;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+129;670;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+130;671;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+131;672;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+132;673;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+133;674;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+134;675;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+135;816;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+136;817;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+137;818;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+138;891;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+139;985;deventer;loc. enschede;1;2;8;507;enschede;0
+140;986;deventer;loc. almelo;1;1;6;36;almelo;0
+141;987;deventer;loc. harderwijk;1;1;10;709;harderwijk;0
+142;988;deventer;loc. apeldoorn;1;2;9;69;apeldoorn;0
+143;989;deventer;loc. deventer;1;2;8;387;deventer;0
+144;990;deventer;loc. winterswijk;1;1;11;2023;winterswijk;0
+145;991;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+146;992;deventer;loc. zutphen;1;1;7;2138;zutphen;0
+147;1001;amersfoort;loc. almelo;1;1;6;36;almelo;0
+148;1002;amersfoort;loc. amersfoort;1;1;10;56;amersfoort;0
+149;1003;amersfoort;loc. dordrecht;1;1;9;651;dordrecht;0
+150;1004;amersfoort;loc. ede;1;1;3;453;ede;0
+151;1005;amersfoort;loc. elspeet;0;1;7;491;elspeet;0
+152;1006;amersfoort;loc. goes;1;1;4;607;goes;0
+153;1007;amersfoort;loc. lelystad;1;1;8;1031;lelystad;0
+154;1008;amersfoort;loc. rotterdam;1;1;9;659;rotterdam;0
+155;1009;amersfoort;loc. veenendaal;1;1;10;1844;veenendaal;0
+156;1010;amersfoort;loc. zwolle;1;1;6;2153;zwolle;0
+157;1011;amersfoort;loc. almelo;1;1;6;36;almelo;0
+158;1012;amersfoort;loc. amersfoort;1;1;10;56;amersfoort;0
+159;1013;amersfoort;loc. bosch en duin;0;0;0;-1;amersfoort;0
+160;1014;amersfoort;loc. dordrecht;1;1;9;651;dordrecht;0
+161;1015;amersfoort;loc. drachten;1;1;8;420;drachten;0
+162;1016;amersfoort;loc. ede;1;1;3;453;ede;0
+163;1017;amersfoort;loc. goes;1;1;4;607;goes;0
+164;1018;amersfoort;loc. groningen;1;2;9;654;groningen;0
+165;1019;amersfoort;loc. lelystad;1;1;8;1031;lelystad;0
+166;1020;amersfoort;loc. urk;1;1;3;1821;urk;0
+167;1021;amersfoort;loc. zwolle;1;1;6;2153;zwolle;0
+168;1022;amersfoort;loc. bosch en duin - de fontein;0;0;0;-1;amersfoort;0
+169;1126;almelo;loc. almelo en hengelo;1;3;7;778;hengelo;0
+170;1138;arnhem;loc. almere;1;0;0;-1;almere;1
+171;1139;arnhem;loc. arnhem;1;2;6;649;arnhem;0
+172;1140;arnhem;loc. den bosch;1;0;0;-1;s-hertogenbosch;1
+173;1141;arnhem;loc. den haag;1;0;0;-1;'s-gravenhage;1
+174;1142;arnhem;loc. eindhoven;1;3;9;652;eindhoven;0
+175;1143;arnhem;loc. groningen;1;2;9;654;groningen;0
+176;1144;arnhem;loc. haarlem;1;2;7;655;haarlem;0
+177;1145;arnhem;loc. hengelo ;1;2;7;778;hengelo;0
+178;1146;arnhem;loc. nijmegen;1;2;8;658;nijmegen;0
+179;1147;arnhem;loc. rotterdam;1;1;9;659;rotterdam;0
+180;1148;arnhem;loc. utrecht;1;1;7;664;utrecht;0
+181;1149;arnhem;loc. zwolle;1;1;6;2153;zwolle;0
+182;1150;arnhem;geen_locatie_onderscheid;1;0;0;-1;arnhem;0
+183;1151;arnhem;geen_locatie_onderscheid;1;0;0;-1;arnhem;0
+184;1152;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;1;1;9;697;halsteren;0
+185;1153;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;1;1;9;697;halsteren;0
+186;1154;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;1;1;9;697;halsteren;0
+187;1155;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+188;1156;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+189;1157;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+190;1158;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+191;1159;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+192;1160;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+193;1161;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+194;1162;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+195;1163;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+196;1164;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+197;1165;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+198;1166;halsteren;psychotherapeutisch centrum de viersprong, hoofdlocatie halsteren;0;1;9;697;halsteren;0
+199;1167;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+200;1168;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+201;1169;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+202;1170;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+203;1171;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+204;1172;halsteren;loc. amsterdam;1;1;9;648;amsterdam;0
+205;1173;halsteren;loc. amsterdam;1;1;9;648;amsterdam;0
+206;1174;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+207;1175;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+208;1176;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+209;1177;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+210;1178;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+211;1179;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+212;1180;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+213;1181;halsteren;loc. amsterdam;0;1;9;648;amsterdam;0
+214;1182;halsteren;loc. rotterdam;1;1;9;659;rotterdam;0
+215;1183;halsteren;loc. rotterdam;0;1;9;659;rotterdam;0
+216;1184;halsteren;loc. rotterdam;0;1;9;659;rotterdam;0
+217;1185;halsteren;loc. den bosch;1;0;0;-1;s-hertogenbosch;1
+218;1186;halsteren;loc. den bosch;0;0;0;-1;s-hertogenbosch;1
+219;1187;halsteren;loc. den bosch;0;0;0;-1;s-hertogenbosch;1
+220;1188;bergen op zoom;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+221;1189;bergen op zoom;loc. roosendaal;1;1;10;1551;roosendaal;0
+222;1190;gronsveld;loc. breda;1;1;5;247;breda;0
+223;1191;gronsveld;loc. dordrecht;1;1;9;651;dordrecht;0
+224;1192;gronsveld;loc. eindhoven;1;3;9;652;eindhoven;0
+225;1193;gronsveld;loc. geleen;1;1;6;653;geleen;0
+226;1194;gronsveld;loc. hoensbroek;1;0;0;-1;gronsveld;0
+227;1195;gronsveld;loc. maastricht;1;2;10;1110;maastricht;0
+228;1196;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+229;1197;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+230;1198;gronsveld;virenze riagg vaals;1;1;5;1825;vaals;0
+231;1199;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+232;1200;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+233;1201;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+234;1202;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+235;1203;gronsveld;virenze riagg;1;0;0;-1;gronsveld;0
+236;1204;gronsveld;geen_locatie_onderscheid;0;0;0;-1;gronsveld;0
+237;1262;assen;loc. assen;1;1;5;82;assen;0
+238;1263;assen;loc. beilen;1;1;6;140;beilen;0
+239;1264;assen;loc. hoogeveen;1;1;9;844;hoogeveen;0
+240;1265;assen;loc. meppel;1;1;6;1154;meppel;0
+241;1266;assen;loc. roden;1;1;5;1542;roden;0
+242;1267;assen;loc. steenwijk;1;1;9;1716;steenwijk;0
+243;1268;assen;loc. drachten;1;1;8;420;drachten;0
+244;1269;assen;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+245;1270;assen;loc. dokkum;1;1;6;406;dokkum;0
+246;1271;assen;loc. sneek;1;1;5;1681;sneek;0
+247;1272;assen;loc. groningen;1;2;9;654;groningen;0
+248;1273;assen;loc. appingedam;1;2;10;72;appingedam;0
+249;1274;assen;loc. groningen adhd;1;2;9;654;groningen;0
+250;1275;assen;loc. emmen;1;1;5;496;emmen;0
+251;1276;assen;loc. hoogezand;1;1;9;845;hoogezand;0
+252;1277;assen;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+253;1278;assen;loc. veendam;1;1;7;1843;veendam;0
+254;1279;assen;loc. winschoten;1;1;10;2018;winschoten;0
+255;1280;assen;loc. intensieve zorg groningen;1;2;9;654;groningen;0
+256;1281;assen;loc. intensieve zorg smilde;1;1;6;1680;smilde;0
+257;1282;assen;loc. deventer;1;2;8;387;deventer;0
+258;1283;assen;loc. hardenberg;1;3;10;707;hardenberg;0
+259;1284;assen;loc. hengelo;1;2;7;778;hengelo;0
+260;1285;assen;loc. almere;1;0;0;-1;almere;1
+261;1286;assen;loc. harderwijk;1;1;10;709;harderwijk;0
+262;1287;assen;loc. kampen;1;1;6;911;kampen;0
+263;1288;assen;loc. zwolle;1;1;6;2153;zwolle;0
+264;1291;capelle aan den ijssel;loc. slingedael;1;0;0;-1;capelle aan den ijssel;0
+265;1292;capelle aan den ijssel;loc. slingedael;1;0;0;-1;capelle aan den ijssel;0
+266;1313;goes;geen_locatie_onderscheid;0;0;0;-1;goes;0
+267;1317;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+268;1318;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+269;1330;apeldoorn;loc. apeldoorn;1;2;9;69;apeldoorn;0
+270;1331;apeldoorn;loc. apeldoorn;1;2;9;69;apeldoorn;0
+271;1332;apeldoorn;loc. apeldoorn;1;2;9;69;apeldoorn;0
+272;1333;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+273;1334;veldhoven;geen_locatie_onderscheid;1;0;0;-1;veldhoven;0
+274;1335;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+275;1336;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+276;1337;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+277;1338;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+278;1339;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+279;1340;dordrecht;loc. dordwijk;1;0;0;-1;dordrecht;0
+280;1343;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+281;1344;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+282;1345;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+283;1346;roermond;geen_locatie_onderscheid;1;0;0;-1;roermond;0
+284;1355;drachten;loc. drachten;1;1;8;420;drachten;0
+285;1356;drachten;loc. drachten;1;1;8;420;drachten;0
+286;1357;drachten;loc. hoogeveen;1;1;9;844;hoogeveen;0
+287;1358;drachten;loc. hoogeveen;1;1;9;844;hoogeveen;0
+288;1359;drachten;loc. heerhugowaard;1;1;13;747;heerhugowaard;0
+289;1360;drachten;loc. heerhugowaard;1;1;13;747;heerhugowaard;0
+290;1361;veldhoven;apanta-jong;1;0;0;-1;veldhoven;0
+291;1362;veldhoven;geen_locatie_onderscheid;1;0;0;-1;veldhoven;0
+292;1369;tilburg;loc. st. elisabeth;1;0;0;-1;tilburg;0
+293;1370;tilburg;loc. tweesteden;1;1;3;453;tilburg;1
+294;1371;eindhoven;loc. amersfoort;1;1;10;56;amersfoort;0
+295;1372;eindhoven;loc. amsterdam;1;1;9;648;amsterdam;0
+296;1373;eindhoven;loc. arnhem;1;2;6;649;arnhem;0
+297;1374;eindhoven;loc. breda;1;1;5;247;breda;0
+298;1375;eindhoven;loc. den haag;1;0;0;-1;'s-gravenhage;1
+299;1376;eindhoven;loc. eindhoven;1;3;9;652;eindhoven;0
+300;1377;eindhoven;loc. nijmegen;1;2;8;658;nijmegen;0
+301;1378;eindhoven;loc. rotterdam;1;1;9;659;rotterdam;0
+302;1379;eindhoven;loc. amersfoort;1;1;10;56;amersfoort;0
+303;1380;eindhoven;loc. amsterdam;1;1;9;648;amsterdam;0
+304;1381;eindhoven;loc. arnhem;1;2;6;649;arnhem;0
+305;1382;eindhoven;loc. breda;1;1;5;247;breda;0
+306;1383;eindhoven;loc. den haag;1;0;0;-1;'s-gravenhage;1
+307;1384;eindhoven;loc. eindhoven;1;3;9;652;eindhoven;0
+308;1385;eindhoven;loc. nijmegen;1;2;8;658;nijmegen;0
+309;1386;eindhoven;loc. rotterdam;1;1;9;659;rotterdam;0
+310;1397;zwolle;isala klinieken (paaz);1;0;0;-1;zwolle;0
+311;1410;heerenveen;geen_locatie_onderscheid;0;0;0;-1;heerenveen;0
+312;1411;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+313;1412;zaandam;loc. purmerend;1;1;9;1495;purmerend;0
+314;1413;zaandam;loc. purmerend;1;1;9;1495;purmerend;0
+315;1414;zaandam;loc. zaandam;1;0;0;-1;zaandam;0
+316;1415;zaandam;loc. zaandam;1;0;0;-1;zaandam;0
+317;1422;beverwijk;geen_locatie_onderscheid;1;0;0;-1;beverwijk;0
+318;1423;beverwijk;geen_locatie_onderscheid;1;0;0;-1;beverwijk;0
+319;1424;beverwijk;geen_locatie_onderscheid;0;0;0;-1;beverwijk;0
+320;1425;roermond;loc. roermond;1;1;8;1547;roermond;0
+321;1426;roermond;loc. roermond;1;1;8;1547;roermond;0
+322;1427;roermond;loc. roermond - gezondheidscentrum aan de singel;1;1;8;1547;roermond;0
+323;1428;roermond;loc. midden-limburg - gezondheidscentrum roggel;1;1;6;1548;roggel;0
+324;1429;roermond;loc. venlo;1;1;5;1863;venlo;0
+325;1430;roermond;loc. venlo;1;1;5;1863;venlo;0
+326;1431;roermond;loc. venlo - gezondheidscentrum withuis;1;1;5;1863;venlo;0
+327;1432;roermond;loc. venlo - huisartsenpraktijk arcade tegelen;1;1;5;1863;venlo;0
+328;1433;roermond;loc. venray;1;1;6;1865;venray;0
+329;1434;roermond;loc. venray;1;1;6;1865;venray;0
+330;1435;roermond;loc. venray - huisartsenpraktijk antoniusveld;1;1;6;1865;venray;0
+331;1436;roermond;loc. venray - huisartsenpraktijk antoniusveld;1;1;6;1865;venray;0
+332;1437;roermond;loc. noord-limburg - huisartsenpraktijk 't zorghoes horst;1;1;5;861;horst;0
+333;1438;roermond;loc. noord-limburg - huisartsenpraktijk 't zorghoes horst;1;1;5;861;horst;0
+334;1439;roermond;loc. noord-limburg - huisartsenpraktijk lottum-broekhuizen;1;3;11;260;broekhuizen;0
+335;1440;roermond;loc. noord-limburg - pantaleon medisch centrum panningen;1;2;9;1469;panningen;0
+336;1441;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+337;1442;eindhoven;geen_locatie_onderscheid;1;0;0;-1;eindhoven;0
+338;1443;eindhoven;geen_locatie_onderscheid;1;0;0;-1;eindhoven;0
+339;1445;hilversum;loc. blaricum;1;0;0;-1;hilversum;0
+340;1446;poortugaal;geen_locatie_onderscheid;1;0;0;-1;poortugaal;0
+341;1447;poortugaal;geen_locatie_onderscheid;1;0;0;-1;poortugaal;0
+342;1448;poortugaal;loc. rotterdam;1;1;9;659;rotterdam;0
+343;1449;poortugaal;loc. tilburg;1;1;7;1779;tilburg;0
+344;1450;poortugaal;loc. breda;1;1;5;247;breda;0
+345;1451;poortugaal;loc. dordrecht;1;1;9;651;dordrecht;0
+346;1452;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+347;1455;hoodfdorp;geen_locatie_onderscheid;1;0;0;-1;hoodfdorp;0
+348;1456;buitenpost;geen_locatie_onderscheid;1;0;0;-1;buitenpost;0
+349;1457;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+350;1458;almere;loc. almere;1;0;0;-1;almere;0
+351;1459;almere;loc. lelystad;1;1;8;1031;lelystad;0
+352;1460;geldrop;loc. geldrop;1;0;0;-1;geldrop;0
+353;1461;geldrop;loc. eindhoven;1;3;9;652;eindhoven;0
+354;1462;geldrop;loc. geldrop;1;0;0;-1;geldrop;0
+355;1463;geldrop;loc. eindhoven;1;3;9;652;eindhoven;0
+356;1464;geldrop;loc. geldrop;1;0;0;-1;geldrop;0
+357;1465;geldrop;loc. eindhoven;1;3;9;652;eindhoven;0
+358;1467;santpoort-noord;loc. amstelveen;1;0;0;-1;amstelveen;1
+359;1468;santpoort-noord;loc. haarlem;1;2;7;655;haarlem;0
+360;1469;santpoort-noord;loc. hoofddorp en nieuw vennep;1;1;9;835;hoofddorp;0
+361;1470;santpoort-noord;loc. kinder- en jeugdtraumacentrum haarlem en heemskerk;1;2;7;655;haarlem;0
+362;1471;santpoort-noord;loc. amstelveen;1;0;0;-1;amstelveen;1
+363;1472;santpoort-noord;loc. haarlem;1;2;7;655;haarlem;0
+364;1473;santpoort-noord;loc. hoofddorp en nieuw vennep;1;1;9;835;hoofddorp;0
+365;1474;santpoort-noord;loc. kinder- en jeugdtraumacentrum haarlem en heemskerk;1;2;7;655;haarlem;0
+366;1475;meppel;geen_locatie_onderscheid;1;0;0;-1;meppel;0
+367;1487;voorthuizen;geen_locatie_onderscheid;1;0;0;-1;voorthuizen;0
+368;1489;eindhoven;pec (psychotherapiepraktijk eindhoven centrum);1;3;9;652;eindhoven;0
+369;1490;eindhoven;pec (psychotherapiepraktijk eindhoven centrum);1;3;9;652;eindhoven;0
+370;1491;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+371;1492;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+372;1493;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+373;1494;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+374;1495;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+375;1496;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+376;1502;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+377;1507;assen;geen_locatie_onderscheid;1;0;0;-1;assen;0
+378;1508;leiden;loc. amsterdam;1;1;9;648;amsterdam;0
+379;1509;leiden;loc. rotterdam;1;1;9;659;rotterdam;0
+380;1510;leiden;loc. leiden;1;1;6;657;leiden;0
+381;1511;leiden;loc. tilburg;1;1;7;1779;tilburg;0
+382;1512;leiden;loc. voorburg;1;0;0;-1;leiden;0
+383;1513;leiden;loc. utrecht;1;1;7;664;utrecht;0
+384;1514;leiden;loc. zwolle;1;1;6;2153;zwolle;0
+385;1515;leiden;skils, spreekuurlocatie almere;1;1;4;1511;almere;1
+386;1516;leiden;skils, spreekuurlocatie alkmaar;1;2;7;647;alkmaar;0
+387;1517;leiden;skils, spreekuurlocatie amersfoort;1;2;10;56;amersfoort;0
+388;1518;leiden;skils, spreekuurlocatie apeldoorn;1;3;9;69;apeldoorn;0
+389;1519;leiden;skils, spreekuurlocatie arnhem;1;3;6;649;arnhem;0
+390;1520;leiden;skils, spreekuurlocatie assen;1;2;5;82;assen;0
+391;1521;leiden;skils, spreekuurlocatie breda;1;2;5;247;breda;0
+392;1522;leiden;skils, spreekuurlocatie den bosch;1;1;4;1511;s-hertogenbosch;1
+393;1523;leiden;skils, spreekuurlocatie dordrecht;1;2;9;651;dordrecht;0
+394;1524;leiden;skils, spreekuurlocatie eindhoven;1;4;9;652;eindhoven;0
+395;1525;leiden;skils, spreekuurlocatie emmen;1;2;5;496;emmen;0
+396;1526;leiden;skils, spreekuurlocatie groningen;1;3;9;654;groningen;0
+397;1527;leiden;skils, spreekuurlocatie gouda;1;2;5;614;gouda;0
+398;1528;leiden;skils, spreekuurlocatie hilversum;1;2;9;812;hilversum;0
+399;1529;leiden;skils, spreekuurlocatie hoofddorp;1;2;9;835;hoofddorp;0
+400;1530;leiden;skils, spreekuurlocatie hoorn;1;3;5;855;hoorn;0
+401;1531;leiden;skils, spreekuurlocatie maastricht;1;3;10;1110;maastricht;0
+402;1532;leiden;skils, spreekuurlocatie heerlen;1;3;7;656;heerlen;0
+403;1533;almere;geen_locatie_onderscheid;1;0;0;-1;almere;0
+404;1534;wageningen;geen_locatie_onderscheid;1;0;0;-1;wageningen;0
+405;1543;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+406;1544;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+407;1545;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+408;1546;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+409;1547;alkmaar;loc. alkmaar;1;1;7;647;alkmaar;0
+410;1548;alkmaar;loc. den helder;1;1;10;377;den helder;0
+411;1549;alkmaar;loc. enkhuizen;1;2;9;506;enkhuizen;0
+412;1550;alkmaar;loc. haarlem;1;2;7;655;haarlem;0
+413;1551;alkmaar;loc. heerhugowaard;1;1;13;747;heerhugowaard;0
+414;1552;alkmaar;loc. hoorn;1;2;5;855;hoorn;0
+415;1553;alkmaar;loc. medemblik;1;2;9;1139;medemblik;0
+416;1554;alkmaar;loc. schagen;1;1;7;1586;schagen;0
+417;1555;alkmaar;loc. venhuizen;1;2;9;1862;venhuizen;0
+418;1556;kloetinge;loc. axel;1;1;4;90;axel;0
+419;1557;kloetinge;loc. goes;1;1;4;607;goes;0
+420;1558;kloetinge;loc. hulst;1;1;5;878;hulst;0
+421;1559;kloetinge;loc. middellburg - huisartsenpraktijk roozenburglaan;1;1;3;483;middelburg;1
+422;1560;kloetinge;loc. middellburg - nieuwepoortstraat;1;1;3;483;middelburg;1
+423;1561;kloetinge;loc. oostburg;1;1;8;1362;oostburg;0
+424;1562;kloetinge;loc. sas van gent;1;1;12;1583;sas van gent;0
+425;1563;kloetinge;loc. sluiskil;1;2;8;1679;sluiskil;0
+426;1564;kloetinge;loc. terneuzen;1;2;9;1764;terneuzen;0
+427;1565;kloetinge;loc. tholen;1;1;6;1772;tholen;0
+428;1566;kloetinge;loc. vlissingen;1;2;10;1884;vlissingen;0
+429;1567;kloetinge;loc. yerseke;1;1;7;2078;yerseke;0
+430;1568;kloetinge;loc. zierikzee;1;1;9;2110;zierikzee;0
+431;1577;tilburg;loc. almkerk;1;1;7;42;almkerk;0
+432;1578;tilburg;loc. breda;1;1;5;247;breda;0
+433;1579;tilburg;loc. cuijk;1;1;5;318;cuijk;0
+434;1580;tilburg;loc. drunen;1;1;6;440;drunen;0
+435;1581;tilburg;loc. etten leur;1;1;5;525;etten;0
+436;1582;tilburg;loc. helmond;1;1;7;771;helmond;0
+437;1583;tilburg;loc. hilvarenbeek;0;3;12;811;hilvarenbeek;0
+438;1584;tilburg;loc. oss - gezondheidslaan;1;1;3;1414;oss;0
+439;1585;tilburg;loc. oss - raadhuislaan;1;1;3;1414;oss;0
+440;1586;tilburg;loc. rijen;1;1;5;1571;rijen;0
+441;1587;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+442;1588;tilburg;loc. uden;1;1;4;1805;uden;0
+443;1589;tilburg;loc. waalwijk - dr. kuyperlaan;1;1;8;1913;waalwijk;0
+444;1590;tilburg;loc. waalwijk - kasteellaan;1;2;8;1913;waalwijk;0
+445;1591;tilburg;loc. wijk en aalburg;1;1;15;2058;wijk en aalburg;0
+446;1594;wolfheze;loc. arnhem - medisch centrum malburgen;1;2;6;649;arnhem;0
+447;1595;wolfheze;loc. arnhem - wagnerlaan;1;2;6;649;arnhem;0
+448;1596;wolfheze;loc. ede - eerstelijnscentrum beatrixpark;1;1;3;453;ede;0
+449;1597;wolfheze;loc. ede - gezondheidscentrum veldhuizen;1;2;6;872;ede;1
+450;1598;wolfheze;loc. ede - willy brandtlaan;1;1;3;453;ede;0
+451;1599;wolfheze;loc. veenendaal - medisch centrum veenendaal;1;1;10;1844;veenendaal;0
+452;1600;wolfheze;loc. veenendaal - zandstraat;1;2;10;1844;veenendaal;0
+453;1601;wolfheze;loc. wageningen - medisch centrum kortenoord;1;2;10;1922;wageningen;0
+454;1602;wolfheze;loc. wageningen - t palet;1;2;10;1922;wageningen;0
+455;1603;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+456;1604;zoetermeer;sgz, praktijk mevr. m.e. goog;1;0;0;-1;zoetermeer;0
+457;1605;zoetermeer;sgz, praktijk mevr. r.r. nabi;1;0;0;-1;zoetermeer;0
+458;1606;zoetermeer;sgz, praktijk mevr. h.j. egging;1;0;0;-1;zoetermeer;0
+459;1607;zoetermeer;sgz, praktijk mevr. t. natzijl-haverlikova;1;0;0;-1;zoetermeer;0
+460;1609;zoetermeer;sgz, praktijk mevr. a. ekelhoff;0;0;0;-1;zoetermeer;0
+461;1610;zoetermeer;sgz, praktijk dhr. a. kranenburg;0;1;10;977;zoetermeer;1
+462;1611;zoetermeer;sgz, praktijk mevr. a.a.j. kerbel;1;0;0;-1;zoetermeer;0
+463;1612;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+464;1613;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+465;1614;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+466;1615;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+467;1616;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+468;1617;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+469;1618;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+470;1619;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+471;1620;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+472;1621;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+473;1622;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+474;1623;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+475;1624;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+476;1626;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+477;1627;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+478;1628;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+479;1629;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+480;1632;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+481;1633;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+482;1634;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+483;1635;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+484;1636;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+485;1637;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+486;1638;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+487;1639;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+488;1642;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+489;1643;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+490;1644;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+491;1645;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+492;1646;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+493;1647;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+494;1648;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+495;1649;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+496;1650;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+497;1651;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+498;1652;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+499;1653;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+500;1655;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+501;1656;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+502;1657;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+503;1658;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+504;1659;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+505;1660;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+506;1661;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+507;1662;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+508;1663;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+509;1664;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+510;1665;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+511;1667;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+512;1669;aalsmeer;geen_locatie_onderscheid;1;0;0;-1;aalsmeer;0
+513;1670;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+514;1671;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+515;1676;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+516;1677;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+517;1678;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+518;1680;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+519;1681;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+520;1683;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+521;1684;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+522;1686;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+523;1687;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+524;1688;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+525;1689;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+526;1690;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+527;1691;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+528;1695;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+529;1696;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+530;1697;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+531;1702;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+532;1703;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+533;1704;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+534;1707;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+535;1708;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+536;1709;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+537;1710;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+538;1711;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+539;1712;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+540;1713;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+541;1714;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+542;1715;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+543;1716;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+544;1717;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+545;1718;diemen;geen_locatie_onderscheid;1;0;0;-1;diemen;0
+546;1719;diemen;geen_locatie_onderscheid;0;0;0;-1;diemen;0
+547;1720;zuiderwoude;geen_locatie_onderscheid;0;0;0;-1;zuiderwoude;0
+548;1721;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+549;1722;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+550;1723;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+551;1724;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+552;1725;amstelveen;geen_locatie_onderscheid;1;0;0;-1;amstelveen;0
+553;1726;amstelveen;geen_locatie_onderscheid;1;0;0;-1;amstelveen;0
+554;1727;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+555;1728;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+556;1729;amstelveen;geen_locatie_onderscheid;1;0;0;-1;amstelveen;0
+557;1730;amstelveen;geen_locatie_onderscheid;1;0;0;-1;amstelveen;0
+558;1731;ouderkerk aan de amstel;geen_locatie_onderscheid;0;0;0;-1;ouderkerk aan de amstel;0
+559;1732;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+560;1733;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+561;1734;nijmegen;beneden-leeuwen;1;2;15;149;beneden-leeuwen;0
+562;1735;nijmegen;nijmegen;1;2;8;658;nijmegen;0
+563;1736;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+564;1740;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+565;1741;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+566;1742;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+567;1743;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+568;1746;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+569;1748;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+570;1749;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+571;1750;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+572;1751;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+573;1754;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+574;1757;hernen;geen_locatie_onderscheid;1;0;0;-1;hernen;0
+575;1758;druten;geen_locatie_onderscheid;1;0;0;-1;druten;0
+576;1759;elst gld;geen_locatie_onderscheid;0;0;0;-1;elst;1
+577;1761;dodewaard;geen_locatie_onderscheid;0;0;0;-1;dodewaard;0
+578;1763;ijsselstein;geen_locatie_onderscheid;0;0;0;-1;ijsselstein;0
+579;1764;ijsselstein;geen_locatie_onderscheid;0;0;0;-1;ijsselstein;0
+580;1767;nieuwegein;geen_locatie_onderscheid;0;0;0;-1;nieuwegein;0
+581;1768;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+582;1769;nieuwegein;geen_locatie_onderscheid;0;0;0;-1;nieuwegein;0
+583;1770;nieuwegein;geen_locatie_onderscheid;0;0;0;-1;nieuwegein;0
+584;1771;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+585;1773;woerden;geen_locatie_onderscheid;0;0;0;-1;woerden;0
+586;1774;vleuten;geen_locatie_onderscheid;0;0;0;-1;vleuten;0
+587;1776;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+588;1783;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+589;1784;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+590;1785;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+591;1787;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+592;1788;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+593;1790;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+594;1791;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+595;1792;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+596;1793;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+597;1794;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+598;1795;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+599;1796;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+600;1797;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+601;1798;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+602;1799;utrecht;utrecht;1;1;7;664;utrecht;0
+603;1800;amsterdam;amsterdam;1;1;9;648;amsterdam;0
+604;1802;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+605;1803;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+606;1804;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+607;1806;tienhoven;geen_locatie_onderscheid;0;0;0;-1;tienhoven;0
+608;1807;mijdrecht;geen_locatie_onderscheid;1;0;0;-1;mijdrecht;0
+609;1808;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+610;1809;zeist;geen_locatie_onderscheid;1;0;0;-1;zeist;0
+611;1810;zeist;geen_locatie_onderscheid;0;0;0;-1;zeist;0
+612;1811;zeist;geen_locatie_onderscheid;1;0;0;-1;zeist;0
+613;1812;zeist;geen_locatie_onderscheid;1;0;0;-1;zeist;0
+614;1813;zeist;geen_locatie_onderscheid;0;0;0;-1;zeist;0
+615;1814;zeist;floor kolk;1;1;3;1080;zeist;1
+616;1815;zeist;floor kolk;1;1;3;1080;zeist;1
+617;1818;zeist;geen_locatie_onderscheid;1;0;0;-1;zeist;0
+618;1819;bilthoven;geen_locatie_onderscheid;1;0;0;-1;bilthoven;0
+619;1820;bilthoven;rijswijk;1;1;8;1580;rijswijk;0
+620;1821;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+621;1822;bilthoven;geen_locatie_onderscheid;1;0;0;-1;bilthoven;0
+622;1823;bilthoven;geen_locatie_onderscheid;0;0;0;-1;bilthoven;0
+623;1824;de bilt;geen_locatie_onderscheid;1;0;0;-1;de bilt;0
+624;1826;de bilt;geen_locatie_onderscheid;0;0;0;-1;de bilt;0
+625;1827;baarn;geen_locatie_onderscheid;1;0;0;-1;baarn;0
+626;1828;soest;geen_locatie_onderscheid;0;0;0;-1;soest;0
+627;1829;soest;geen_locatie_onderscheid;0;0;0;-1;soest;0
+628;1830;barneveld;geen_locatie_onderscheid;0;0;0;-1;barneveld;0
+629;1831;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+630;1833;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+631;1834;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+632;1835;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+633;1836;amersfoort;drs. d. van keulen;1;0;0;-1;amersfoort;0
+634;1837;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+635;1838;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+636;1839;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+637;1840;amersfoort;geen_locatie_onderscheid;1;0;0;-1;amersfoort;0
+638;1841;amersfoort;geen_locatie_onderscheid;0;0;0;-1;amersfoort;0
+639;1842;amersfoort;geen_locatie_onderscheid;1;0;0;-1;amersfoort;0
+640;1843;ede;geen_locatie_onderscheid;0;0;0;-1;ede;0
+641;1844;leusden;geen_locatie_onderscheid;1;0;0;-1;leusden;0
+642;1845;leusden;geen_locatie_onderscheid;0;0;0;-1;leusden;0
+643;1847;ermelo;geen_locatie_onderscheid;0;0;0;-1;ermelo;0
+644;1848;ermelo;geen_locatie_onderscheid;0;0;0;-1;ermelo;0
+645;1849;ermelo;geen_locatie_onderscheid;1;0;0;-1;ermelo;0
+646;1850;ermelo;geen_locatie_onderscheid;0;0;0;-1;ermelo;0
+647;1851;nijkerk;geen_locatie_onderscheid;0;0;0;-1;nijkerk;0
+648;1852;putten;geen_locatie_onderscheid;1;0;0;-1;putten;0
+649;1853;putten;geen_locatie_onderscheid;1;0;0;-1;putten;0
+650;1854;putten;geen_locatie_onderscheid;0;0;0;-1;putten;0
+651;1855;putten;geen_locatie_onderscheid;0;0;0;-1;putten;0
+652;1856;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+653;1857;zeewolde;geen_locatie_onderscheid;0;0;0;-1;zeewolde;0
+654;1858;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+655;1859;veenendaal;geen_locatie_onderscheid;0;0;0;-1;veenendaal;0
+656;1860;scherpenzeel;geen_locatie_onderscheid;0;0;0;-1;scherpenzeel;0
+657;1861;bosch en duin;geen_locatie_onderscheid;0;0;0;-1;bosch en duin;0
+658;1862;woudenberg;geen_locatie_onderscheid;0;0;0;-1;woudenberg;0
+659;1863;amerongen;geen_locatie_onderscheid;1;0;0;-1;amerongen;0
+660;1864;leersum;geen_locatie_onderscheid;1;0;0;-1;leersum;0
+661;1865;driebergen-rijsenburg;geen_locatie_onderscheid;0;0;0;-1;driebergen-rijsenburg;0
+662;1866;odijk;geen_locatie_onderscheid;0;0;0;-1;odijk;0
+663;1867;houten;geen_locatie_onderscheid;0;0;0;-1;houten;0
+664;1868;houten;geen_locatie_onderscheid;0;0;0;-1;houten;0
+665;1870;rijswijk;geen_locatie_onderscheid;0;0;0;-1;rijswijk;0
+666;1871;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+667;1872;zierikzee;geen_locatie_onderscheid;1;0;0;-1;zierikzee;0
+668;1873;middelburg;geen_locatie_onderscheid;1;0;0;-1;middelburg;0
+669;1876;terneuzen;geen_locatie_onderscheid;0;0;0;-1;terneuzen;0
+670;1877;bergen op zoom;geen_locatie_onderscheid;0;0;0;-1;bergen op zoom;0
+671;1878;bergen op zoom;geen_locatie_onderscheid;1;0;0;-1;bergen op zoom;0
+672;1879;bergen op zoom;geen_locatie_onderscheid;0;0;0;-1;bergen op zoom;0
+673;1880;halsteren;geen_locatie_onderscheid;0;0;0;-1;halsteren;0
+674;1881;roosendaal;geen_locatie_onderscheid;0;0;0;-1;roosendaal;0
+675;1882;oudenbosch;geen_locatie_onderscheid;0;0;0;-1;oudenbosch;0
+676;1883;zevenbergen;geen_locatie_onderscheid;1;0;0;-1;zevenbergen;0
+677;1884;roosendaal;geen_locatie_onderscheid;0;0;0;-1;roosendaal;0
+678;1886;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+679;1887;voorburg;geen_locatie_onderscheid;1;0;0;-1;voorburg;0
+680;1888;voorburg;geen_locatie_onderscheid;1;0;0;-1;voorburg;0
+681;1889;rijkswijk;geen_locatie_onderscheid;1;0;0;-1;rijkswijk;0
+682;1890;rijkswijk;geen_locatie_onderscheid;0;0;0;-1;rijkswijk;0
+683;1891;rijkswijk;geen_locatie_onderscheid;0;0;0;-1;rijkswijk;0
+684;1892;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+685;1893;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+686;1894;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+687;1895;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+688;1896;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+689;1897;leiden;c. van den burgh;0;1;8;373;leiden;1
+690;1898;leiden;r. quadvlieg;0;0;0;-1;leiden;0
+691;1899;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+692;1901;leiden;voorschoten;1;0;0;-1;leiden;0
+693;1902;leiden;sassenheim;1;2;10;1584;sassenheim;0
+694;1904;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+695;1905;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+696;1906;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+697;1907;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+698;1908;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+699;1909;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+700;1910;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+701;1911;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+702;1912;oegstgeest;geen_locatie_onderscheid;0;0;0;-1;oegstgeest;0
+703;1914;oegstgeest;geen_locatie_onderscheid;0;0;0;-1;oegstgeest;0
+704;1915;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+705;1916;leiderdorp;geen_locatie_onderscheid;0;0;0;-1;leiderdorp;0
+706;1917;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+707;1918;alphen aan den rijn;geen_locatie_onderscheid;0;0;0;-1;alphen aan den rijn;0
+708;1920;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+709;1921;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+710;1922;den haag;geen_locatie_onderscheid;1;0;0;-1;s-gravenhage;1
+711;1923;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+712;1924;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+713;1925;den haag;geen_locatie_onderscheid;1;0;0;-1;s-gravenhage;1
+714;1926;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+715;1927;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+716;1928;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+717;1929;den haag;geen_locatie_onderscheid;1;0;0;-1;s-gravenhage;1
+718;1930;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+719;1931;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+720;1932;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+721;1933;den haag;geen_locatie_onderscheid;1;0;0;-1;s-gravenhage;1
+722;1934;den haag;den haag - mental health center;0;1;5;509;'s-gravenhage;1
+723;1935;den haag;geen_locatie_onderscheid;1;0;0;-1;s-gravenhage;1
+724;1936;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+725;1937;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+726;1938;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+727;1940;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+728;1942;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+729;1943;delft;geen_locatie_onderscheid;1;0;0;-1;delft;0
+730;1944;delft;geen_locatie_onderscheid;0;0;0;-1;delft;0
+731;1945;delft;geen_locatie_onderscheid;1;0;0;-1;delft;0
+732;1946;delft;geen_locatie_onderscheid;0;0;0;-1;delft;0
+733;1947;delft;geen_locatie_onderscheid;1;0;0;-1;delft;0
+734;1948;nootdorp;geen_locatie_onderscheid;0;0;0;-1;nootdorp;0
+735;1949;delfgauw;geen_locatie_onderscheid;0;0;0;-1;delfgauw;0
+736;1950;bleiswijk;geen_locatie_onderscheid;0;0;0;-1;bleiswijk;0
+737;1953;zoetermeer;geen_locatie_onderscheid;0;0;0;-1;zoetermeer;0
+738;1954;gouda;geen_locatie_onderscheid;1;0;0;-1;gouda;0
+739;1955;gouda;geen_locatie_onderscheid;0;0;0;-1;gouda;0
+740;1956;capelle aan den ijsel;geen_locatie_onderscheid;1;0;0;-1;capelle aan den ijsel;0
+741;1957;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+742;1958;krimpen aan den ijsel;geen_locatie_onderscheid;1;0;0;-1;krimpen aan den ijsel;0
+743;1959;krimpen aan den ijsel;geen_locatie_onderscheid;0;0;0;-1;krimpen aan den ijsel;0
+744;1960;barendrecht;geen_locatie_onderscheid;1;0;0;-1;barendrecht;0
+745;1962;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+746;1963;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+747;1964;oud beijerland;oud beijerland;1;0;0;-1;oud beijerland;0
+748;1965;oud beijerland;rotterdam;1;1;9;659;rotterdam;0
+749;1966;oud beijerland;barendrecht;1;1;11;116;barendrecht;0
+750;1967;oud beijerland;roosendaal;1;1;10;1551;roosendaal;0
+751;1968;rotterdam;suzanne zevenbergen;0;5;11;2103;rotterdam;1
+752;1969;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+753;1971;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+754;1972;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+755;1973;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+756;1974;oudehoorne;geen_locatie_onderscheid;1;0;0;-1;oudehoorne;0
+757;1975;rotterdam;geen_locatie_onderscheid;0;0;0;-1;rotterdam;0
+758;1976;schiedam;geen_locatie_onderscheid;0;0;0;-1;schiedam;0
+759;1978;vlaardingen;geen_locatie_onderscheid;0;0;0;-1;vlaardingen;0
+760;1979;vlaardingen;geen_locatie_onderscheid;0;0;0;-1;vlaardingen;0
+761;1980;spijkenisse;geen_locatie_onderscheid;0;0;0;-1;spijkenisse;0
+762;1981;middelharnis;geen_locatie_onderscheid;0;0;0;-1;middelharnis;0
+763;1982;oud-beijerland;geen_locatie_onderscheid;0;0;0;-1;oud-beijerland;0
+764;1983;dordrecht;geen_locatie_onderscheid;1;0;0;-1;dordrecht;0
+765;1984;dordrecht;geen_locatie_onderscheid;0;0;0;-1;dordrecht;0
+766;1985;dordrecht;geen_locatie_onderscheid;0;0;0;-1;dordrecht;0
+767;1986;dordrecht;geen_locatie_onderscheid;0;0;0;-1;dordrecht;0
+768;1987;dordrecht;geen_locatie_onderscheid;0;0;0;-1;dordrecht;0
+769;1994;zwijndrecht;geen_locatie_onderscheid;1;0;0;-1;zwijndrecht;0
+770;1995;bemmel;geen_locatie_onderscheid;1;0;0;-1;bemmel;0
+771;1996;bemmel;geen_locatie_onderscheid;1;0;0;-1;bemmel;0
+772;1997;bemmel;geen_locatie_onderscheid;0;0;0;-1;bemmel;0
+773;1998;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+774;1999;wageningen;geen_locatie_onderscheid;1;0;0;-1;wageningen;0
+775;2000;wageningen;geen_locatie_onderscheid;0;0;0;-1;wageningen;0
+776;2002;ede;geen_locatie_onderscheid;1;0;0;-1;ede;0
+777;2003;ede;geen_locatie_onderscheid;1;0;0;-1;ede;0
+778;2004;bennekom;geen_locatie_onderscheid;1;0;0;-1;bennekom;0
+779;2005;bennekom;geen_locatie_onderscheid;0;0;0;-1;bennekom;0
+780;2006;velp;geen_locatie_onderscheid;0;0;0;-1;velp;0
+781;2008;arnhem;geen_locatie_onderscheid;0;0;0;-1;arnhem;0
+782;2009;arnhem;geen_locatie_onderscheid;1;0;0;-1;arnhem;0
+783;2010;arnhem;geen_locatie_onderscheid;0;0;0;-1;arnhem;0
+784;2011;doorwerth;geen_locatie_onderscheid;1;0;0;-1;doorwerth;0
+785;2012;doorwerth;geen_locatie_onderscheid;1;0;0;-1;doorwerth;0
+786;2013;doorwerth;geen_locatie_onderscheid;0;0;0;-1;doorwerth;0
+787;2014;velp;geen_locatie_onderscheid;1;0;0;-1;velp;0
+788;2015;velp;geen_locatie_onderscheid;0;0;0;-1;velp;0
+789;2016;pannerden;geen_locatie_onderscheid;0;0;0;-1;pannerden;0
+790;2017;westervoort;geen_locatie_onderscheid;1;0;0;-1;westervoort;0
+791;2018;didam;geen_locatie_onderscheid;1;0;0;-1;didam;0
+792;2019;didam;geen_locatie_onderscheid;1;0;0;-1;didam;0
+793;2020;dieren;geen_locatie_onderscheid;0;0;0;-1;dieren;0
+794;2021;doesburg;geen_locatie_onderscheid;0;0;0;-1;doesburg;0
+795;2022;doesburg;geen_locatie_onderscheid;0;0;0;-1;doesburg;0
+796;2025;doetinchem;geen_locatie_onderscheid;1;0;0;-1;doetinchem;0
+797;2027;zutphen;welmoet glaubitz;1;0;0;-1;zutphen;0
+798;2028;zutphen;welmoet glaubitz;0;0;0;-1;zutphen;0
+799;2029;hengelo;geen_locatie_onderscheid;0;0;0;-1;hengelo;0
+800;2031;zutphen;geen_locatie_onderscheid;1;0;0;-1;zutphen;0
+801;2033;borculo;geen_locatie_onderscheid;0;0;0;-1;borculo;0
+802;2034;apeldoorn;geen_locatie_onderscheid;0;0;0;-1;apeldoorn;0
+803;2035;apeldoorn;geen_locatie_onderscheid;1;0;0;-1;apeldoorn;0
+804;2036;apeldoorn;geen_locatie_onderscheid;1;0;0;-1;apeldoorn;0
+805;2037;apeldoorn;geen_locatie_onderscheid;1;0;0;-1;apeldoorn;0
+806;2038;apeldoorn;geen_locatie_onderscheid;1;0;0;-1;apeldoorn;0
+807;2039;apeldoorn;geen_locatie_onderscheid;0;0;0;-1;apeldoorn;0
+808;2040;deventer;geen_locatie_onderscheid;1;0;0;-1;deventer;0
+809;2041;deventer;geen_locatie_onderscheid;1;0;0;-1;deventer;0
+810;2042;deventer;geen_locatie_onderscheid;0;0;0;-1;deventer;0
+811;2044;deventer;geen_locatie_onderscheid;1;0;0;-1;deventer;0
+812;2045;deventer;loc. arnhem;1;2;6;649;arnhem;0
+813;2046;deventer;loc. deventer;1;2;8;387;deventer;0
+814;2048;deventer;geen_locatie_onderscheid;0;0;0;-1;deventer;0
+815;2049;diepenveen;geen_locatie_onderscheid;1;0;0;-1;diepenveen;0
+816;2050;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+817;2051;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+818;2052;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+819;2054;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+820;2055;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+821;2056;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+822;2057;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+823;2058;hengelo;geen_locatie_onderscheid;0;0;0;-1;hengelo;0
+824;2059;hengelo;geen_locatie_onderscheid;0;0;0;-1;hengelo;0
+825;2060;hengelo;geen_locatie_onderscheid;0;0;0;-1;hengelo;0
+826;2061;hengelo;geen_locatie_onderscheid;1;0;0;-1;hengelo;0
+827;2063;borne;geen_locatie_onderscheid;0;0;0;-1;borne;0
+828;2064;dalfsen;geen_locatie_onderscheid;0;0;0;-1;dalfsen;0
+829;2065;hardenberg;geen_locatie_onderscheid;1;0;0;-1;hardenberg;0
+830;2066;oosterhesselen;geen_locatie_onderscheid;0;0;0;-1;oosterhesselen;0
+831;2067;oosterhesselen;geen_locatie_onderscheid;0;0;0;-1;oosterhesselen;0
+832;2069;meppel;geen_locatie_onderscheid;1;0;0;-1;meppel;0
+833;2070;zwolle;geen_locatie_onderscheid;0;0;0;-1;zwolle;0
+834;2071;zwolle;geen_locatie_onderscheid;0;0;0;-1;zwolle;0
+835;2072;zwolle;geen_locatie_onderscheid;1;0;0;-1;zwolle;0
+836;2075;nunspeet;geen_locatie_onderscheid;0;0;0;-1;nunspeet;0
+837;2077;epe;geen_locatie_onderscheid;1;0;0;-1;epe;0
+838;2078;vaassen;geen_locatie_onderscheid;0;0;0;-1;vaassen;0
+839;2079;heerde;geen_locatie_onderscheid;1;0;0;-1;heerde;0
+840;2080;heerde;geen_locatie_onderscheid;1;0;0;-1;heerde;0
+841;2081;wapenveld;geen_locatie_onderscheid;1;0;0;-1;wapenveld;0
+842;2082;lelystad;geen_locatie_onderscheid;0;0;0;-1;lelystad;0
+843;2085;kampen;geen_locatie_onderscheid;0;0;0;-1;kampen;0
+844;2086;emmeloord;geen_locatie_onderscheid;0;0;0;-1;emmeloord;0
+845;2092;wolvega;geen_locatie_onderscheid;1;0;0;-1;wolvega;0
+846;2093;sneek;geen_locatie_onderscheid;0;0;0;-1;sneek;0
+847;2094;sneek;geen_locatie_onderscheid;1;0;0;-1;sneek;0
+848;2095;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+849;2096;workum;geen_locatie_onderscheid;1;0;0;-1;workum;0
+850;2097;exmorra;geen_locatie_onderscheid;0;0;0;-1;exmorra;0
+851;2098;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+852;2099;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+853;2100;leeuwarden;geen_locatie_onderscheid;0;0;0;-1;leeuwarden;0
+854;2101;leeuwarden;geen_locatie_onderscheid;0;0;0;-1;leeuwarden;0
+855;2103;leeuwarden;geen_locatie_onderscheid;0;0;0;-1;leeuwarden;0
+856;2104;leeuwarden;geen_locatie_onderscheid;1;0;0;-1;leeuwarden;0
+857;2105;leeuwarden;geen_locatie_onderscheid;0;0;0;-1;leeuwarden;0
+858;2107;leeuwarden;geen_locatie_onderscheid;1;0;0;-1;leeuwarden;0
+859;2108;oentsjerk;geen_locatie_onderscheid;1;0;0;-1;oentsjerk;0
+860;2109;drachten;geen_locatie_onderscheid;0;0;0;-1;drachten;0
+861;2112;leek;geen_locatie_onderscheid;1;0;0;-1;leek;0
+862;2113;leek;geen_locatie_onderscheid;0;0;0;-1;leek;0
+863;2114;midwolde;geen_locatie_onderscheid;0;0;0;-1;midwolde;0
+864;2115;assen;geen_locatie_onderscheid;1;0;0;-1;assen;0
+865;2116;assen;geen_locatie_onderscheid;0;0;0;-1;assen;0
+866;2117;assen;geen_locatie_onderscheid;1;0;0;-1;assen;0
+867;2118;loon;geen_locatie_onderscheid;1;0;0;-1;loon;0
+868;2119;beilen;geen_locatie_onderscheid;0;0;0;-1;beilen;0
+869;2121;gieten;geen_locatie_onderscheid;0;0;0;-1;gieten;0
+870;2122;annen;geen_locatie_onderscheid;1;0;0;-1;annen;0
+871;2123;assen;geen_locatie_onderscheid;1;0;0;-1;assen;0
+872;2124;zuidbroek;geen_locatie_onderscheid;0;0;0;-1;zuidbroek;0
+873;2126;stadskanaal;geen_locatie_onderscheid;1;0;0;-1;stadskanaal;0
+874;2127;scharmer;geen_locatie_onderscheid;0;0;0;-1;scharmer;0
+875;2128;hellum;geen_locatie_onderscheid;1;0;0;-1;hellum;0
+876;2129;veendam;geen_locatie_onderscheid;0;0;0;-1;veendam;0
+877;2130;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+878;2131;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+879;2132;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+880;2133;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+881;2134;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+882;2135;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+883;2136;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+884;2138;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+885;2139;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+886;2140;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+887;2141;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+888;2142;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+889;2143;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+890;2146;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+891;2147;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+892;2148;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+893;2149;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+894;2151;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+895;2152;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+896;2153;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+897;2154;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+898;2155;haren;geen_locatie_onderscheid;0;0;0;-1;haren;0
+899;2156;haren;geen_locatie_onderscheid;0;0;0;-1;haren;0
+900;2157;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+901;2158;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+902;2159;hornhuizen;geen_locatie_onderscheid;1;0;0;-1;hornhuizen;0
+903;2160;warffum;geen_locatie_onderscheid;0;0;0;-1;warffum;0
+904;2161;beek;geen_locatie_onderscheid;0;0;0;-1;beek;0
+905;2162;beek;geen_locatie_onderscheid;0;0;0;-1;beek;0
+906;2163;geleen;geen_locatie_onderscheid;0;0;0;-1;geleen;0
+907;2164;maastricht;geen_locatie_onderscheid;0;0;0;-1;maastricht;0
+908;2165;maastricht;geen_locatie_onderscheid;0;0;0;-1;maastricht;0
+909;2167;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+910;2168;kerkrade;geen_locatie_onderscheid;0;0;0;-1;kerkrade;0
+911;2169;beek;geen_locatie_onderscheid;1;0;0;-1;beek;0
+912;2171;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+913;2172;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+914;2173;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+915;2174;hilversum;geen_locatie_onderscheid;0;0;0;-1;hilversum;0
+916;2178;hilversum;geen_locatie_onderscheid;0;0;0;-1;hilversum;0
+917;2179;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+918;2180;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+919;2181;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+920;2182;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+921;2183;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+922;2184;almere;geen_locatie_onderscheid;1;0;0;-1;almere;0
+923;2185;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+924;2186;almere;geen_locatie_onderscheid;0;0;0;-1;almere;0
+925;2187;almere;geen_locatie_onderscheid;1;0;0;-1;almere;0
+926;2188;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+927;2189;bussum;geen_locatie_onderscheid;0;0;0;-1;bussum;0
+928;2190;bussum;geen_locatie_onderscheid;0;0;0;-1;bussum;0
+929;2191;bussum;geen_locatie_onderscheid;1;0;0;-1;bussum;0
+930;2192;huizen;geen_locatie_onderscheid;1;0;0;-1;huizen;0
+931;2193;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+932;2194;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+933;2195;naarden;geen_locatie_onderscheid;0;0;0;-1;naarden;0
+934;2199;amstelhoek;geen_locatie_onderscheid;0;0;0;-1;amstelhoek;0
+935;2200;zaandam;geen_locatie_onderscheid;0;0;0;-1;zaandam;0
+936;2202;bovenkarspel;geen_locatie_onderscheid;1;0;0;-1;bovenkarspel;0
+937;2203;hoorn;geen_locatie_onderscheid;0;0;0;-1;hoorn;0
+938;2204;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+939;2206;hoorn;geen_locatie_onderscheid;0;0;0;-1;hoorn;0
+940;2207;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+941;2208;sint pancras;geen_locatie_onderscheid;1;0;0;-1;sint pancras;0
+942;2209;heerhugowaard;geen_locatie_onderscheid;1;0;0;-1;heerhugowaard;0
+943;2210;schagen/hoorn;geen_locatie_onderscheid;0;0;0;-1;schagen/hoorn;0
+944;2213;heerhugowaard/alkmaar;geen_locatie_onderscheid;1;0;0;-1;heerhugowaard/alkmaar;0
+945;2214;heerhugowaard/alkmaar;heerhugowaard;1;1;13;747;heerhugowaard;0
+946;2215;heerhugowaard/alkmaar;alkmaar;1;1;7;647;alkmaar;0
+947;2216;alkmaar;geen_locatie_onderscheid;0;0;0;-1;alkmaar;0
+948;2217;alkmaar;geen_locatie_onderscheid;1;0;0;-1;alkmaar;0
+949;2218;heiloo;geen_locatie_onderscheid;1;0;0;-1;heiloo;0
+950;2219;heiloo;meinard stavenuiter;1;0;0;-1;heiloo;0
+951;2220;heiloo;kees jan bolier;1;0;0;-1;heiloo;0
+952;2221;heiloo;heleen woelinga;1;0;0;-1;heiloo;0
+953;2222;heiloo;matt tyssen;1;0;0;-1;heiloo;0
+954;2223;heiloo;matt tyssen;1;0;0;-1;heiloo;0
+955;2224;heiloo;freek kalsbeek;1;3;4;126;heiloo;1
+956;2225;heiloo;cees volkers;1;0;0;-1;heiloo;0
+957;2227;castricum;geen_locatie_onderscheid;0;0;0;-1;castricum;0
+958;2228;alkmaar;geen_locatie_onderscheid;0;0;0;-1;alkmaar;0
+959;2229;bergen;geen_locatie_onderscheid;0;0;0;-1;bergen;0
+960;2230;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+961;2231;bergen;geen_locatie_onderscheid;1;0;0;-1;bergen;0
+962;2232;castricum;geen_locatie_onderscheid;0;0;0;-1;castricum;0
+963;2233;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+964;2234;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+965;2235;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+966;2237;haarlem;maaike breuer;1;0;0;-1;haarlem;0
+967;2238;haarlem;philip koster;1;0;0;-1;haarlem;0
+968;2239;haarlem;leny post;1;0;0;-1;haarlem;0
+969;2240;haarlem;henk rappoldt;1;0;0;-1;haarlem;0
+970;2241;haarlem;lonneke van deursen;1;0;0;-1;haarlem;0
+971;2243;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+972;2244;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+973;2245;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+974;2246;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+975;2247;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+976;2248;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+977;2249;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+978;2250;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+979;2251;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+980;2252;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+981;2253;tilburg;geen_locatie_onderscheid;1;0;0;-1;tilburg;0
+982;2256;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+983;2257;haarlem;geen_locatie_onderscheid;0;0;0;-1;haarlem;0
+984;2259;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+985;2260;heemstede;geen_locatie_onderscheid;0;0;0;-1;heemstede;0
+986;2262;nieuwvliet;geen_locatie_onderscheid;0;0;0;-1;nieuwvliet;0
+987;2263;twee vestigingen in haarlem 1 in hoofddorp(hoofdkantoor) en 1 in beverwijk;geen_locatie_onderscheid;0;0;0;-1;hoofddorp;1
+988;2264;hoofddorp;geen_locatie_onderscheid;1;0;0;-1;hoofddorp;0
+989;2266;sassenheim;geen_locatie_onderscheid;1;0;0;-1;sassenheim;0
+990;2268;noordwijk;geen_locatie_onderscheid;0;0;0;-1;noordwijk;0
+991;2269;noordwijk;geen_locatie_onderscheid;1;0;0;-1;noordwijk;0
+992;2270;noordwijk;geen_locatie_onderscheid;1;0;0;-1;noordwijk;0
+993;2272;katwijk;geen_locatie_onderscheid;1;0;0;-1;katwijk;0
+994;2273;leiden;geen_locatie_onderscheid;0;0;0;-1;leiden;0
+995;2277;voorschoten;geen_locatie_onderscheid;0;0;0;-1;voorschoten;0
+996;2278;voorburg;geen_locatie_onderscheid;1;0;0;-1;voorburg;0
+997;2279;oirschot;geen_locatie_onderscheid;1;0;0;-1;oirschot;0
+998;2280;oirschot;geen_locatie_onderscheid;1;0;0;-1;oirschot;0
+999;2281;oirschot;geen_locatie_onderscheid;1;0;0;-1;oirschot;0
+1000;2282;helmond;geen_locatie_onderscheid;1;0;0;-1;helmond;0
+1001;2283;deurne;geen_locatie_onderscheid;1;0;0;-1;deurne;0
+1002;2284;deurne;geen_locatie_onderscheid;1;0;0;-1;deurne;0
+1003;2285;deurne;geen_locatie_onderscheid;1;0;0;-1;deurne;0
+1004;2286;deurne;geen_locatie_onderscheid;1;0;0;-1;deurne;0
+1005;2287;deurne;geen_locatie_onderscheid;1;0;0;-1;deurne;0
+1006;2288;deurne;geen_locatie_onderscheid;0;0;0;-1;deurne;0
+1007;2289;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1008;2292;baarlo;geen_locatie_onderscheid;1;0;0;-1;baarlo;0
+1009;2294;weert;geen_locatie_onderscheid;1;0;0;-1;weert;0
+1010;2295;weert;geen_locatie_onderscheid;0;0;0;-1;weert;0
+1011;2296;budel;geen_locatie_onderscheid;0;0;0;-1;budel;0
+1012;2297;nederweert;nederweert;0;3;10;1221;nederweert;0
+1013;2298;beek;beek;0;2;4;126;beek;0
+1014;2299;boxmeer;boxmeer;0;1;7;241;boxmeer;0
+1015;2300;weert/nederweert;geen_locatie_onderscheid;1;0;0;-1;weert/nederweert;0
+1016;2301;weert/nederweert;geen_locatie_onderscheid;1;0;0;-1;weert/nederweert;0
+1017;2302;weert/nederweert;geen_locatie_onderscheid;1;0;0;-1;weert/nederweert;0
+1018;2304;nederweert;geen_locatie_onderscheid;0;0;0;-1;nederweert;0
+1019;2305;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+1020;2308;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1021;2309;sittard;geen_locatie_onderscheid;1;0;0;-1;sittard;0
+1022;2310;sittard;geen_locatie_onderscheid;1;0;0;-1;sittard;0
+1023;2311;sittard/geleen;geen_locatie_onderscheid;1;0;0;-1;sittard/geleen;0
+1024;2312;meerssen;geen_locatie_onderscheid;1;0;0;-1;meerssen;0
+1025;2313;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1026;2314;geertruid;geen_locatie_onderscheid;0;0;0;-1;geertruid;0
+1027;2315;valkenburg;geen_locatie_onderscheid;1;0;0;-1;valkenburg;0
+1028;2316;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1029;2317;voerendaal;geen_locatie_onderscheid;1;0;0;-1;voerendaal;0
+1030;2318;voerendaal;geen_locatie_onderscheid;1;0;0;-1;voerendaal;0
+1031;2319;voerendaal;geen_locatie_onderscheid;0;0;0;-1;voerendaal;0
+1032;2320;voerendaal;geen_locatie_onderscheid;0;0;0;-1;voerendaal;0
+1033;2323;landgraaf;geen_locatie_onderscheid;0;0;0;-1;landgraaf;0
+1034;2325;heerlen;geen_locatie_onderscheid;0;0;0;-1;heerlen;0
+1035;2326;heerlen;geen_locatie_onderscheid;0;0;0;-1;heerlen;0
+1036;2327;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+1037;2328;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+1038;2329;geleen;geen_locatie_onderscheid;0;0;0;-1;geleen;0
+1039;2330;kerkrade;geen_locatie_onderscheid;1;0;0;-1;kerkrade;0
+1040;2331;kerkrade;geen_locatie_onderscheid;0;0;0;-1;kerkrade;0
+1041;2332;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1042;2333;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+1043;2334;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+1044;2336;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+1045;2340;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+1046;2342;terheijden;geen_locatie_onderscheid;1;0;0;-1;terheijden;0
+1047;2343;teteringen;geen_locatie_onderscheid;0;0;0;-1;teteringen;0
+1048;2345;oosterhout;geen_locatie_onderscheid;0;0;0;-1;oosterhout;0
+1049;2346;oosterhout;geen_locatie_onderscheid;1;0;0;-1;oosterhout;0
+1050;2347;lage zwaluwe;geen_locatie_onderscheid;1;0;0;-1;lage zwaluwe;0
+1051;2348;tilburg;geen_locatie_onderscheid;0;0;0;-1;tilburg;0
+1052;2352;tilburg;geen_locatie_onderscheid;0;0;0;-1;tilburg;0
+1053;2353;bloemendaal;geen_locatie_onderscheid;1;0;0;-1;bloemendaal;0
+1054;2354;hilvarenbeek;geen_locatie_onderscheid;1;0;0;-1;hilvarenbeek;0
+1055;2355;middelbeers;geen_locatie_onderscheid;1;0;0;-1;middelbeers;0
+1056;2356;s gravenmoer;geen_locatie_onderscheid;0;0;0;-1;s gravenmoer;0
+1057;2357;s-hertogenbosch;dhr. f. van niel;0;0;0;-1;s-hertogenbosch;0
+1058;2358;s-hertogenbosch;mevr. s. van de graaf;0;0;0;-1;s-hertogenbosch;0
+1059;2359;s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;s-hertogenbosch;0
+1060;2360;s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;s-hertogenbosch;0
+1061;2361;s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;s-hertogenbosch;0
+1062;2362;zaltbommel;geen_locatie_onderscheid;1;0;0;-1;zaltbommel;0
+1063;2363;s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;s-hertogenbosch;0
+1064;2364;vught;geen_locatie_onderscheid;1;0;0;-1;vught;0
+1065;2367;boxtel;geen_locatie_onderscheid;0;0;0;-1;boxtel;0
+1066;2368;boxtel;geen_locatie_onderscheid;0;0;0;-1;boxtel;0
+1067;2370;zaltbommel;geen_locatie_onderscheid;0;0;0;-1;zaltbommel;0
+1068;2371;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1069;2372;grave;geen_locatie_onderscheid;1;0;0;-1;grave;0
+1070;2374;ravenstein;geen_locatie_onderscheid;0;0;0;-1;ravenstein;0
+1071;2375;ravenstein;geen_locatie_onderscheid;0;0;0;-1;ravenstein;0
+1072;2377;uden;geen_locatie_onderscheid;1;0;0;-1;uden;0
+1073;2378;uden;geen_locatie_onderscheid;1;0;0;-1;uden;0
+1074;2379;uden;geen_locatie_onderscheid;0;0;0;-1;uden;0
+1075;2381;zeeland;geen_locatie_onderscheid;1;0;0;-1;zeeland;0
+1076;2382;gemert;geen_locatie_onderscheid;0;0;0;-1;gemert;0
+1077;2383;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1078;2384;mill;geen_locatie_onderscheid;0;0;0;-1;mill;0
+1079;2385;eersel;geen_locatie_onderscheid;1;0;0;-1;eersel;0
+1080;2387;valkenswaard;geen_locatie_onderscheid;0;0;0;-1;valkenswaard;0
+1081;2389;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1082;2391;eindhoven;geen_locatie_onderscheid;0;0;0;-1;eindhoven;0
+1083;2392;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1084;2393;eindhoven;geen_locatie_onderscheid;0;0;0;-1;eindhoven;0
+1085;2394;eindhoven;geen_locatie_onderscheid;1;0;0;-1;eindhoven;0
+1086;2395;eindhoven;marie-anne levelink;0;0;0;-1;eindhoven;0
+1087;2396;eindhoven;henk mulders;1;0;0;-1;eindhoven;0
+1088;2397;eindhoven;eva mulders;1;0;0;-1;eindhoven;0
+1089;2398;eindhoven;geen_locatie_onderscheid;0;0;0;-1;eindhoven;0
+1090;2400;hoofddorp;geen_locatie_onderscheid;1;0;0;-1;hoofddorp;0
+1091;2401;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1092;2402;amstelveen;geen_locatie_onderscheid;0;0;0;-1;amstelveen;0
+1093;2403;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1094;2404;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1095;2405;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1096;2406;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1097;2407;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1098;2408;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1099;2409;NA;geen_locatie_onderscheid;0;0;0;-1;NA;0
+1100;2410;NA;almere;1;0;0;-1;almere;1
+1101;2411;NA;almere;1;0;0;-1;almere;1
+1102;2412;NA;almere;1;0;0;-1;almere;1
+1103;2413;NA;almere;1;0;0;-1;almere;1
+1104;2414;NA;almere;1;0;0;-1;almere;1
+1105;2415;NA;almere;1;0;0;-1;almere;1
+1106;2416;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1107;2417;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1108;2418;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1109;2419;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1110;2420;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1111;2421;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1112;2422;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1113;2423;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1114;2424;NA;amsterdam centrum-west;1;1;9;648;amsterdam;0
+1115;2425;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1116;2426;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1117;2427;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1118;2428;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1119;2429;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1120;2430;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1121;2431;NA;amsterdam oost;1;1;9;648;amsterdam;0
+1122;2432;NA;beverwijk;1;0;0;-1;beverwijk;1
+1123;2433;NA;beverwijk;1;0;0;-1;beverwijk;1
+1124;2434;NA;beverwijk;1;0;0;-1;beverwijk;1
+1125;2435;NA;beverwijk;1;0;0;-1;beverwijk;1
+1126;2436;NA;beverwijk;1;0;0;-1;beverwijk;1
+1127;2437;NA;beverwijk;1;0;0;-1;beverwijk;1
+1128;2438;NA;beverwijk;0;0;0;-1;beverwijk;1
+1129;2439;NA;beverwijk;1;0;0;-1;beverwijk;1
+1130;2440;NA;breda;1;1;5;247;breda;0
+1131;2441;NA;breda;1;1;5;247;breda;0
+1132;2442;NA;breda;1;1;5;247;breda;0
+1133;2443;NA;breda;1;1;5;247;breda;0
+1134;2444;NA;breda;0;1;5;247;breda;0
+1135;2445;NA;breda;1;1;5;247;breda;0
+1136;2446;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1137;2447;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1138;2448;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1139;2449;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1140;2450;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1141;2451;NA;den bosch;1;0;0;-1;s-hertogenbosch;1
+1142;2452;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1143;2453;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1144;2454;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1145;2455;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1146;2456;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1147;2457;NA;den haag centrum;1;0;0;-1;'s-gravenhage;1
+1148;2458;NA;den haag noord;1;0;0;-1;'s-gravenhage;1
+1149;2459;NA;den haag noord;1;0;0;-1;'s-gravenhage;1
+1150;2460;NA;den haag noord;1;0;0;-1;'s-gravenhage;1
+1151;2461;NA;eindhoven;1;3;9;652;eindhoven;0
+1152;2462;NA;eindhoven;1;3;9;652;eindhoven;0
+1153;2463;NA;eindhoven;1;3;9;652;eindhoven;0
+1154;2464;NA;eindhoven;1;3;9;652;eindhoven;0
+1155;2465;NA;eindhoven;0;3;9;652;eindhoven;0
+1156;2466;NA;eindhoven;1;3;9;652;eindhoven;0
+1157;2467;NA;goes;1;1;4;607;goes;0
+1158;2468;NA;goes;1;1;4;607;goes;0
+1159;2469;NA;goes;0;1;4;607;goes;0
+1160;2470;NA;goes;1;1;4;607;goes;0
+1161;2471;NA;goes;1;1;4;607;goes;0
+1162;2472;NA;goes;1;1;4;607;goes;0
+1163;2473;NA;goes;1;1;4;607;goes;0
+1164;2474;NA;goes;1;1;4;607;goes;0
+1165;2475;NA;haarlem;1;2;7;655;haarlem;0
+1166;2476;NA;haarlem;1;2;7;655;haarlem;0
+1167;2477;NA;haarlem;0;2;7;655;haarlem;0
+1168;2478;NA;haarlem;1;2;7;655;haarlem;0
+1169;2479;NA;haarlem;1;2;7;655;haarlem;0
+1170;2480;NA;haarlem;1;2;7;655;haarlem;0
+1171;2481;NA;haarlem;1;2;7;655;haarlem;0
+1172;2482;NA;haarlem;1;2;7;655;haarlem;0
+1173;2483;NA;leiden;1;1;6;657;leiden;0
+1174;2484;NA;leiden;1;1;6;657;leiden;0
+1175;2485;NA;leiden;1;1;6;657;leiden;0
+1176;2486;NA;leiden;1;1;6;657;leiden;0
+1177;2487;NA;leiden;1;1;6;657;leiden;0
+1178;2488;NA;leiden;1;1;6;657;leiden;0
+1179;2489;NA;leiden;1;1;6;657;leiden;0
+1180;2490;NA;leiden;1;1;6;657;leiden;0
+1181;2491;NA;middelburg;1;2;10;1167;middelburg;0
+1182;2492;NA;middelburg;1;2;10;1167;middelburg;0
+1183;2493;NA;middelburg;1;2;10;1167;middelburg;0
+1184;2494;NA;middelburg;1;2;10;1167;middelburg;0
+1185;2495;NA;middelburg;1;2;10;1167;middelburg;0
+1186;2496;NA;middelburg;1;2;10;1167;middelburg;0
+1187;2497;NA;nijmegen;1;2;8;658;nijmegen;0
+1188;2498;NA;nijmegen;1;2;8;658;nijmegen;0
+1189;2499;NA;nijmegen;1;2;8;658;nijmegen;0
+1190;2500;NA;nijmegen;1;2;8;658;nijmegen;0
+1191;2501;NA;nijmegen;1;2;8;658;nijmegen;0
+1192;2502;NA;nijmegen;1;2;8;658;nijmegen;0
+1193;2503;NA;purmerend;1;1;9;1495;purmerend;0
+1194;2504;NA;purmerend;1;1;9;1495;purmerend;0
+1195;2505;NA;purmerend;1;1;9;1495;purmerend;0
+1196;2506;NA;purmerend;1;1;9;1495;purmerend;0
+1197;2507;NA;purmerend;1;1;9;1495;purmerend;0
+1198;2508;NA;purmerend;1;1;9;1495;purmerend;0
+1199;2509;NA;roermond;1;1;8;1547;roermond;0
+1200;2510;NA;roermond;1;1;8;1547;roermond;0
+1201;2511;NA;roermond;1;1;8;1547;roermond;0
+1202;2512;NA;roermond;1;1;8;1547;roermond;0
+1203;2513;NA;roermond;1;1;8;1547;roermond;0
+1204;2514;NA;roermond;1;1;8;1547;roermond;0
+1205;2515;NA;roermond;1;1;8;1547;roermond;0
+1206;2516;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1207;2517;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1208;2518;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1209;2519;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1210;2520;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1211;2521;NA;rotterdam-centrum;1;1;9;659;rotterdam;0
+1212;2522;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1213;2523;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1214;2524;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1215;2525;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1216;2526;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1217;2527;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1218;2528;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1219;2529;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1220;2530;NA;rotterdam-kralingen;1;2;9;659;rotterdam;0
+1221;2531;NA;rotterdam-zuid;1;1;9;659;rotterdam;0
+1222;2532;NA;rotterdam-zuid;1;1;9;659;rotterdam;0
+1223;2533;NA;rotterdam-zuid;1;1;9;659;rotterdam;0
+1224;2534;NA;rotterdam-zuid;1;1;9;659;rotterdam;0
+1225;2535;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1226;2536;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1227;2537;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1228;2538;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1229;2539;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1230;2540;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1231;2541;NA;spijkenisse;1;5;11;1701;spijkenisse;0
+1232;2542;NA;tilburg;1;1;7;1779;tilburg;0
+1233;2543;NA;tilburg;1;1;7;1779;tilburg;0
+1234;2544;NA;tilburg;1;1;7;1779;tilburg;0
+1235;2545;NA;tilburg;1;1;7;1779;tilburg;0
+1236;2546;NA;tilburg;0;1;7;1779;tilburg;0
+1237;2547;NA;tilburg;1;1;7;1779;tilburg;0
+1238;2548;NA;tilburg;1;1;7;1779;tilburg;0
+1239;2549;NA;utrecht;1;1;7;664;utrecht;0
+1240;2550;NA;utrecht;1;1;7;664;utrecht;0
+1241;2551;NA;utrecht;1;1;7;664;utrecht;0
+1242;2552;NA;utrecht;1;1;7;664;utrecht;0
+1243;2553;NA;utrecht;1;1;7;664;utrecht;0
+1244;2554;NA;utrecht;1;1;7;664;utrecht;0
+1245;2555;NA;utrecht;1;1;7;664;utrecht;0
+1246;2556;NA;utrecht;1;1;7;664;utrecht;0
+1247;2557;NA;utrecht;1;1;7;664;utrecht;0
+1248;2558;NA;venlo;1;1;5;1863;venlo;0
+1249;2559;NA;venlo;1;1;5;1863;venlo;0
+1250;2560;NA;venlo;1;1;5;1863;venlo;0
+1251;2561;NA;venlo;1;1;5;1863;venlo;0
+1252;2562;NA;venlo;1;1;5;1863;venlo;0
+1253;2563;NA;zaandam;1;0;0;-1;zaandam;1
+1254;2564;NA;zaandam;1;0;0;-1;zaandam;1
+1255;2565;NA;zaandam;1;0;0;-1;zaandam;1
+1256;2566;NA;zaandam;1;0;0;-1;zaandam;1
+1257;2567;NA;zaandam;1;0;0;-1;zaandam;1
+1258;2568;NA;zaandam;1;0;0;-1;zaandam;1
+1259;2569;NA;zaandam;1;0;0;-1;zaandam;1
+1260;2570;NA;zaandam;1;0;0;-1;zaandam;1
+1261;2571;NA;zaandam;1;0;0;-1;zaandam;1
+1262;2572;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1263;2573;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1264;2574;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1265;2575;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1266;2576;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1267;2577;NA;zoetermeer;1;1;10;2114;zoetermeer;0
+1268;2578;NA;zoetermeer;0;1;10;2114;zoetermeer;0
+1269;1466;tilburg;geen_locatie_onderscheid;1;0;0;-1;tilburg;0
+1270;1506;giessenburg;geen_locatie_onderscheid;1;0;0;-1;giessenburg;0
+1271;16;amsterdam;arkin basisggz;1;0;0;-1;amsterdam;0
+1272;17;amsterdam;jellinek;1;1;3;483;amsterdam;1
+1273;18;amsterdam;mentrum;1;0;0;-1;amsterdam;0
+1274;19;amsterdam;novarum;1;1;4;78;amsterdam;1
+1275;20;amsterdam;npi;1;0;0;-1;amsterdam;0
+1276;21;amsterdam;puntp;1;0;0;-1;amsterdam;0
+1277;22;amsterdam;puntp;1;0;0;-1;amsterdam;0
+1278;23;amsterdam;loc. amstelveen;1;0;0;-1;amstelveen;1
+1279;24;amsterdam;loc. amersfoort;1;1;10;56;amersfoort;0
+1280;25;amsterdam;arkin jeugd en gezin;1;0;0;-1;amsterdam;0
+1281;26;amsterdam;inforsa;1;0;0;-1;amsterdam;0
+1282;28;leiden;loc. alphen aan den rijn;1;3;19;45;alphen aan den rijn;0
+1283;29;leiden;loc. gouda;1;1;5;614;gouda;0
+1284;30;leiden;loc. katwijk/lisse/voorhout;1;3;8;1892;voorhout;0
+1285;31;leiden;loc. leiden;1;1;6;657;leiden;0
+1286;32;leiden;loc. leidschendam;1;0;0;-1;leidschendam;1
+1287;33;leiden;loc. zoetermeer;1;1;10;2114;zoetermeer;0
+1288;34;leiden;loc. alphen aan den rijn;1;3;19;45;alphen aan den rijn;0
+1289;35;leiden;loc. alphen aan den rijn;1;3;19;45;alphen aan den rijn;0
+1290;36;leiden;loc. alphen aan den rijn;1;3;19;45;alphen aan den rijn;0
+1291;37;leiden;loc. gouda;1;1;5;614;gouda;0
+1292;38;leiden;loc. gouda;1;1;5;614;gouda;0
+1293;39;leiden;loc. gouda;1;1;5;614;gouda;0
+1294;40;leiden;loc. katwijk/lisse/voorhout;1;3;8;1892;voorhout;0
+1295;41;leiden;loc. katwijk/lisse/voorhout;1;3;8;1892;voorhout;0
+1296;42;leiden;loc. katwijk/lisse/voorhout;1;3;8;1892;voorhout;0
+1297;43;leiden;loc. leiden;1;1;6;657;leiden;0
+1298;44;leiden;loc. leiden;1;1;6;657;leiden;0
+1299;45;leiden;loc. leiden;1;1;6;657;leiden;0
+1300;46;leiden;loc. leidschendam;1;0;0;-1;leiden;0
+1301;47;leiden;loc. leidschendam;1;0;0;-1;leiden;0
+1302;48;leiden;loc. leidschendam;1;0;0;-1;leiden;0
+1303;49;leiden;loc. zoetermeer;1;1;10;2114;zoetermeer;0
+1304;50;leiden;loc. zoetermeer;1;1;10;2114;zoetermeer;0
+1305;51;leiden;loc. zoetermeer;1;1;10;2114;zoetermeer;0
+1306;52;leiden;loc. leiden;1;1;6;657;leiden;0
+1307;53;leiden;ggz rivierduinen eetstoornissen ursula;1;1;5;1286;leiden;1
+1308;54;leiden;loc. leiden;1;1;6;657;leiden;0
+1309;55;leiden;loc. gouda;1;1;5;614;gouda;0
+1310;56;leiden;loc. katwijk/lisse/voorhout;1;3;8;1892;voorhout;0
+1311;57;leiden;loc. leiden;1;1;6;657;leiden;0
+1312;58;leiden;loc. zoetermeer;1;1;10;2114;zoetermeer;0
+1313;59;leiden;loc. leidschendam;1;0;0;-1; leidschendam;1
+1314;60;leiden;loc. alphen aan den rijn;1;3;19;45;alphen aan den rijn;0
+1315;61;leiden;loc. gouda;1;1;5;614;gouda;0
+1316;62;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1317;63;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1318;64;zuidlaren;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+1319;65;zuidlaren;loc. winschoten;1;1;10;2018;winschoten;0
+1320;66;zuidlaren;loc. winschoten;1;1;10;2018;winschoten;0
+1321;67;zuidlaren;loc. winschoten;1;1;10;2018;winschoten;0
+1322;68;zuidlaren;loc. zuidlaren;1;3;9;2127;zuidlaren;0
+1323;69;zuidlaren;loc. zuidlaren;1;3;9;2127;zuidlaren;0
+1324;70;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1325;71;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1326;72;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1327;73;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1328;74;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1329;75;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1330;76;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1331;77;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1332;78;zuidlaren;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1333;79;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1334;80;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1335;81;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1336;82;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1337;83;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1338;84;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1339;85;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1340;86;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1341;87;zuidlaren;loc. arnhem;1;2;6;649;arnhem;0
+1342;88;zuidlaren;loc. delfzijl;1;1;8;369;delfzijl;0
+1343;89;zuidlaren;loc. delfzijl;1;1;8;369;delfzijl;0
+1344;90;zuidlaren;loc. drachten;1;1;8;420;drachten;0
+1345;91;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1346;92;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1347;93;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1348;94;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1349;95;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1350;96;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1351;97;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1352;98;zuidlaren;loc. emmen;1;1;5;496;emmen;0
+1353;99;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1354;100;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1355;101;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1356;102;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1357;103;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1358;104;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1359;105;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1360;106;zuidlaren;loc. enschede;1;2;8;507;enschede;0
+1361;107;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1362;108;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1363;109;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1364;110;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1365;111;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1366;112;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1367;113;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1368;114;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1369;115;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1370;116;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1371;117;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1372;118;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1373;119;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1374;120;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1375;121;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1376;122;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1377;123;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1378;124;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1379;125;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1380;126;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1381;127;zuidlaren;loc. groningen;1;2;9;654;groningen;0
+1382;128;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1383;129;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1384;130;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1385;131;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1386;132;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1387;133;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1388;134;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1389;135;zuidlaren;loc. hilversum;1;1;9;812;hilversum;0
+1390;136;zuidlaren;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1391;137;zuidlaren;loc. hoogezand;1;1;9;845;hoogezand;0
+1392;138;zuidlaren;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+1393;139;zuidlaren;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+1394;140;zuidlaren;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+1395;141;zuidlaren;loc. uithuizen;1;2;9;1810;uithuizen;0
+1396;142;zuidlaren;loc. veendam;1;1;7;1843;veendam;0
+1397;143;zuidlaren;loc. veendam;1;1;7;1843;veendam;0
+1398;144;zuidlaren;loc. winschoten;1;1;10;2018;winschoten;0
+1399;145;zuidlaren;loc. winschoten;1;1;10;2018;winschoten;0
+1400;146;zuidlaren;loc. zuidlaren;1;3;9;2127;zuidlaren;0
+1401;147;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1402;148;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1403;149;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1404;150;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1405;151;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1406;152;zuidlaren;loc. zwolle;1;1;6;2153;zwolle;0
+1407;153;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1408;154;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1409;155;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1410;156;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1411;157;amsterdam;loc. hoofddorp;1;1;9;835;hoofddorp;0
+1412;158;amsterdam;loc. amsterdam/amstelveen;1;1;9;648;amsterdam;0
+1413;159;amsterdam;loc. amsterdam/amstelveen;1;1;9;648;amsterdam;0
+1414;160;amsterdam;loc. amsterdam/amstelveen;1;1;9;648;amsterdam;0
+1415;161;amsterdam;loc. amsterdam/amstelveen;1;1;9;648;amsterdam;0
+1416;162;amsterdam;loc. amsterdam/amstelveen;1;1;9;648;amsterdam;0
+1417;163;amsterdam;loc. haarlem;1;2;7;655;haarlem;0
+1418;164;amsterdam;loc. hoofddorp;1;1;9;835;hoofddorp;0
+1419;165;amsterdam;loc. hoofddorp;1;1;9;835;hoofddorp;0
+1420;166;amsterdam;loc. amsterdam west;1;1;9;648;amsterdam;0
+1421;167;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1422;168;amsterdam;loc. amstelveen;1;0;0;-1;amstelveen;1
+1423;169;amsterdam;loc. haarlem;1;2;7;655;haarlem;0
+1424;170;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1425;171;amsterdam;loc. haarlem/bennebroek;1;3;10;151;bennebroek;0
+1426;172;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1427;173;amsterdam;loc. amstelveen;1;0;0;-1;amstelveen;1
+1428;174;amsterdam;loc. haarlem;1;2;7;655;haarlem;0
+1429;175;amsterdam;loc. hoofddorp;1;1;9;835;hoofddorp;0
+1430;176;amsterdam;loc. amsterdam;1;1;9;648;amsterdam;0
+1431;215;den dolder;altrecht, academisch angstcentrum, polikliniek lunetten;1;1;5;525;utrecht;1
+1432;216;den dolder;altrecht, academisch angstcentrum, polikliniek woerden;1;1;7;2031;woerden;0
+1433;217;den dolder;altrecht, academisch angstcentrum;1;0;0;-1;den dolder;0
+1434;218;den dolder;altrecht, autisme;1;0;0;-1;den dolder;0
+1435;219;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1436;220;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1437;221;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1438;222;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1439;223;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1440;224;den dolder;altrecht, aventurijn forensische psychiatrie;1;0;0;-1;den dolder;0
+1441;234;den dolder;loc. nieuwegein;1;1;10;1249;nieuwegein;0
+1442;235;den dolder;loc. zeist;1;1;5;2098;zeist;0
+1443;236;den dolder;loc. utrecht;1;1;7;664;utrecht;0
+1444;237;den dolder;loc. woerden;1;1;7;2031;woerden;0
+1445;238;den dolder;altrecht, jongvolwassenenpsychiatrie;1;1;5;82;utrecht;1
+1446;239;den dolder;loc. woerden;1;1;7;2031;woerden;0
+1447;240;den dolder;loc. noord west;1;0;0;-1;den dolder;0
+1448;241;den dolder;loc. zuid west;1;0;0;-1;den dolder;0
+1449;242;den dolder;loc. noord oost;1;0;0;-1;den dolder;0
+1450;243;den dolder;loc. zuid oost;1;0;0;-1;den dolder;0
+1451;244;den dolder;altrecht, ouderenpsychiatrie, kliniek leidsche rijn;1;0;0;-1;den dolder;0
+1452;245;den dolder;altrecht, ouderenpsychiatrie, kliniek zeist;1;1;5;2098;zeist;0
+1453;246;den dolder;loc. utrecht, ambulatorium;1;1;7;664;utrecht;0
+1454;247;den dolder;loc. nieuwegein;1;1;10;1249;nieuwegein;0
+1455;248;den dolder;loc. zeist;1;1;5;2098;zeist;0
+1456;249;den dolder;altrecht, persoonlijkheidsstoornissen, polikliniek nieuwegein;1;2;10;1249;nieuwegein;0
+1457;250;den dolder;altrecht, persoonlijkheidsstoornissen, polikliniek utrecht;1;2;7;664;utrecht;0
+1458;251;den dolder;altrecht, persoonlijkheidsstoornissen, polikliniek woerden;1;2;7;2031;woerden;0
+1459;252;den dolder;altrecht, persoonlijkheidsstoornissen, polikliniek zeist;1;2;5;1286;zeist;1
+1460;253;den dolder;altrecht, persoonlijkheidsstoornissen, (dag)klinische affect fobie therapie (kkp);1;1;5;1286;utrecht;1
+1461;254;den dolder;altrecht, persoonlijkheidsstoornissen, (dag)klinische schematherapie (sft);1;2;5;1286;utrecht;1
+1462;255;den dolder;altrecht, psychiatrie en verslaving, algemeen;1;0;0;-1;den dolder;0
+1463;256;den dolder;altrecht, psychiatrie en verslaving, kliniek;1;0;0;-1;den dolder;0
+1464;257;den dolder;altrecht, psychosomatiek eikenboom;1;0;0;-1;den dolder;0
+1465;258;den dolder;altrecht, stemmingsstoornissen, polikliniek woerden;1;2;7;2031;woerden;0
+1466;259;den dolder;altrecht, stemmingsstoornissen, polikliniek utrecht;1;2;7;664;utrecht;0
+1467;261;den dolder;loc. marienburg utrecht;1;1;7;664;utrecht;0
+1468;262;den dolder;loc. meijboom den dolder;1;1;10;374;den dolder;0
+1469;263;den dolder;loc. reijnvaan den dolder;1;1;10;374;den dolder;0
+1470;264;den dolder;loc. utrecht;1;1;7;664;utrecht;0
+1471;265;amersfoort;ggz centraal;1;0;0;-1;amersfoort;0
+1472;266;amersfoort;ggz centraal, regio eemland (incl. de zwaluw & enk);1;0;0;-1;amersfoort;0
+1473;267;amersfoort;ggz centraal, regio eemland (incl. de zwaluw & enk);1;0;0;-1;amersfoort;0
+1474;268;amersfoort;ggz centraal, regio eemland (incl. de zwaluw & enk);1;0;0;-1;amersfoort;0
+1475;269;amersfoort;loc. de meregaard (almere);1;0;0;-1;almere;1
+1476;270;amersfoort;loc. de meregaard (almere);1;0;0;-1;almere;1
+1477;271;amersfoort;loc. de meregaard (almere);1;0;0;-1;almere;1
+1478;272;amersfoort;ggz centraal, regio flevoland, ziekenhuispsychiatrie almere;1;0;0;-1;almere;1
+1479;273;amersfoort;ggz centraal, regio flevoland, ziekenhuispsychiatrie almere;1;0;0;-1;almere;1
+1480;274;amersfoort;loc. meerzicht (lelystad);1;1;8;1031;lelystad;0
+1481;275;amersfoort;loc. meerzicht (lelystad);1;1;8;1031;lelystad;0
+1482;276;amersfoort;loc. meerzicht (lelystad);1;1;8;1031;lelystad;0
+1483;277;amersfoort;loc. meerzicht (lelystad);1;1;8;1031;lelystad;0
+1484;278;amersfoort;ggz centraal, regio flevoland, ziekenhuispsychiatrie lelystad;1;1;8;1031;lelystad;0
+1485;279;amersfoort;loc. rembrandthof;1;0;0;-1;amersfoort;0
+1486;280;amersfoort;loc. rembrandthof;1;0;0;-1;amersfoort;0
+1487;281;amersfoort;loc. rembrandthof;1;0;0;-1;amersfoort;0
+1488;282;amersfoort;loc. rembrandthof;1;0;0;-1;amersfoort;0
+1489;283;amersfoort;loc. rembrandthof;1;0;0;-1;amersfoort;0
+1490;284;amersfoort;loc. riebeeckhof;1;0;0;-1;amersfoort;0
+1491;285;amersfoort;loc. riebeeckhof;1;0;0;-1;amersfoort;0
+1492;286;amersfoort;loc. mauritzhof;1;0;0;-1;amersfoort;0
+1493;287;amersfoort;loc. juliana-oord;1;0;0;-1;amersfoort;0
+1494;288;amersfoort;loc. juliana-oord;1;0;0;-1;amersfoort;0
+1495;289;amersfoort;loc. barneveld;1;1;9;118;barneveld;0
+1496;290;amersfoort;loc. harderwijk;1;1;10;709;harderwijk;0
+1497;291;amersfoort;loc. nijkerk;1;1;7;1322;nijkerk;0
+1498;292;amersfoort;loc. wezep;1;1;5;1999;wezep;0
+1499;293;amersfoort;loc. harderwijk/ wezep;1;2;10;709;harderwijk;0
+1500;294;amersfoort;loc. ermelo/ putten/ nijkerk;1;4;7;1322;nijkerk;0
+1501;295;amersfoort;loc. barneveld/ veenendaal;1;2;10;1844;veenendaal;0
+1502;296;amersfoort;loc. harderwijk/ ermelo;1;2;10;709;harderwijk;0
+1503;297;amersfoort;loc. wezep;1;1;5;1999;wezep;0
+1504;298;amersfoort;loc. barneveld;1;1;9;118;barneveld;0
+1505;299;amersfoort;ggz centraal, regio veluwe & veluwe vallei;1;0;0;-1;amersfoort;0
+1506;300;amersfoort;ggz centraal, regio veluwe & veluwe vallei;1;0;0;-1;amersfoort;0
+1507;301;amersfoort;ggz centraal, regio veluwe & veluwe vallei;1;0;0;-1;amersfoort;0
+1508;302;amersfoort;loc. marina de wolfcentrum;1;0;0;-1;amersfoort;0
+1509;303;amersfoort;loc. marina de wolfcentrum;1;0;0;-1;amersfoort;0
+1510;304;amersfoort;loc. transit;1;0;0;-1;amersfoort;0
+1511;305;amersfoort;loc. emerhese, polikliniek amersfoort;1;1;10;56;amersfoort;0
+1512;306;amersfoort;loc. emerhese, polikliniek flevoland;1;0;0;-1;amersfoort;0
+1513;350;deventer;loc. almelo;1;1;6;36;almelo;0
+1514;351;deventer;loc. almelo;1;1;6;36;almelo;0
+1515;352;deventer;loc. almelo;1;1;6;36;almelo;0
+1516;353;deventer;loc. almelo;1;1;6;36;almelo;0
+1517;354;deventer;loc. almelo;1;1;6;36;almelo;0
+1518;355;deventer;loc. almelo;1;1;6;36;almelo;0
+1519;356;deventer;loc. almelo;1;1;6;36;almelo;0
+1520;357;deventer;loc. deventer;1;2;8;387;deventer;0
+1521;358;deventer;loc. deventer;1;2;8;387;deventer;0
+1522;359;deventer;loc. deventer;1;2;8;387;deventer;0
+1523;360;deventer;loc. deventer;1;2;8;387;deventer;0
+1524;361;deventer;loc. deventer;1;2;8;387;deventer;0
+1525;362;deventer;loc. deventer;1;2;8;387;deventer;0
+1526;363;deventer;loc. deventer;1;2;8;387;deventer;0
+1527;364;deventer;loc. deventer;1;2;8;387;deventer;0
+1528;365;deventer;loc. hardenberg;1;3;10;707;hardenberg;0
+1529;366;deventer;loc. schalkhaar;1;0;0;-1;deventer;0
+1530;367;deventer;loc. twello;1;3;6;1794;twello;0
+1531;368;deventer;loc. zutphen;1;1;7;2138;zutphen;0
+1532;369;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1533;370;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1534;371;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1535;372;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1536;373;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1537;374;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1538;375;deventer;loc. zwolle;1;1;6;2153;zwolle;0
+1539;422;boekel;loc. boekel;1;1;6;206;boekel;0
+1540;423;boekel;loc. boekel;1;1;6;206;boekel;0
+1541;424;boekel;loc. boekel;1;1;6;206;boekel;0
+1542;425;boekel;loc. boekel;1;1;6;206;boekel;0
+1543;426;boekel;loc. boekel;1;1;6;206;boekel;0
+1544;427;boekel;loc. boekel;1;1;6;206;boekel;0
+1545;428;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1546;429;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1547;430;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1548;431;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1549;432;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1550;433;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1551;434;boekel;loc. boxmeer;1;1;7;241;boxmeer;0
+1552;435;boekel;loc. helmond;1;1;7;771;helmond;0
+1553;436;boekel;loc. helmond;1;1;7;771;helmond;0
+1554;437;boekel;loc. helmond;1;1;7;771;helmond;0
+1555;438;boekel;loc. helmond;1;1;7;771;helmond;0
+1556;439;boekel;loc. helmond;1;1;7;771;helmond;0
+1557;440;boekel;loc. helmond;1;1;7;771;helmond;0
+1558;441;boekel;loc. helmond;1;1;7;771;helmond;0
+1559;442;boekel;loc. helmond;1;1;7;771;helmond;0
+1560;443;boekel;loc. helmond;1;1;7;771;helmond;0
+1561;444;boekel;loc. helmond;1;1;7;771;helmond;0
+1562;445;boekel;loc. helmond;1;1;7;771;helmond;0
+1563;446;boekel;loc. helmond;1;1;7;771;helmond;0
+1564;447;boekel;loc. helmond;1;1;7;771;helmond;0
+1565;448;boekel;loc. oss;1;1;3;1414;oss;0
+1566;449;boekel;loc. oss;1;1;3;1414;oss;0
+1567;450;boekel;loc. oss;1;1;3;1414;oss;0
+1568;451;boekel;loc. oss;1;1;3;1414;oss;0
+1569;452;boekel;loc. oss;1;1;3;1414;oss;0
+1570;453;boekel;loc. oss;1;1;3;1414;oss;0
+1571;454;boekel;loc. oss;1;1;3;1414;oss;0
+1572;455;boekel;loc. oss;1;1;3;1414;oss;0
+1573;456;boekel;loc. oss;1;1;3;1414;oss;0
+1574;457;boekel;loc. oss;1;1;3;1414;oss;0
+1575;458;meppel;loc. assen;1;1;5;82;assen;0
+1576;459;meppel;loc. assen;1;1;5;82;assen;0
+1577;460;meppel;loc. assen;1;1;5;82;assen;0
+1578;461;meppel;loc. assen;1;1;5;82;assen;0
+1579;462;meppel;loc. assen;1;1;5;82;assen;0
+1580;463;meppel;loc. assen;1;1;5;82;assen;0
+1581;464;meppel;loc. assen;1;1;5;82;assen;0
+1582;465;meppel;loc. assen;1;1;5;82;assen;0
+1583;466;meppel;loc. assen;1;1;5;82;assen;0
+1584;467;meppel;loc. assen;1;1;5;82;assen;0
+1585;468;meppel;loc. assen;0;1;5;82;assen;0
+1586;469;meppel;loc. assen;1;1;5;82;assen;0
+1587;470;meppel;loc. assen;1;1;5;82;assen;0
+1588;471;meppel;loc. assen;1;1;5;82;assen;0
+1589;472;meppel;loc. beilen;1;1;6;140;beilen;0
+1590;473;meppel;loc. beilen;1;1;6;140;beilen;0
+1591;474;meppel;loc. beilen;1;1;6;140;beilen;0
+1592;475;meppel;loc. emmen;1;1;5;496;emmen;0
+1593;476;meppel;loc. emmen;1;1;5;496;emmen;0
+1594;477;meppel;loc. emmen;1;1;5;496;emmen;0
+1595;478;meppel;loc. emmen;1;1;5;496;emmen;0
+1596;479;meppel;loc. emmen;1;1;5;496;emmen;0
+1597;480;meppel;loc. emmen;1;1;5;496;emmen;0
+1598;481;meppel;loc. emmen;1;1;5;496;emmen;0
+1599;482;meppel;loc. emmen;1;1;5;496;emmen;0
+1600;483;meppel;loc. emmen;1;1;5;496;emmen;0
+1601;484;meppel;loc. emmen;1;1;5;496;emmen;0
+1602;485;meppel;loc. emmen;1;1;5;496;emmen;0
+1603;486;meppel;loc. emmen;1;1;5;496;emmen;0
+1604;487;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1605;488;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1606;489;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1607;490;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1608;491;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1609;492;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1610;493;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1611;494;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1612;495;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1613;496;meppel;loc. hoogeveen;1;1;9;844;hoogeveen;0
+1614;497;meppel;loc. meppel;1;1;6;1154;meppel;0
+1615;498;meppel;loc. meppel;1;1;6;1154;meppel;0
+1616;499;meppel;loc. meppel;1;1;6;1154;meppel;0
+1617;500;meppel;loc. meppel;1;1;6;1154;meppel;0
+1618;501;meppel;loc. meppel;1;1;6;1154;meppel;0
+1619;502;meppel;loc. meppel;1;1;6;1154;meppel;0
+1620;503;meppel;loc. meppel;1;1;6;1154;meppel;0
+1621;504;meppel;loc. meppel;1;1;6;1154;meppel;0
+1622;505;tilburg;loc. breda;1;1;5;247;breda;0
+1623;506;tilburg;loc. breda;1;1;5;247;breda;0
+1624;507;tilburg;loc. breda;1;1;5;247;breda;0
+1625;508;tilburg;loc. breda;1;1;5;247;breda;0
+1626;509;tilburg;loc. breda;1;1;5;247;breda;0
+1627;510;tilburg;loc. breda;1;1;5;247;breda;0
+1628;511;tilburg;loc. breda;1;1;5;247;breda;0
+1629;512;tilburg;loc. breda;1;1;5;247;breda;0
+1630;513;tilburg;loc. breda;1;1;5;247;breda;0
+1631;514;tilburg;loc. breda;1;1;5;247;breda;0
+1632;515;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1633;516;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1634;517;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1635;518;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1636;519;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1637;520;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1638;521;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1639;522;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1640;523;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1641;524;tilburg;loc. tilburg;1;1;7;1779;tilburg;0
+1642;525;tilburg;loc. waalwijk;1;1;8;1913;waalwijk;0
+1643;526;tilburg;loc. waalwijk;1;1;8;1913;waalwijk;0
+1644;527;tilburg;loc. waalwijk;1;1;8;1913;waalwijk;0
+1645;528;leeuwarden;ggz friesland;1;0;0;-1;leeuwarden;0
+1646;529;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1647;530;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1648;531;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1649;532;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1650;533;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1651;534;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1652;535;leeuwarden;loc. drachten;1;1;8;420;drachten;0
+1653;536;leeuwarden;ggz friesland;1;0;0;-1;leeuwarden;0
+1654;537;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1655;538;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1656;539;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1657;540;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1658;541;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1659;542;heerhugowaard;loc. alkmaar;1;1;7;647;alkmaar;0
+1660;543;heerhugowaard;loc. alkmaar;0;1;7;647;alkmaar;0
+1661;544;heerhugowaard;loc. alkmaar;0;1;7;647;alkmaar;0
+1662;545;heerhugowaard;loc. alkmaar;1;1;7;647;alkmaar;0
+1663;546;heerhugowaard;loc. alkmaar;0;1;7;647;alkmaar;0
+1664;547;heerhugowaard;loc. alkmaar;0;1;7;647;alkmaar;0
+1665;548;heerhugowaard;loc. alkmaar;0;1;7;647;alkmaar;0
+1666;549;heerhugowaard;loc. den helder;1;1;10;377;den helder;0
+1667;550;heerhugowaard;loc. den helder;0;1;10;377;den helder;0
+1668;551;heerhugowaard;loc. den helder;0;1;10;377;den helder;0
+1669;552;heerhugowaard;loc. den helder;1;1;10;377;den helder;0
+1670;553;heerhugowaard;loc. den helder;0;1;10;377;den helder;0
+1671;554;heerhugowaard;loc. den helder;0;1;10;377;den helder;0
+1672;555;heerhugowaard;loc. den helder;0;1;10;377;den helder;0
+1673;556;heerhugowaard;loc. heerhugowaard;1;1;13;747;heerhugowaard;0
+1674;557;heerhugowaard;loc. heerhugowaard;0;1;13;747;heerhugowaard;0
+1675;558;heerhugowaard;loc. heerhugowaard;0;1;13;747;heerhugowaard;0
+1676;559;heerhugowaard;loc. heerhugowaard;1;1;13;747;heerhugowaard;0
+1677;560;heerhugowaard;loc. heerhugowaard;0;1;13;747;heerhugowaard;0
+1678;561;heerhugowaard;loc. heerhugowaard;0;1;13;747;heerhugowaard;0
+1679;562;heerhugowaard;loc. heerhugowaard;0;1;13;747;heerhugowaard;0
+1680;563;heerhugowaard;loc. heiloo;1;2;6;760;heiloo;0
+1681;564;heerhugowaard;loc. heiloo;1;2;6;760;heiloo;0
+1682;565;heerhugowaard;loc. hoorn;1;2;5;855;hoorn;0
+1683;566;heerhugowaard;loc. hoorn;0;2;5;855;hoorn;0
+1684;567;heerhugowaard;loc. hoorn;0;2;5;855;hoorn;0
+1685;568;heerhugowaard;loc. hoorn;1;2;5;855;hoorn;0
+1686;569;heerhugowaard;loc. hoorn;0;2;5;855;hoorn;0
+1687;570;heerhugowaard;loc. hoorn;0;2;5;855;hoorn;0
+1688;571;heerhugowaard;loc. hoorn;0;2;5;855;hoorn;0
+1689;572;heerhugowaard;loc. medemblik;1;2;9;1139;medemblik;0
+1690;573;heerhugowaard;loc. medemblik;0;2;9;1139;medemblik;0
+1691;574;heerhugowaard;loc. medemblik;0;2;9;1139;medemblik;0
+1692;575;heerhugowaard;loc. medemblik;1;2;9;1139;medemblik;0
+1693;576;heerhugowaard;loc. medemblik;0;2;9;1139;medemblik;0
+1694;577;heerhugowaard;loc. medemblik;0;2;9;1139;medemblik;0
+1695;578;heerhugowaard;loc. medemblik;0;2;9;1139;medemblik;0
+1696;579;heerhugowaard;loc. schagen;1;1;7;1586;schagen;0
+1697;580;heerhugowaard;loc. schagen;0;1;7;1586;schagen;0
+1698;581;heerhugowaard;loc. schagen;0;1;7;1586;schagen;0
+1699;582;heerhugowaard;loc. schagen;1;1;7;1586;schagen;0
+1700;583;heerhugowaard;loc. schagen;0;1;7;1586;schagen;0
+1701;584;heerhugowaard;loc. schagen;0;1;7;1586;schagen;0
+1702;585;heerhugowaard;loc. schagen;0;1;7;1586;schagen;0
+1703;586;eindhoven;ggze centrum kinder- en jeugdpsychiatrie;1;0;0;-1;eindhoven;0
+1704;587;eindhoven;ggze direct;1;0;0;-1;eindhoven;0
+1705;588;eindhoven;ggze idiomes;1;0;0;-1;eindhoven;0
+1706;589;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1707;590;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1708;591;eindhoven;ggze centrum kinder- en jeugdpsychiatrie;1;0;0;-1;eindhoven;0
+1709;592;eindhoven;ggze centrum kinder- en jeugdpsychiatrie;1;0;0;-1;eindhoven;0
+1710;593;eindhoven;ggze direct;1;0;0;-1;eindhoven;0
+1711;594;eindhoven;ggze idiomes;1;0;0;-1;eindhoven;0
+1712;595;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1713;596;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1714;597;eindhoven;ggze select;0;0;0;-1;eindhoven;0
+1715;598;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1716;599;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1717;600;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1718;601;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1719;602;eindhoven;ggze select;1;0;0;-1;eindhoven;0
+1720;603;eindhoven;ggze fact;1;0;0;-1;eindhoven;0
+1721;604;eindhoven;ggze crisis care;1;0;0;-1;eindhoven;0
+1722;605;eindhoven;opsy;1;0;0;-1;eindhoven;0
+1723;606;eindhoven;loc. de wederik;1;1;3;453;eindhoven;1
+1724;607;eindhoven;loc. de catamaran;1;0;0;-1;eindhoven;0
+1725;608;eindhoven;ggze crisis care;1;0;0;-1;eindhoven;0
+1726;609;eindhoven;ggze crisis care;1;0;0;-1;eindhoven;0
+1727;610;eindhoven;ggze crisis care;1;0;0;-1;eindhoven;0
+1728;611;eindhoven;opsy;1;0;0;-1;eindhoven;0
+1729;612;delft;loc. bergschenhoek - de klaver;1;3;4;156;eindhoven;0
+1730;613;delft;loc. delft - de draeck;1;0;0;-1;delft;0
+1731;614;delft;loc. den haag - de reef;1;0;0;-1;'s-gravenhage;1
+1732;615;delft;loc. leiden - kanterstraat;1;1;6;657;leiden;0
+1733;616;delft;loc. naaldwijk - verhagenplein;1;1;9;1212;naaldwijk;0
+1734;617;delft;loc. rotterdam - sint franciscus gasthuis;1;1;9;659;rotterdam;0
+1735;618;delft;loc. maassluis - monseigneur wm bekkerslaan;1;2;9;1109;maassluis;0
+1736;619;delft;loc. schiedam - de stadhouder;1;1;4;452;schiedam;1
+1737;620;delft;loc. schiedam - vlietland ziekenhuis;1;1;4;452;schiedam;1
+1738;621;delft;loc. bergschenhoek - de klaver;1;3;4;156;delft;1
+1739;622;delft;loc. den haag - de reef;1;0;0;-1;'s-gravenhage;1
+1740;623;delft;loc. delft - ezelsveldlaan;1;0;0;-1;delft;0
+1741;624;delft;loc. delft - de barones;1;2;3;1227;delft;1
+1742;625;delft;loc. naaldwijk - stokdijkkade;1;1;9;1212;naaldwijk;0
+1743;626;delft;loc. rotterdam - sint franciscus gasthuis;1;1;9;659;rotterdam;0
+1744;627;delft;loc. maassluis - monseigneur wm bekkerslaan;1;2;9;1109;maassluis;0
+1745;628;delft;loc. schiedam - de stadhouder;1;1;4;452;schiedam;1
+1746;629;delft;loc. schiedam - vlietland ziekenhuis;1;1;4;452;schiedam;1
+1747;630;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1748;631;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1749;632;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1750;633;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1751;634;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1752;635;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1753;636;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1754;637;venray;geen_locatie_onderscheid;1;0;0;-1;venray;0
+1755;638;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1756;639;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1757;640;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1758;641;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1759;642;heerlen;loc. parkstad;1;0;0;-1;heerlen;0
+1760;643;heerlen;loc. parkstad;1;0;0;-1;heerlen;0
+1761;644;heerlen;loc. parkstad;1;0;0;-1;heerlen;0
+1762;645;heerlen;loc. parkstad;1;0;0;-1;heerlen;0
+1763;646;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1764;647;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1765;648;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1766;649;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1767;650;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1768;651;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+1769;652;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1770;653;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1771;654;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1772;655;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1773;656;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1774;657;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+1775;676;goes;emergis, regio. boven oosterschelde;1;0;0;-1;goes;0
+1776;677;goes;emergis, regio. boven oosterschelde;1;0;0;-1;goes;0
+1777;678;goes;emergis, regio. boven oosterschelde;1;0;0;-1;goes;0
+1778;679;goes;emergis, regio. boven oosterschelde;1;0;0;-1;goes;0
+1779;680;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1780;681;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1781;682;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1782;683;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1783;684;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1784;685;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1785;686;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1786;687;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1787;688;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1788;689;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1789;690;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1790;691;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1791;692;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1792;693;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1793;694;goes;emergis, regio. boven oosterschelde;0;0;0;-1;goes;0
+1794;695;goes;emergis, regio. onder oosterschelde;1;0;0;-1;goes;0
+1795;696;goes;emergis, regio. onder oosterschelde;1;0;0;-1;goes;0
+1796;697;goes;emergis, regio. onder oosterschelde;1;0;0;-1;goes;0
+1797;698;goes;emergis, regio. onder oosterschelde;1;0;0;-1;goes;0
+1798;699;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1799;700;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1800;701;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1801;702;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1802;703;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1803;704;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1804;705;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1805;706;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1806;707;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1807;708;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1808;709;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1809;710;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1810;711;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1811;712;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1812;713;goes;emergis, regio. onder oosterschelde;0;0;0;-1;goes;0
+1813;714;goes;emergis, regio walcheren;1;0;0;-1;goes;0
+1814;715;goes;emergis, regio walcheren;1;0;0;-1;goes;0
+1815;716;goes;emergis, regio walcheren;1;0;0;-1;goes;0
+1816;717;goes;emergis, regio walcheren;1;0;0;-1;goes;0
+1817;718;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1818;719;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1819;720;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1820;721;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1821;722;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1822;723;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1823;724;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1824;725;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1825;726;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1826;727;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1827;728;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1828;729;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1829;730;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1830;731;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1831;732;goes;emergis, regio walcheren;0;0;0;-1;goes;0
+1832;733;goes;emergis, regio zeeuws vlaanderen;1;0;0;-1;goes;0
+1833;734;goes;emergis, regio zeeuws vlaanderen;1;0;0;-1;goes;0
+1834;735;goes;emergis, regio zeeuws vlaanderen;1;0;0;-1;goes;0
+1835;736;goes;emergis, regio zeeuws vlaanderen;1;0;0;-1;goes;0
+1836;737;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1837;738;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1838;739;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1839;740;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1840;741;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1841;742;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1842;743;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1843;744;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1844;745;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1845;746;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1846;747;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1847;748;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1848;749;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1849;750;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1850;751;goes;emergis, regio zeeuws vlaanderen;0;0;0;-1;goes;0
+1851;752;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1852;753;enschede;via mediant;1;0;0;-1;enschede;0
+1853;754;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1854;755;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1855;756;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1856;757;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1857;758;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1858;759;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1859;760;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1860;761;enschede;loc. abc twente;1;0;0;-1;enschede;0
+1861;762;enschede;geen_locatie_onderscheid;1;0;0;-1;enschede;0
+1862;763;enschede;mediant, psychodiagnostiek en advies centrum twente (pact);1;0;0;-1;enschede;0
+1863;764;dordrecht;indigo zuid-holland zuid, regio dordrecht;1;2;9;651;dordrecht;0
+1864;765;dordrecht;indigo zuid-holland zuid, regio gorinchem;1;3;9;610;gorinchem;0
+1865;766;dordrecht;indigo zuid-holland zuid, regio barendrecht;1;2;11;116;barendrecht;0
+1866;767;dordrecht;indigo zuid-holland zuid, regio dordrecht;1;2;9;651;dordrecht;0
+1867;768;dordrecht;indigo zuid-holland zuid, regio gorinchem;1;3;9;610;gorinchem;0
+1868;769;dordrecht;indigo zuid-holland zuid, regio barendrecht;0;2;11;116;barendrecht;0
+1869;770;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1870;771;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1871;772;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1872;773;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1873;774;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1874;775;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1875;776;dordrecht;yulius;1;0;0;-1;dordrecht;0
+1876;777;dordrecht;yulius;1;0;0;-1;dordrecht;0
+1877;778;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1878;779;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1879;780;dordrecht;yulius, regio barendrecht;1;1;11;116;barendrecht;0
+1880;781;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1881;782;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1882;783;dordrecht;yulius, regio barendrecht;1;1;11;116;barendrecht;0
+1883;784;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1884;785;dordrecht;yulius, regio gorinchem;1;2;9;610;gorinchem;0
+1885;786;dordrecht;yulius;1;0;0;-1;dordrecht;0
+1886;787;dordrecht;yulius;1;0;0;-1;dordrecht;0
+1887;788;dordrecht;yulius;1;0;0;-1;dordrecht;0
+1888;789;dordrecht;yulius, regio dordrecht;1;1;9;651;dordrecht;0
+1889;790;dordrecht;yulius, regio barendrecht;1;1;11;116;barendrecht;0
+1890;819;rotterdam;loc. rotterdam;1;1;9;659;rotterdam;0
+1891;820;rotterdam;bouman, dordrecht;1;1;9;651;dordrecht;0
+1892;821;rotterdam;bouman, vlaardingen;1;2;5;888;vlaardingen;1
+1893;822;rotterdam;bouman, spijkenisse;0;5;11;1701;spijkenisse;0
+1894;823;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1895;824;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1896;825;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1897;826;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1898;827;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1899;828;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1900;829;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1901;830;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1902;831;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1903;832;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1904;833;rotterdam;bouman;0;0;0;-1;rotterdam;0
+1905;834;rotterdam;loc. rotterdam;1;1;9;659;rotterdam;0
+1906;835;rotterdam;loc. spijkenisse;1;5;11;1701;spijkenisse;0
+1907;836;rotterdam;loc. poortugal;1;0;0;-1;rotterdam;0
+1908;837;rotterdam;loc. rotterdam zuid;1;1;9;659;rotterdam;0
+1909;838;rotterdam;loc. zuid-hollandse eilanden;1;1;6;1350;rotterdam;1
+1910;839;rotterdam;delta;0;0;0;-1;rotterdam;0
+1911;840;rotterdam;delta;0;0;0;-1;rotterdam;0
+1912;841;rotterdam;delta;0;0;0;-1;rotterdam;0
+1913;842;rotterdam;delta;0;0;0;-1;rotterdam;0
+1914;843;rotterdam;delta;0;0;0;-1;rotterdam;0
+1915;844;rotterdam;delta;0;0;0;-1;rotterdam;0
+1916;845;rotterdam;delta;0;0;0;-1;rotterdam;0
+1917;846;rotterdam;delta;0;0;0;-1;rotterdam;0
+1918;847;rotterdam;delta;0;0;0;-1;rotterdam;0
+1919;848;rotterdam;delta;0;0;0;-1;rotterdam;0
+1920;849;rotterdam;delta;0;0;0;-1;rotterdam;0
+1921;850;rotterdam;loc. rotterdam;1;1;9;659;rotterdam;0
+1922;851;rotterdam;loc. rotterdam;1;1;9;659;rotterdam;0
+1923;852;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1924;853;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1925;854;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1926;855;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1927;856;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1928;857;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1929;858;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1930;859;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1931;860;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1932;861;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1933;862;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1934;863;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1935;864;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1936;865;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1937;866;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1938;867;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1939;868;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1940;869;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1941;870;halsteren;loc. bergen op zoom;0;5;14;165;bergen op zoom;0
+1942;871;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1943;872;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1944;873;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1945;874;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1946;875;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1947;876;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1948;877;halsteren;loc. roosendaal;0;1;10;1551;roosendaal;0
+1949;878;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1950;879;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1951;880;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1952;881;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1953;882;halsteren;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+1954;883;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1955;884;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1956;885;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1957;886;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1958;887;halsteren;loc. roosendaal;1;1;10;1551;roosendaal;0
+1959;888;halsteren;loc. halsteren;0;1;9;697;halsteren;0
+1960;889;den dolder;geen_locatie_onderscheid;1;0;0;-1;den dolder;0
+1961;890;den dolder;geen_locatie_onderscheid;1;0;0;-1;den dolder;0
+1962;903;almere;loc. almere;1;0;0;-1;almere;1
+1963;904;almere;loc. amersfoort;1;1;10;56;amersfoort;0
+1964;905;almere;loc. amsterdam ijburg;1;1;9;648;amsterdam;0
+1965;906;almere;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1966;907;almere;loc. deventer;1;2;8;387;deventer;0
+1967;908;almere;loc. hilversum;1;1;9;812;hilversum;0
+1968;909;almere;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1969;910;almere;loc. molemann tielens;1;1;4;1774;almere;1
+1970;911;almere;molemann mental health clinics;1;0;0;-1;almere;0
+1971;912;almere;loc. rotterdam heemraadssingel;1;1;9;659;rotterdam;0
+1972;913;almere;loc. rotterdam noordsingel;1;1;9;659;rotterdam;0
+1973;914;almere;loc. sneek;1;1;5;1681;sneek;0
+1974;915;almere;loc. terschelling;1;1;3;483;terschelling;1
+1975;916;almere;loc. almere;1;0;0;-1;almere;1
+1976;917;almere;loc. amersfoort;1;1;10;56;amersfoort;0
+1977;918;almere;loc. amsterdam ijburg;1;1;9;648;amsterdam;0
+1978;919;almere;loc. apeldoorn;1;2;9;69;apeldoorn;0
+1979;920;almere;loc. deventer;1;2;8;387;deventer;0
+1980;921;almere;loc. hilversum;1;1;9;812;hilversum;0
+1981;922;almere;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+1982;923;almere;loc. molemann tielens;1;1;4;1774;almere;1
+1983;924;almere;molemann mental health clinics;1;0;0;-1;almere;0
+1984;925;almere;loc. rotterdam heemraadssingel;1;1;9;659;rotterdam;0
+1985;926;almere;loc. rotterdam noordsingel;1;1;9;659;rotterdam;0
+1986;927;almere;loc. sneek;1;1;5;1681;sneek;0
+1987;928;almere;loc. terschelling;1;1;3;483;terschelling;1
+1988;929;arnhem;hsk alkmaar;1;1;7;647;alkmaar;0
+1989;930;arnhem;hsk amersfoort;1;1;10;56;amersfoort;0
+1990;931;arnhem;hsk amsterdam;1;1;9;648;amsterdam;0
+1991;932;arnhem;hsk arnhem;1;2;6;649;arnhem;0
+1992;933;arnhem;hsk assen;1;1;5;82;assen;0
+1993;934;arnhem;hsk breda;1;1;5;247;breda;0
+1994;935;arnhem;hsk delft;1;0;0;-1;delft;0
+1995;936;arnhem;hsk den bosch;1;0;0;-1;s-hertogenbosch;1
+1996;937;arnhem;hsk den haag;1;0;0;-1;'s-gravenhage;1
+1997;938;arnhem;hsk doetinchem;1;2;10;404;doetinchem;0
+1998;939;arnhem;hsk dordrecht;1;1;9;651;dordrecht;0
+1999;940;arnhem;hsk ede;1;1;3;453;ede;0
+2000;941;arnhem;hsk eindhoven;1;3;9;652;eindhoven;0
+2001;942;arnhem;hsk goes;1;1;4;607;goes;0
+2002;943;arnhem;hsk groningen;1;2;9;654;groningen;0
+2003;944;arnhem;hsk heerlen;1;2;7;656;heerlen;0
+2004;945;arnhem;hsk hengelo;1;2;7;778;hengelo;0
+2005;946;arnhem;hsk hoogeveen;1;1;9;844;hoogeveen;0
+2006;947;arnhem;hsk interapy;1;0;0;-1;arnhem;0
+2007;948;arnhem;hsk leeuwarden;1;1;10;1025;leeuwarden;0
+2008;949;arnhem;hsk leiden;1;1;6;657;leiden;0
+2009;950;arnhem;hsk maastricht;1;2;10;1110;maastricht;0
+2010;951;arnhem;hsk nijmegen;1;2;8;658;nijmegen;0
+2011;952;arnhem;hsk oss;1;1;3;1414;oss;0
+2012;953;arnhem;hsk rotterdam;1;1;9;659;rotterdam;0
+2013;954;arnhem;hsk utrecht;1;1;7;664;utrecht;0
+2014;955;arnhem;hsk zaandam;1;0;0;-1;zaandam;1
+2015;956;arnhem;hsk zoetermeer;1;1;10;2114;zoetermeer;0
+2016;957;arnhem;hsk zwolle;1;1;6;2153;zwolle;0
+2017;958;vught;loc. boxtel;0;1;6;242;boxtel;0
+2018;959;vught;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+2019;960;vught;loc. breda;1;1;5;247;breda;0
+2020;961;vught;loc. cuijk;1;1;5;318;cuijk;0
+2021;962;vught;loc. den bosch;1;0;0;-1;s-hertogenbosch;1
+2022;963;vught;loc. eindhoven;1;3;9;652;eindhoven;0
+2023;964;vught;loc. helmond;1;1;7;771;helmond;0
+2024;965;vught;loc. oss;1;1;3;1414;oss;0
+2025;966;vught;loc. roosendaal;1;1;10;1551;roosendaal;0
+2026;967;vught;loc. tilburg;1;1;7;1779;tilburg;0
+2027;968;vught;loc. uden;1;1;4;1805;uden;0
+2028;969;vught;loc. bergen op zoom;1;5;14;165;bergen op zoom;0
+2029;970;vught;loc. breda;1;1;5;247;breda;0
+2030;971;vught;loc. breda kliniek;1;1;5;247;breda;0
+2031;972;vught;loc. breda opvang;1;1;5;247;breda;0
+2032;973;vught;loc. cuijk;0;1;5;318;cuijk;0
+2033;974;vught;loc. den bosch;1;0;0;-1;s-hertogenbosch;1
+2034;975;vught;loc. den bosch opvang;1;0;0;-1;s-hertogenbosch;1
+2035;976;vught;loc. eindhoven;1;3;9;652;eindhoven;0
+2036;977;vught;loc. helmond;1;1;7;771;helmond;0
+2037;978;vught;loc. oss;1;1;3;1414;oss;0
+2038;979;vught;loc. roosendaal;1;1;10;1551;roosendaal;0
+2039;980;vught;loc. tilburg;1;1;7;1779;tilburg;0
+2040;981;vught;loc. tilburg jan wierhof;1;1;7;1779;tilburg;0
+2041;982;vught;loc. uden;1;1;4;1805;uden;0
+2042;983;vught;loc. vught;1;0;0;-1;vught;0
+2043;984;vught;loc. waalwijk;0;1;8;1913;waalwijk;0
+2044;993;utrecht;loc. almere;1;0;0;-1;almere;1
+2045;994;utrecht;loc. amersfoort;1;1;10;56;amersfoort;0
+2046;995;utrecht;loc. amsterdam;1;1;9;648;amsterdam;0
+2047;996;utrecht;loc. den haag;1;0;0;-1;'s-gravenhage;1
+2048;997;utrecht;loc. haarlem;1;2;7;655;haarlem;0
+2049;998;utrecht;loc. leiden;1;1;6;657;leiden;0
+2050;999;utrecht;loc. rotterdam;1;1;9;659;rotterdam;0
+2051;1000;utrecht;loc. utrecht;1;1;7;664;utrecht;0
+2052;1079;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2053;1080;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2054;1081;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2055;1082;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2056;1083;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2057;1084;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2058;1085;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2059;1086;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2060;1087;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2061;1088;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2062;1089;groningen;geen_locatie_onderscheid;0;0;0;-1;groningen;0
+2063;1090;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2064;1091;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2065;1092;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2066;1093;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2067;1094;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2068;1095;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2069;1096;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2070;1097;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2071;1098;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2072;1099;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2073;1100;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2074;1101;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2075;1102;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2076;1103;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2077;1104;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2078;1105;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2079;1106;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2080;1107;arnhem;geen_locatie_onderscheid;1;0;0;-1;arnhem;0
+2081;1108;arnhem;geen_locatie_onderscheid;1;0;0;-1;arnhem;0
+2082;1109;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2083;1110;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2084;1111;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2085;1112;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2086;1113;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2087;1114;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2088;1115;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2089;1116;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2090;1117;geleen;geen_locatie_onderscheid;1;0;0;-1;geleen;0
+2091;1118;utrecht;loc. utrecht;1;1;7;664;utrecht;0
+2092;1119;utrecht;loc. amersfoort;1;1;10;56;amersfoort;0
+2093;1120;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2094;1121;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2095;1122;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2096;1123;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2097;1124;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2098;1125;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2099;1127;rhoon;loc. rhoon;1;1;5;1530;rhoon;0
+2100;1128;rhoon;loc. barendrecht;1;1;11;116;barendrecht;0
+2101;1129;rhoon;loc. rotterdam alexander;1;1;9;659;rotterdam;0
+2102;1130;rhoon;loc. capelle schollevaar;1;1;3;483;capelle;1
+2103;1131;rhoon;loc. zorgboulevard;1;0;0;-1;rhoon;0
+2104;1132;rhoon;loc. westland;1;0;0;-1;rhoon;0
+2105;1133;rhoon;loc. sliedrecht;1;1;10;1673;sliedrecht;0
+2106;1134;rhoon;loc. brielle;1;3;7;257;brielle;0
+2107;1135;rhoon;loc. hoogvliet;1;1;9;852;hoogvliet;0
+2108;1136;rhoon;loc. gouda;1;1;5;614;gouda;0
+2109;1137;rhoon;loc. alblasserdam (hap dok11);1;1;12;33;alblasserdam;0
+2110;1205;nijmegen;puk umc st. radboud;1;0;0;-1;nijmegen;0
+2111;1206;nijmegen;puk umc st. radboud;1;0;0;-1;nijmegen;0
+2112;1207;nijmegen;puk umc st. radboud;1;0;0;-1;nijmegen;0
+2113;1208;heerhugowaard;loc. hoorn;1;2;5;855;hoorn;0
+2114;1209;heerhugowaard;loc. den helder;1;1;10;377;den helder;0
+2115;1210;heerhugowaard;loc. heerugowaard;1;0;0;-1;heerhugowaard;0
+2116;1211;heerhugowaard;loc. alkmaar;1;1;7;647;alkmaar;0
+2117;1212;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+2118;1213;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+2119;1214;leeuwarden;loc. drachten;1;1;8;420;drachten;0
+2120;1215;leeuwarden;loc. drachten;1;1;8;420;drachten;0
+2121;1216;leeuwarden;loc. heerenveen;1;1;10;745;heerenveen;0
+2122;1217;leeuwarden;loc. heerenveen;1;1;10;745;heerenveen;0
+2123;1218;leeuwarden;loc. sneek;1;1;5;1681;sneek;0
+2124;1219;leeuwarden;loc. sneek;1;1;5;1681;sneek;0
+2125;1220;leeuwarden;loc. dokkum;1;1;6;406;dokkum;0
+2126;1221;leeuwarden;loc. dokkum;1;1;6;406;dokkum;0
+2127;1222;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2128;1223;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2129;1224;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2130;1225;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2131;1226;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2132;1227;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2133;1228;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2134;1229;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+2135;1230;enschede;loc. enschede;1;2;8;507;enschede;0
+2136;1231;enschede;loc. oldenzaal;1;1;9;1349;oldenzaal;0
+2137;1232;enschede;loc. losser;0;2;6;1087;losser;0
+2138;1233;enschede;loc. haaksbergen;1;5;11;677;haaksbergen;0
+2139;1234;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2140;1235;dordrecht;loc. amersfoort;1;1;10;56;amersfoort;0
+2141;1236;dordrecht;loc. houten;1;1;6;863;houten;0
+2142;1237;dordrecht;loc. beekbergen;1;7;10;129;beekbergen;0
+2143;1238;dordrecht;loc. vlissingen;0;2;10;1884;vlissingen;0
+2144;1239;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2145;1240;dordrecht;loc. amersfoort;1;1;10;56;amersfoort;0
+2146;1241;dordrecht;loc. houten;1;1;6;863;houten;0
+2147;1242;dordrecht;loc. beekbergen;1;7;10;129;beekbergen;0
+2148;1243;dordrecht;loc. vlissingen;0;2;10;1884;vlissingen;0
+2149;1244;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2150;1245;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2151;1246;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2152;1247;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2153;1248;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2154;1249;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2155;1250;groningen;loc. delfzijl;1;1;8;369;delfzijl;0
+2156;1251;groningen;loc. drachten;1;1;8;420;drachten;0
+2157;1252;groningen;loc. groningen (tasman);1;2;9;654;groningen;0
+2158;1253;groningen;loc. groningen (frontier);1;2;9;654;groningen;0
+2159;1254;groningen;loc. hoogezand;1;1;9;845;hoogezand;0
+2160;1255;groningen;loc. muntendam;1;1;9;1207;muntendam;0
+2161;1256;groningen;loc. oosterwolde;1;3;11;1381;oosterwolde;0
+2162;1257;groningen;loc. oude pekela;1;1;11;1430;oude pekela;0
+2163;1258;groningen;loc. sappemeer;1;0;0;-1;groningen;0
+2164;1259;groningen;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+2165;1260;groningen;loc. uithuizen;1;2;9;1810;uithuizen;0
+2166;1261;groningen;loc. winschoten;1;1;10;2018;winschoten;0
+2167;1295;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2168;1296;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2169;1297;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2170;1298;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2171;1299;zaandam;geen_locatie_onderscheid;0;0;0;-1;zaandam;0
+2172;1300;zaandam;geen_locatie_onderscheid;0;0;0;-1;zaandam;0
+2173;1301;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2174;1302;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2175;1303;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2176;1304;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2177;1305;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2178;1306;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2179;1307;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2180;1308;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2181;1309;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2182;1310;zaandam;geen_locatie_onderscheid;1;0;0;-1;zaandam;0
+2183;1311;oegstgeest;geen_locatie_onderscheid;1;0;0;-1;oegstgeest;0
+2184;1312;oegstgeest;geen_locatie_onderscheid;1;0;0;-1;oegstgeest;0
+2185;1314;bilthoven;geen_locatie_onderscheid;1;0;0;-1;bilthoven;0
+2186;1315;bilthoven;geen_locatie_onderscheid;1;0;0;-1;bilthoven;0
+2187;1316;bilthoven;geen_locatie_onderscheid;1;0;0;-1;bilthoven;0
+2188;1319;lelystad;loc. amersfoort;1;1;10;56;amersfoort;0
+2189;1320;lelystad;loc. amsterdam;1;1;9;648;amsterdam;0
+2190;1321;lelystad;loc. arnhem;1;2;6;649;arnhem;0
+2191;1322;lelystad;loc. castricum;1;1;9;306;castricum;0
+2192;1323;lelystad;loc. doetinchem;1;2;10;404;doetinchem;0
+2193;1324;lelystad;loc. grootebroek;1;0;0;-1;lelystad;0
+2194;1325;lelystad;loc. hilversum;1;1;9;812;hilversum;0
+2195;1326;lelystad;loc. lelystad;1;1;8;1031;lelystad;0
+2196;1327;lelystad;loc. utrecht;1;1;7;664;utrecht;0
+2197;1328;lelystad;loc. uitgeest;1;1;8;1808;uitgeest;0
+2198;1329;lelystad;loc. woerden;1;1;7;2031;woerden;0
+2199;1341;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2200;1342;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2201;1347;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2202;1348;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2203;1349;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2204;1350;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2205;1351;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2206;1352;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2207;1353;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2208;1354;rotterdam;geen_locatie_onderscheid;1;0;0;-1;rotterdam;0
+2209;1387;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2210;1388;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2211;1389;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2212;1390;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2213;1391;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2214;1392;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+2215;1393;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+2216;1394;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+2217;1395;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+2218;1396;utrecht;geen_locatie_onderscheid;0;0;0;-1;utrecht;0
+2219;1398;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+2220;1399;heerlen;loc. kerkrade;1;1;8;933;kerkrade;0
+2221;1400;heerlen;loc. landgraaf;1;0;0;-1;heerlen;0
+2222;1401;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+2223;1402;heerlen;loc. sittard;1;1;7;1667;sittard;0
+2224;1403;heerlen;loc. maasbracht;1;1;10;1103;maasbracht;0
+2225;1404;heerlen;loc. reuver;1;1;6;1523;reuver;0
+2226;1405;heerlen;loc. heerlen;1;2;7;656;heerlen;0
+2227;1406;heerlen;loc. kerkrade;1;1;8;933;kerkrade;0
+2228;1407;heerlen;loc. landgraaf;1;0;0;-1;heerlen;0
+2229;1408;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+2230;1409;heerlen;lionarons ggz, huisbezoek;1;0;0;-1;heerlen;0
+2231;1416;doorwerth;dr. leo kannerhuis, oosterbeek;1;3;10;1367;oosterbeek;0
+2232;1417;doorwerth;dr. leo kannerhuis, oosterbeek/ciba;1;3;10;1367;oosterbeek;0
+2233;1418;doorwerth;dr. leo kannerhuis, nijmegen;1;2;8;658;nijmegen;0
+2234;1419;doorwerth;dr. leo kannerhuis, amsterdam;1;1;9;648;amsterdam;0
+2235;1420;doorwerth;dr. leo kannerhuis, doorwerth;1;1;9;418;doorwerth;0
+2236;1421;doorwerth;dr. leo kannerhuis, amsterdam;1;1;9;648;amsterdam;0
+2237;1444;leeuwarden;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+2238;1453;sneek;geen_locatie_onderscheid;1;0;0;-1;sneek;0
+2239;1476;utrecht;loc. bilthoven;1;2;9;193;bilthoven;0
+2240;1477;utrecht;loc. groesbeek;1;4;9;642;groesbeek;0
+2241;1478;utrecht;loc. arnhem;1;2;6;649;arnhem;0
+2242;1488;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+2243;1497;maastricht;loc. maastricht;1;2;10;1110;maastricht;0
+2244;1498;maastricht;loc. hoensbroek;1;0;0;-1;maastricht;0
+2245;1499;maastricht;loc. den bosch;1;0;0;-1;s-hertogenbosch;1
+2246;1500;maastricht;loc. utrecht;1;1;7;664;utrecht;0
+2247;1501;maastricht;loc. roermond;1;1;8;1547;roermond;0
+2248;1535;amsterdam;loc. purmerend - dhr. a. van assema;1;1;9;1495;purmerend;0
+2249;1536;amsterdam;loc. zevenaar - mevr. a.e. ten have;1;1;8;2102;zevenaar;0
+2250;1537;amsterdam;loc. groenlo - mevr. a.e. ten have;1;1;7;640;groenlo;0
+2251;1538;amsterdam;loc. rotterdam - mevr. p.a. joosten;1;1;9;659;rotterdam;0
+2252;1539;amsterdam;loc. ede - mevr. t.n.l.m. jungbluth;1;1;3;453;ede;0
+2253;1540;amsterdam;loc. ede - mevr. n. sinninghe;1;1;3;453;ede;0
+2254;1541;amsterdam;loc. zevenaar - mevr. spaargaren;1;1;8;2102;zevenaar;0
+2255;1542;amsterdam;loc. heerhugowaard - dhr. f. thijssen;1;1;13;747;heerhugowaard;0
+2256;1569;heerlen;loc. heerlen e.o.;1;2;7;656;heerlen;0
+2257;1570;heerlen;loc. maastricht;1;2;10;1110;maastricht;0
+2258;1571;heerlen;loc. sittard e.o.;1;1;7;1667;sittard;0
+2259;1572;heerlen;loc. maasbracht;1;1;10;1103;maasbracht;0
+2260;1573;heerlen;loc. reuver;1;1;6;1523;reuver;0
+2261;1574;heerlen;loc. heerlen e.o.;1;2;7;656;heerlen;0
+2262;1575;heerlen;loc. sittard e.o.;1;1;7;1667;sittard;0
+2263;1576;heerlen;de wijkpraktijk, huisbezoek;1;1;7;362;heerlen;1
+2264;177;wolfheze;pro persona;1;0;0;-1;wolfheze;0
+2265;178;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2266;179;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2267;180;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2268;181;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2269;182;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2270;183;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2271;184;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2272;185;wolfheze;pro persona, regio arnhem;1;2;6;649;arnhem;0
+2273;186;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2274;187;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2275;188;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2276;189;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2277;190;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2278;191;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2279;192;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2280;193;wolfheze;pro persona, regio nijmegen;1;2;8;658;nijmegen;0
+2281;194;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2282;195;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2283;196;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2284;197;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2285;198;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2286;199;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2287;200;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2288;201;wolfheze;pro persona, regio rivierenland;1;0;0;-1;wolfheze;0
+2289;202;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2290;203;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2291;204;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2292;205;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2293;206;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2294;207;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2295;208;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2296;209;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2297;210;wolfheze;pro persona, regio veluwe vallei;1;0;0;-1;wolfheze;0
+2298;211;wolfheze;loc. wolfheze;1;1;8;2036;wolfheze;0
+2299;212;wolfheze;loc. wolfheze;1;1;8;2036;wolfheze;0
+2300;213;wolfheze;loc. wolfheze;1;1;8;2036;wolfheze;0
+2301;892;groningen;loc. groningen;1;2;9;654;groningen;0
+2302;893;groningen;loc. winschoten;1;1;10;2018;winschoten;0
+2303;894;groningen;loc. delfzijl;1;1;8;369;delfzijl;0
+2304;895;groningen;loc. stadskanaal;1;1;11;1704;stadskanaal;0
+2305;896;groningen;loc. hoogezand;1;1;9;845;hoogezand;0
+2306;897;groningen;loc. leeuwarden;1;1;10;1025;leeuwarden;0
+2307;898;groningen;loc. sneek;1;1;5;1681;sneek;0
+2308;899;groningen;loc. drachten/heerenveen/wolvega/oosterwolde;1;6;11;1381;oosterwolde;0
+2309;900;groningen;loc. assen/roden;1;2;5;82;assen;0
+2310;901;groningen;loc. emmen/coevorden;1;3;9;310;coevorden;0
+2311;902;groningen;loc. hoogeveen/meppel;1;2;9;844;hoogeveen;0
+2312;1608;zoetermeer;sgz, praktijk mevr. w.j.m. landman;1;0;0;-1;zoetermeer;0
+2313;791;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2314;792;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2315;793;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2316;794;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2317;795;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2318;796;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2319;797;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2320;798;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2321;799;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2322;800;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2323;801;'s-hertogenbosch;geen_locatie_onderscheid;1;0;0;-1;'s-hertogenbosch;0
+2324;802;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2325;803;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2326;804;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2327;805;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2328;806;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2329;807;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2330;808;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2331;809;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2332;810;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2333;811;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2334;812;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2335;813;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2336;814;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2337;815;'s-hertogenbosch;geen_locatie_onderscheid;0;0;0;-1;'s-hertogenbosch;0
+2338;1479;haarlem;loc. haarlem;1;2;7;655;haarlem;0
+2339;1480;haarlem;loc. haarlem;1;2;7;655;haarlem;0
+2340;1481;haarlem;loc. amsterdam;1;1;9;648;amsterdam;0
+2341;1482;haarlem;loc. amsterdam;1;1;9;648;amsterdam;0
+2342;1483;haarlem;loc. ijmuiden;1;1;6;1204;ijmuiden;1
+2343;1484;haarlem;loc. ijmuiden;1;1;6;1204;ijmuiden;1
+2344;1485;haarlem;loc. castricum;1;1;9;306;castricum;0
+2345;1486;haarlem;loc. castricum;1;1;9;306;castricum;0
+2346;1504;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2347;1503;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2348;1505;hengelo ov.;geen_locatie_onderscheid;1;0;0;-1;hengelo ov.;0
+2349;1364;veldhoven;apanta-ggz;1;0;0;-1;veldhoven;0
+2350;1365;veldhoven;apanta-ggz;1;0;0;-1;veldhoven;0
+2351;1366;veldhoven;apanta-ggz;1;0;0;-1;veldhoven;0
+2352;1367;veldhoven;apanta-ggz;1;0;0;-1;veldhoven;0
+2353;1368;veldhoven;apanta-ggz;1;0;0;-1;veldhoven;0
+2354;1363;veldhoven;apanta-direct;1;0;0;-1;veldhoven;0
+2355;1592;heerlen;geen_locatie_onderscheid;1;0;0;-1;heerlen;0
+2356;1593;heerlen;geen_locatie_onderscheid;1;0;0;-1;heerlen;0
+2357;1023;roermond;loc. echt;1;0;0;-1;roermond;0
+2358;1024;roermond;loc. echt;1;0;0;-1;roermond;0
+2359;1025;roermond;loc. echt;1;0;0;-1;roermond;0
+2360;1026;roermond;loc. echt;1;0;0;-1;roermond;0
+2361;1027;roermond;loc. echt;1;0;0;-1;roermond;0
+2362;1028;roermond;loc. echt;1;0;0;-1;roermond;0
+2363;1029;roermond;loc. echt;1;0;0;-1;roermond;0
+2364;1030;roermond;loc. echt;1;0;0;-1;roermond;0
+2365;1031;roermond;loc. echt;1;0;0;-1;roermond;0
+2366;1032;roermond;loc. leudal;1;0;0;-1;roermond;0
+2367;1033;roermond;loc. leudal;1;0;0;-1;roermond;0
+2368;1034;roermond;loc. leudal;1;0;0;-1;roermond;0
+2369;1035;roermond;loc. leudal;1;0;0;-1;roermond;0
+2370;1036;roermond;loc. leudal;1;0;0;-1;roermond;0
+2371;1037;roermond;loc. leudal;1;0;0;-1;roermond;0
+2372;1038;roermond;loc. leudal;1;0;0;-1;roermond;0
+2373;1039;roermond;loc. leudal;1;0;0;-1;roermond;0
+2374;1040;roermond;loc. leudal;1;0;0;-1;roermond;0
+2375;1041;roermond;loc. leudal;1;0;0;-1;roermond;0
+2376;1042;roermond;loc. leudal;1;0;0;-1;roermond;0
+2377;1043;roermond;loc. roermond;1;1;8;1547;roermond;0
+2378;1044;roermond;loc. roermond;1;1;8;1547;roermond;0
+2379;1045;roermond;loc. roermond;1;1;8;1547;roermond;0
+2380;1046;roermond;loc. roermond;1;1;8;1547;roermond;0
+2381;1047;roermond;loc. roermond;1;1;8;1547;roermond;0
+2382;1048;roermond;loc. roermond;1;1;8;1547;roermond;0
+2383;1049;roermond;loc. roermond;1;1;8;1547;roermond;0
+2384;1050;roermond;loc. roermond;1;1;8;1547;roermond;0
+2385;1051;roermond;loc. roermond;1;1;8;1547;roermond;0
+2386;1052;roermond;loc. roermond;1;1;8;1547;roermond;0
+2387;1053;roermond;loc. roermond;1;1;8;1547;roermond;0
+2388;1054;roermond;loc. roermond;1;1;8;1547;roermond;0
+2389;1055;roermond;loc. roermond;1;1;8;1547;roermond;0
+2390;1056;roermond;loc. roermond;1;1;8;1547;roermond;0
+2391;1057;roermond;loc. roermond;1;1;8;1547;roermond;0
+2392;1058;roermond;loc. venlo;1;1;5;1863;venlo;0
+2393;1059;roermond;loc. venlo;1;1;5;1863;venlo;0
+2394;1060;roermond;loc. venlo;1;1;5;1863;venlo;0
+2395;1061;roermond;loc. venlo;1;1;5;1863;venlo;0
+2396;1062;roermond;loc. venlo;1;1;5;1863;venlo;0
+2397;1063;roermond;loc. venlo;1;1;5;1863;venlo;0
+2398;1064;roermond;loc. venlo;1;1;5;1863;venlo;0
+2399;1065;roermond;loc. venlo;1;1;5;1863;venlo;0
+2400;1066;roermond;loc. venlo;1;1;5;1863;venlo;0
+2401;1067;roermond;loc. venlo;1;1;5;1863;venlo;0
+2402;1068;roermond;loc. weert;1;1;5;1953;weert;0
+2403;1069;roermond;loc. weert;1;1;5;1953;weert;0
+2404;1070;roermond;loc. weert;1;1;5;1953;weert;0
+2405;1071;roermond;loc. weert;1;1;5;1953;weert;0
+2406;1072;roermond;loc. weert;1;1;5;1953;weert;0
+2407;1073;roermond;loc. weert;1;1;5;1953;weert;0
+2408;1074;roermond;loc. weert;1;1;5;1953;weert;0
+2409;1075;roermond;loc. weert;1;1;5;1953;weert;0
+2410;1076;roermond;loc. weert;1;1;5;1953;weert;0
+2411;1077;roermond;loc. weert;1;1;5;1953;weert;0
+2412;1078;roermond;loc. weert;1;1;5;1953;weert;0
+2413;1698;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2414;1700;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2415;2335;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2416;2373;ravenstein;geen_locatie_onderscheid;0;0;0;-1;ravenstein;0
+2417;2212;alkmaar/amsterdam centrum/amsterdam oost/ouderkerk aan de amstel;geen_locatie_onderscheid;1;0;0;-1;alkmaar/amsterdam centrum/amsterdam oost/ouderkerk aan de amstel;0
+2418;1903;leiden;geen_locatie_onderscheid;1;0;0;-1;leiden;0
+2419;2001;ede;geen_locatie_onderscheid;1;0;0;-1;ede;0
+2420;2254;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+2421;2291;beesel;geen_locatie_onderscheid;1;0;0;-1;beesel;0
+2422;1977;schiedam;geen_locatie_onderscheid;1;0;0;-1;schiedam;0
+2423;2175;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+2424;2176;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+2425;2177;hilversum;geen_locatie_onderscheid;1;0;0;-1;hilversum;0
+2426;1801;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2427;2102;leeuwarden;geen_locatie_onderscheid;1;0;0;-1;leeuwarden;0
+2428;2106;leeuwarden;mw. m. de vlieger;1;0;0;-1;leeuwarden;0
+2429;2110;ryptsjerk;geen_locatie_onderscheid;1;0;0;-1;ryptsjerk;0
+2430;2111;kollum;geen_locatie_onderscheid;1;0;0;-1;kollum;0
+2431;2120;borger;geen_locatie_onderscheid;1;0;0;-1;borger;0
+2432;2125;taarlo;geen_locatie_onderscheid;1;0;0;-1;taarlo;0
+2433;2137;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2434;2150;groningen;geen_locatie_onderscheid;1;0;0;-1;groningen;0
+2435;2170;maastricht;geen_locatie_onderscheid;1;0;0;-1;maastricht;0
+2436;2043;deventer;mw. a. kooij;1;1;4;1402;deventer;1
+2437;1760;driel;geen_locatie_onderscheid;1;0;0;-1;driel;0
+2438;1875;’s-gravenpolder;geen_locatie_onderscheid;1;0;0;-1;’s-gravenpolder;0
+2439;1737;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2440;2023;doetinchem;loc. doetinchem;1;2;10;404;doetinchem;0
+2441;2024;doetinchem;loc. eerbeek;1;3;7;462;eerbeek;0
+2442;2307;sittard;geen_locatie_onderscheid;1;0;0;-1;sittard;0
+2443;2007;arnhem;mw. g.a.m. bloeme;1;0;0;-1;arnhem;0
+2444;2261;bennebroek;geen_locatie_onderscheid;1;0;0;-1;bennebroek;0
+2445;2226;castricum;geen_locatie_onderscheid;1;0;0;-1;castricum;0
+2446;2341;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2447;1777;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2448;1778;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2449;1779;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2450;1780;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2451;1781;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2452;1782;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2453;1900;leiderdorp;geen_locatie_onderscheid;1;0;0;-1;leiderdorp;0
+2454;2211;de koog;geen_locatie_onderscheid;1;0;0;-1;de koog;0
+2455;1765;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+2456;1766;nieuwegein;geen_locatie_onderscheid;1;0;0;-1;nieuwegein;0
+2457;2032;borculo;geen_locatie_onderscheid;1;0;0;-1;borculo;0
+2458;2337;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2459;2338;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2460;1752;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2461;1753;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2462;2030;joppe;geen_locatie_onderscheid;1;0;0;-1;joppe;0
+2463;2306;buchten;mevr. s. tummers;1;0;0;-1;buchten;0
+2464;1738;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2465;1739;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2466;2087;emmeloord;loc. emmeloord;1;2;9;494;emmeloord;0
+2467;2088;emmeloord;loc. lelystad;1;1;8;1031;lelystad;0
+2468;2089;emmeloord;loc. barneveld;1;1;9;118;barneveld;0
+2469;2090;emmeloord;loc. emmeloord;1;2;9;494;emmeloord;0
+2470;2091;emmeloord;loc. lelystad;1;1;8;1031;lelystad;0
+2471;1630;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2472;1701;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2473;1699;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2474;1625;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2475;2390;eindhoven;geen_locatie_onderscheid;0;0;0;-1;eindhoven;0
+2476;2205;hoorn;geen_locatie_onderscheid;1;0;0;-1;hoorn;0
+2477;2255;haarlem;geen_locatie_onderscheid;1;0;0;-1;haarlem;0
+2478;2376;heesch;geen_locatie_onderscheid;1;0;0;-1;heesch;0
+2479;1641;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2480;2258;bloemendaal;geen_locatie_onderscheid;1;0;0;-1;bloemendaal;0
+2481;1755;malden;geen_locatie_onderscheid;1;0;0;-1;malden;0
+2482;1756;malden;geen_locatie_onderscheid;1;0;0;-1;malden;0
+2483;2350;tilburg;geen_locatie_onderscheid;1;0;0;-1;tilburg;0
+2484;1631;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2485;1693;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2486;2321;landgraaf;geen_locatie_onderscheid;1;0;0;-1;landgraaf;0
+2487;2322;landgraaf;geen_locatie_onderscheid;1;0;0;-1;landgraaf;0
+2488;2242;haarlem;jong lorentz, adriaan kieviet;0;0;0;-1;haarlem;0
+2489;2196;amsterdam/ uithoorn;geen_locatie_onderscheid;1;0;0;-1;amsterdam;1
+2490;2197;amsterdam/ uithoorn;geen_locatie_onderscheid;1;0;0;-1;amsterdam;1
+2491;2198;amsterdam/ uithoorn;geen_locatie_onderscheid;1;0;0;-1;amsterdam;1
+2492;2265;haarlemmermeer;geen_locatie_onderscheid;1;0;0;-1;haarlemmermeer;0
+2493;1989;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2494;1990;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2495;1991;dordrecht;loc. dordrecht;1;1;9;651;dordrecht;0
+2496;1992;dordrecht;loc. rotterdam;1;1;9;659;rotterdam;0
+2497;1993;dordrecht;loc. rotterdam;1;1;9;659;rotterdam;0
+2498;1789;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2499;1694;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2500;2324;heerlen;geen_locatie_onderscheid;1;0;0;-1;heerlen;0
+2501;1951;honselersdijk;geen_locatie_onderscheid;0;0;0;-1;honselersdijk;0
+2502;1805;tienhoven;geen_locatie_onderscheid;1;0;0;-1;tienhoven;0
+2503;1816;zeist;ton van der spek;1;0;0;-1;zeist;0
+2504;1817;zeist;ton van der spek;1;0;0;-1;zeist;0
+2505;1786;utrecht;geen_locatie_onderscheid;1;0;0;-1;utrecht;0
+2506;2144;emmen;geen_locatie_onderscheid;1;0;0;-1;emmen;0
+2507;2145;emmen;geen_locatie_onderscheid;1;0;0;-1;emmen;0
+2508;1745;nijmegen;geen_locatie_onderscheid;0;0;0;-1;nijmegen;0
+2509;1682;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2510;2073;zwolle;geen_locatie_onderscheid;0;0;0;-1;zwolle;0
+2511;2083;dronten;geen_locatie_onderscheid;1;0;0;-1;dronten;0
+2512;2084;dronten;geen_locatie_onderscheid;1;0;0;-1;dronten;0
+2513;2271;noordwijkerhout;geen_locatie_onderscheid;1;0;0;-1;noordwijkerhout;0
+2514;2047;deventer;geen_locatie_onderscheid;1;0;0;-1;deventer;0
+2515;1744;nijmegen;geen_locatie_onderscheid;1;0;0;-1;nijmegen;0
+2516;1775;harmelen;geen_locatie_onderscheid;1;0;0;-1;harmelen;0
+2517;2351;tilburg;geen_locatie_onderscheid;1;0;0;-1;tilburg;0
+2518;2053;enschede;geen_locatie_onderscheid;0;0;0;-1;enschede;0
+2519;2068;staphorst;geen_locatie_onderscheid;1;0;0;-1;staphorst;0
+2520;1685;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2521;2062;borne;geen_locatie_onderscheid;1;0;0;-1;borne;0
+2522;1919;alphen aan den rijn;geen_locatie_onderscheid;0;0;0;-1;alphen aan den rijn;0
+2523;2267;hillegom;geen_locatie_onderscheid;1;0;0;-1;hillegom;0
+2524;2274;voorschoten;geen_locatie_onderscheid;1;0;0;-1;voorschoten;0
+2525;2275;voorschoten;geen_locatie_onderscheid;1;0;0;-1;voorschoten;0
+2526;2276;voorschoten;geen_locatie_onderscheid;1;0;0;-1;voorschoten;0
+2527;1654;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2528;1666;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0
+2529;1668;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2530;1672;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2531;1673;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2532;1674;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2533;1675;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2534;1679;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2535;1705;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2536;1706;amsterdam;geen_locatie_onderscheid;1;0;0;-1;amsterdam;0
+2537;2339;breda;geen_locatie_onderscheid;1;0;0;-1;breda;0
+2538;2344;oosterhout;geen_locatie_onderscheid;1;0;0;-1;oosterhout;0
+2539;2349;tilburg;geen_locatie_onderscheid;1;0;0;-1;tilburg;0
+2540;2365;vught;geen_locatie_onderscheid;1;0;0;-1;vught;0
+2541;2366;vught;geen_locatie_onderscheid;1;0;0;-1;vught;0
+2542;2388;heeze;geen_locatie_onderscheid;1;0;0;-1;heeze;0
+2543;1941;den haag;geen_locatie_onderscheid;0;0;0;-1;s-gravenhage;1
+2544;1692;amsterdam;geen_locatie_onderscheid;0;0;0;-1;amsterdam;0

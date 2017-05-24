@@ -1,0 +1,55 @@
+Veldcode;Veldnaam;Toelichting
+wtggz001;gm_code;cbs gemeentecode
+wtggz002;wp_code;cbs woonplaatscode
+wtggz003;ROW_ID;unieke id per regel (record)
+wtggz004;Naam.zorgaanbieder;Naam van de aanbieder / praktijk zoals getoond op de website.
+wtggz005;KvK..uit.bestand.2015.;kvk nummer indien beschikbaar
+wtggz006;AGBCODE_INDIENER;agbcode afkomstig uit bggz/sggz declaraties 2014 Vektis
+wtggz007;NAAM;naam bij agbcode Vektis
+wtggz008;STRAAT;straat bij agbcode Vektis
+wtggz009;POSTCODE;postcode bij agbcode Vektis
+wtggz010;PLAATS;plaats bij agbcode Vektis
+wtggz011;Hoort.bij;In het geval de AGB code hoort bij een praktijk die meerdere keren in het bestand zit. Weergave AGB code van de praktijk waar de wachttijdgegevens staan.
+wtggz012;Plaats.zorgaanbieder;afgeleide plaatsnaam zorgaanbieder (zie toelichting MediQuest)
+wtggz013;URL.naar.wachttijden;url naar wachttijden
+wtggz014;Vestigingslocatie;locatienaam
+wtggz015;Type.GGZ;typering soort ggz: BGGZ / SGGZ of speciale categorieën
+wtggz016;Circuit;circuit (volwassenen, ouderen, verslavingszorg, adolescenten 18-23)
+wtggz017;Nadere.typering;nadere typering doelgroep door zorgaanbieder
+wtggz018;Typering;afgeleide typering
+wtggz019;Aanmeldtijd;aanmeldwachttijd van website, in weken
+wtggz020;Behandeltijd;behandelwachttijd van website, in weken
+wtggz021;Datum.actualisatie;datum actualisatie website door zorgaanbieder indien beschikbaar
+wtggz022;Peildatum;peildatum noteren wachttijd
+wtggz023;AFWIJKEND_ZV;Maakt de aanbieder bij wachttijden onderscheid naar specifieke verzekeraars?
+wtggz024;Opmerkingen.MQ;opmerkingen MediQuest
+wtggz025;AGB_SOORT;eerste twee posities van de agbcode
+wtggz026;MQ_LIJST;agbcode op aangeleverde lijst aan MediQuest (1 = ja, NA = verzameld door de NZa)
+wtggz027;INST;Instelling of vrijgevestigde
+wtggz028;Wachttijden.toelichting;toelichting  bij wachttijd: van toepassing bij vrijgevestigden vanwege de vele afwijkende notitievormen van wachtttijden
+wtggz029;Website.vindbaar;bij vrijgevestigden: of er een website gevonden kon worden bij de door de NZa aangeleverde gegevens
+wtggz030;grote_instelling;grote instelling ja/nee (gebaseerd op aantal unieke patiënten met een declaratie in 2014)
+wtggz031;PAT_STOP;Was er op de peildatum een patiëntenstop?
+wtggz032;HEEFT_AANMELD;Bevat dit record een aanmeldwachttijd
+wtggz033;HEEFT_BEHANDEL;Bevat dit record een behandelwachttijd
+wtggz034;HEEFT_CIRCUIT;Bevat dit record een circuit
+wtggz035;HEEFT_TYPEGGZ;Bevat dit record een type.ggz aanduiding
+wtggz036;ACTUEEL;Afgeleid: is het record aangemerkt als actueel
+wtggz037;LOCATIE_ID;Uniek id voor elke locatie
+wtggz038;CZ;CZ wordt genoemd door zorgaanbieder
+wtggz039;VGZ;VGZ wordt genoemd door zorgaanbieder
+wtggz040;Achmea.ZK;Achmea of Zilveren Kruis wordt genoemd door zorgaanbieder
+wtggz041;Menzis;Menzis wordt genoemd door zorgaanbieder
+wtggz042;DSW;DSW wordt genoemd door zorgaanbieder
+wtggz043;MAAKT_ONDERSCHEID;zorgaanbieder maakt onderscheid naar verzekeraar (1/0)
+wtggz044;wp_naam;naam bij cbs woonplaatscode
+wtggz045;gm_naam;naam bij cbs gemeentecode
+wtggz046;pv_naam;naam bij cbs provinciecode
+wtggz047;pv_code;provinciecode cbs
+wtggz048;ld_naam;naam bij cbs landsdeel
+wtggz049;ld_code;landsdeelcode cbs
+wtggz050;G4;gemeente behoort tot G4
+wtggz051;G32;gemeente behoort tot G32
+wtggz052;G_OVG;gemeente behoort tot overige gemeenten
+wtggz053;COROP;nummer van de COROP regio
+wtggz054;GEM_SOORT;soort gemeente (G4, G32, overig of GEEN)
