@@ -1,7 +1,6 @@
----
+﻿---
 title: "Analyse ggz wachttijden 2016"
 author: "Nederlandse Zorgautoriteit"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
 linkcolor: blue
 
 output:
@@ -53,6 +52,9 @@ source("code/maak_ggznl_en_nip_datasets.R")
 
 ggznl_2016 <- maak_ggznl_dataset()
 nip_2016 <- maak_nip_2016_dataset()
+
+# aanmaakdatum document
+format(Sys.time(), '%d %B, %Y')
 
 ```
 
